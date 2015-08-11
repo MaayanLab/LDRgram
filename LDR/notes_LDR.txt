@@ -1,0 +1,49 @@
+notes LDR 7-31-2015
+	Avi helped me download the data from the LDR website a while back and Mike showed me where to get a json of the entire dataset (http://amp.pharm.mssm.edu/LDR/api/releases). The json data looks the same as the text data - in that the dids, e.g. LINCS_DTOX_RNS_001, match (the first and last are the same). I'll just work out what information I need to extract from the json, the assay type has two levels of detail for instance. 
+
+	Assay 
+		I will use the datasetName, which is in the first layer of the json 
+
+	Cell Line
+		use the cellLines section from the metadata 
+		ldr.metadata.cellLines[0].name
+
+	Perturbation
+		ldr.metadata.perturbations[0].name
+
+	Now that I know what data I will extract from this json, I need to think about how to combine it so that I can make the following visualizations from the three dimensions: cell_lines, assays, perturbagens 
+
+	example: plot the number of perturbagens for each cell_line and assay
+
+	I'll just make a n-dimensional array using scipy and do summations of the appropriate dimensions to get the 2d matrices. First, I need to get lists of the unique cell_lines, assays, and perts. 
+
+	Overview of the data - from process_LDR.py
+
+		did not find cellLine name
+		LINCS_LINCS-PCCSE_P1M_053
+
+		did not find cellLine name
+		LINCS_LINCS-PCCSE_GCP_054
+
+		there are 44 as
+		there are 292 pt
+		there are 66 cl
+
+	There are two dids that do not have defined cell line names. There are a total of 44 assays, 292 perturbations, and 66 cell lines. This should be pretty easy to visualize. 
+
+	website - clone from ChikungunyaUSAMRIID/
+		I'm going to clone the chikungunya website since it is very simple and has an updated version of d3_clustergram.js. 
+
+		I'm just going to copy the ldr_mat.json and ldr_mat_collapse.json to the LDR_viz directory. 
+		
+
+	color by release/center/availability etc 
+
+LDRgram 8-7-2015
+	I made a simple no-back-end version in the directory /Documents/LDRgram_simple. Avi gave me the shortened names for assays and cell-lines. There are a couple of special cases (one cell line to remove). I will need to sum the perturbations for these combined assays and create a dictionary for Mike to use in order to then be able to search his database. 
+
+	- dictionary
+	- sum redundant assays/cell-lines
+	- add buttons to svg dead-space 
+
+	

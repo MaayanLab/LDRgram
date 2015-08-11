@@ -1,0 +1,2026 @@
+extracting nodes: as, cl, pt
+there are 44 as
+there are 292 pt
+there are 66 cl
+
+847986
+
+constructing array
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	cl	Promocell myocytes line 1
+	cl	Promocell myocytes line 2
+	cl	Promocell myocytes line 3
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: MS Protein Quantification Assay
+	cl	Promocell myocytes line 1
+	cl	Promocell myocytes line 2
+	cl	Promocell myocytes line 3
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: Western Blot / PCR Assay
+	cl	Promocell myocytes line 1
+	cl	Promocell myocytes line 2
+	cl	Promocell myocytes line 3
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: L1000 Gene Expression Profiling Assay
+	cl	MCF7
+	cl	PC3
+	cl	A375
+	cl	HT29
+	cl	HA1E
+	cl	A549
+	pt	EGFP(control)
+	pt	EGFR
+	pt	MUC1
+	pt	BRAF
+	pt	MTOR
+	pt	AKT2
+	pt	AURKB
+	pt	BIRC5
+	pt	MCL1
+	pt	MYL9
+	pt	ERBB3
+	pt	ERG
+	pt	PDGFA
+	pt	PIK3CA
+	pt	CXCR4
+	pt	KIT
+	pt	KRAS
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	cl	Promocell myocytes line 4
+	cl	Myocytes derived from NeuroLINCS iPSCs line 1
+	cl	Myocytes derived from NeuroLINCS iPSCs line 2
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: MS Protein Quantification Assay
+	cl	Promocell myocytes line 4
+	cl	Myocytes derived from NeuroLINCS iPSCs line 1
+	cl	Myocytes derived from NeuroLINCS iPSCs line 2
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: Western Blot / PCR Assay
+	cl	Promocell myocytes line 4
+	cl	Myocytes derived from NeuroLINCS iPSCs line 1
+	cl	Myocytes derived from NeuroLINCS iPSCs line 2
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	cl	Mount Sinai iPSC-derived myocytes line 1
+	cl	Mount Sinai iPSC-derived myocytes line 2
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: MS Protein Quantification Assay
+	cl	Mount Sinai iPSC-derived myocytes line 1
+	cl	Mount Sinai iPSC-derived myocytes line 2
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: Western Blot / PCR Assay
+	cl	Mount Sinai iPSC-derived myocytes line 1
+	cl	Mount Sinai iPSC-derived myocytes line 2
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: MS Protein Quantification Assay
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: Western Blot / PCR Assay
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	cl	Mount Sinai iPSC-derived myocytes line 3
+	cl	Mount Sinai iPSC-derived myocytes line 4
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: MS Protein Quantification Assay
+	cl	Mount Sinai iPSC-derived myocytes line 3
+	cl	Mount Sinai iPSC-derived myocytes line 4
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: Western Blot Assay
+	cl	Mount Sinai iPSC-derived myocytes line 3
+	cl	Mount Sinai iPSC-derived myocytes line 4
+	pt	Afatinib
+	pt	Axitinib
+	pt	Bosutinib
+	pt	Cabozantinib
+	pt	Ceritinib
+	pt	Crizotinib
+	pt	Dabrafenib
+	pt	Dasatinib
+	pt	Erlotinib
+	pt	Gefitinib
+	pt	Imatinib
+	pt	Lapatinib
+	pt	Nilotinib
+	pt	Pazopanib
+	pt	ponatinib
+	pt	Regorafenib
+	pt	Ruxolitinib
+	pt	Sorafenib
+	pt	Sunitinib
+	pt	Tofacitinib
+	pt	Trametinib
+	pt	Vandetanib
+	pt	Vemurafenib
+	pt	Trastuzumab
+	pt	Trastuzumab + Ursodeoxycholic acid
+	pt	Trastuzumab + Loperamide
+	pt	Trastuzumab + Domperidone
+	pt	Sunitinib + Ursodeoxycholic acid
+	pt	Sunitinib + Domperidone
+	pt	Sunitinib + Loparemide
+	pt	Sunitinib + Prednisolone
+	pt	Sorafenib + Ursodeoxycholic acid
+	pt	Sorafenib + Entecavir
+	pt	Sorafenib + Diethylpropion
+	pt	Sorafenib + Olmesartan
+	pt	Sorefenib + Diclofenac
+	pt	Dasatinib + Cytarabine
+	pt	Erlotinib + Cefuroxime
+	pt	Imatinib + Cyclosporine
+	pt	Ursodeoxycholic acid
+	pt	Loperamide
+	pt	Domperidone
+	pt	Prednisolone
+	pt	Entecavir
+	pt	Diethylpropion
+	pt	Olmesartan
+	pt	Diclofenac
+	pt	Cytarabine
+	pt	Cefuroxime
+	pt	Cyclosporine
+inst_as: L1000 Gene Expression Profiling Assay
+	cl	MCF7
+	cl	PC3
+	cl	A375
+	cl	HT29
+	cl	HA1E
+	cl	A549
+	pt	EGFP(control)
+	pt	EGFR
+	pt	MUC1
+	pt	BRAF
+	pt	MTOR
+	pt	AKT2
+	pt	AURKB
+	pt	BIRC5
+	pt	MCL1
+	pt	MYL9
+	pt	ERBB3
+	pt	ERG
+	pt	PDGFA
+	pt	PIK3CA
+	pt	CXCR4
+	pt	KIT
+	pt	KRAS
+inst_as: L1000 Gene Expression Profiling Assay
+	cl	MCF7
+	cl	PC3
+	cl	A375
+	cl	HT29
+	cl	HA1E
+	cl	A549
+	cl	HPAC
+	pt	acetyldiline (Ci-994)
+	pt	alpha-estradiol
+	pt	belinostat
+	pt	beta-estradiol
+	pt	BIX 01294
+	pt	BIX 01338
+	pt	CPI-169
+	pt	decitabine
+	pt	DMSO
+	pt	entinostat
+	pt	fluphezine
+	pt	fulvestrant
+	pt	geldamycin
+	pt	genistein
+	pt	GSK-J4
+	pt	GSK1210151A
+	pt	gsk126
+	pt	GSK525762A
+	pt	jq1
+	pt	LY-294002
+	pt	methylstat
+	pt	Mitoxantrone
+	pt	monorden
+	pt	OSI-027
+	pt	rapamycin
+	pt	resveratrol
+	pt	salermide
+	pt	sirolimus
+	pt	staurosporine
+	pt	tanespamycin
+	pt	thioridazine
+	pt	tretinoin (atra)
+	pt	trichostatin a
+	pt	trifluoperazine
+	pt	troglitazone
+	pt	unc0321
+	pt	unc0646
+	pt	unc1215
+	pt	valproic acid
+	pt	vorinostat
+	pt	withaferin a
+	pt	wortmannin
+	pt	zebularine
+inst_as: L1000 Gene Expression Profiling Assay
+	cl	MCF7
+	cl	PC3
+	cl	A375
+	cl	HT29
+	cl	HA1E
+	cl	A549
+	cl	HPAC
+	pt	acetyldiline (Ci-994)
+	pt	alpha-estradiol
+	pt	belinostat
+	pt	beta-estradiol
+	pt	BIX 01294
+	pt	BIX 01338
+	pt	CPI-169
+	pt	decitabine
+	pt	DMSO
+	pt	entinostat
+	pt	fluphezine
+	pt	fulvestrant
+	pt	geldamycin
+	pt	genistein
+	pt	GSK-J4
+	pt	GSK1210151A
+	pt	gsk126
+	pt	GSK525762A
+	pt	jq1
+	pt	LY-294002
+	pt	methylstat
+	pt	Mitoxantrone
+	pt	monorden
+	pt	OSI-027
+	pt	rapamycin
+	pt	resveratrol
+	pt	salermide
+	pt	sirolimus
+	pt	staurosporine
+	pt	tanespamycin
+	pt	thioridazine
+	pt	tretinoin (atra)
+	pt	trichostatin a
+	pt	trifluoperazine
+	pt	troglitazone
+	pt	unc0321
+	pt	unc0646
+	pt	unc1215
+	pt	valproic acid
+	pt	vorinostat
+	pt	withaferin a
+	pt	wortmannin
+	pt	zebularine
+inst_as: 20217: Viability and Apoptosis
+	cl	C32
+	cl	COLO858
+	cl	K2
+	cl	LOXIMVI
+	cl	MMACSF
+	cl	MZ7MEL
+	cl	RVH421
+	cl	SKMEL28
+	cl	WM115
+	cl	WM1552C
+	pt	AZ628
+	pt	Selumetinib
+	pt	Vemurafenib
+	pt	PLX4720
+	pt	SB590885
+inst_as: 20218: Phosphorylation State and Protein Levels
+	cl	C32
+	cl	COLO858
+	cl	K2
+	cl	LOXIMVI
+	cl	MMACSF
+	cl	MZ7MEL
+	cl	RVH421
+	cl	SKMEL28
+	cl	WM115
+	cl	WM1552C
+	pt	AZ628
+	pt	Selumetinib
+	pt	Vemurafenib
+	pt	PLX4720
+	pt	SB590885
+inst_as: 20219: Phosphorylation State and Protein Levels
+	cl	COLO858
+	cl	LOXIMVI
+	cl	WM115
+	cl	WM1552C
+	pt	Vemurafenib
+	pt	JNK-IN-8
+	pt	Vemurafenib + JNK-IN-8
+inst_as: 20220: KINOMEscan
+	pt	ZSTK474
+inst_as: 20221: KINOMEscan
+	pt	MPS-1-IN-1
+inst_as: 20222: KINOMEscan
+	pt	Ibrutinib
+inst_as: 20223: KINOMEscan
+	pt	TGX221
+inst_as: 20224: KINOMEscan
+	pt	BGJ398
+inst_as: 20225: KINOMEscan
+	pt	CGP082996
+inst_as: 20227: KINOMEscan
+	pt	Baricitinib
+inst_as: 20228: KINOMEscan
+	pt	MRT67307
+inst_as: Synovial Fibroblast 1: Secretion response
+	cl	Human fibroblast-like synoviocytes lot #2586
+	cl	Human fibroblast-like synoviocytes-RA lot #2159
+	pt	CI1040
+	pt	A6730 (Sigma)
+	pt	PI103
+	pt	Lestaurtinib
+	pt	Ruxolitinib
+	pt	Tofacitinib
+	pt	EO1428
+	pt	JNK-IN-8
+	pt	JNK-IN-11
+	pt	IKK16
+	pt	IL-1
+	pt	TNFalpha
+	pt	poly IC
+inst_as: Synovial Fibroblast 2: Secretion response
+	cl	Human fibroblast-like synoviocytes lot #2586
+	cl	Human fibroblast-like synoviocytes lot #2645
+	cl	Human fibroblast-like synoviocytes lot #2759
+	cl	Human fibroblast-like synoviocytes-RA lot #1869
+	cl	Human fibroblast-like synoviocytes-RA lot 1931
+	cl	Human fibroblast-like synoviocytes-RA lot #2159
+	cl	Human fibroblast-like synoviocytes-RA lot #2708
+	pt	PH 797804
+	pt	JNK-IN-8
+	pt	IKK16
+	pt	Tofacitinib
+	pt	5z-7-oxozeaenol
+	pt	Tocilizumab
+	pt	IL-1
+	pt	TNFalpha
+	pt	poly IC
+inst_as: Synovial Fibroblast 3: Composition of serial dilution
+	cl	Human fibroblast-like synoviocytes-RA lot #2159
+	pt	5z-7-oxozeaenol
+	pt	RA synovial fluid lot. no. 112050075
+	pt	RA synovial fluid lot no. 113060040
+	pt	RA synovial fluid lot no. 118050105
+	pt	interleukin-1alpha
+inst_as: Breast Cancer HCI1: High content images
+	cl	BT20
+	cl	MCF10A
+	cl	MCF7
+	cl	MDAMB231
+	pt	106 compounds
+inst_as: Breast Cancer HCI2: High content images
+	cl	HS578T
+	pt	106 compounds
+inst_as: CycIF: Highly-multiplexed imaging
+	cl	C32
+	cl	COLO858
+	cl	LOXIMVI
+	cl	MCF7
+	cl	MCF10A
+	cl	WM115
+	cl	WM1552C
+	pt	Vemurafenib(PLX4032)
+	pt	PD98059
+	pt	MK2206
+	pt	SB230580
+inst_as: Apoptotic Threshold 1: Live-cell imaging assay
+	cl	HeLa
+	cl	HeLa+FLIP-L
+	cl	HeLa+FLIP-S
+	cl	HeLa+Bcl-2
+	cl	HeLa+Bcl-XL
+	pt	Bortezomib
+	pt	ABT-263
+	pt	TRAIL
+	pt	Apomab
+	pt	Mapatumumab
+	pt	anti-Fc antibody
+inst_as: FoxO3a Dynamics: Live-cell imaging assay
+	cl	184A1-F3aN400
+	pt	IGF1
+	pt	HRG
+	pt	HGF
+	pt	EGF
+	pt	BTC
+	pt	EPR
+inst_as: BRAF4: Phosphorylation state and levels of signaling
+	cl	C32
+	cl	COLO858
+	cl	MMACSF
+	cl	WM115
+	cl	MZ7MEL
+	pt	Vemurafenib
+	pt	EGF
+	pt	PDGF
+	pt	NRG
+	pt	IGF
+	pt	FGF
+	pt	HGF
+	pt	TGF-Beta
+	pt	TNF
+inst_as: BRAF5: Viability and apoptosis
+	cl	C32
+	cl	COLO858
+	cl	MMACSF
+	cl	WM115
+	cl	MZ7MEL
+	pt	Vemurafenib
+	pt	EGF
+	pt	PDGF
+	pt	NRG
+	pt	IGF
+	pt	FGF
+	pt	HGF
+	pt	TGF-Beta
+	pt	TNF
+inst_as: BRAF6: Phosphorylation state and levels
+	cl	COLO858
+	cl	WM115
+	cl	MMACSF
+	cl	MZ7MEL
+	pt	Vemurafenib
+inst_as: Breast Cancer Density: Imaging assay
+	cl	BT20
+	cl	HS578T
+	cl	MCF10
+	cl	MCF7
+	cl	MDAMB231
+	cl	SKBR3
+	pt	12 compounds
+inst_as: Proteomics 1: Basal total proteome for 10 ICBP43
+	cl	BT20
+	cl	BT549
+	cl	HCC1806
+	cl	HCC70
+	cl	HS578T
+	cl	MCF10
+	cl	MCF7
+	cl	MDAMB231
+	cl	SKBR3
+inst_as: Proteomics 2: Basal phosphoproteome for 10 ICBP43
+	cl	BT20
+	cl	BT549
+	cl	HCC1806
+	cl	HCC70
+	cl	HS578T
+	cl	MCF10
+	cl	MCF7
+	cl	MDAMB231
+	cl	SKBR3
+inst_as: Proteomics 3: Basal cell surface proteome for the ICBP43
+	cl	~40 cell lines from the ICBP43 panel
+inst_as: LJP5&6-growth inhibition/single drugs
+	cl	BT20
+	cl	HS578T
+	cl	MCF10A
+	cl	MCF7
+	cl	MDAMB231
+	cl	SKBR3
+	pt	106 compounds
+inst_as: LJP5&6-growth inhibition/drug combinations
+	cl	TBD among cell lines from LJP5&6-growth inhibition/ single drugs
+	pt	among HMSL compounds
+inst_as: 20215: Sensitivity measures of MDA-MB-231 and HME-1 cell lines
+	cl	HME1
+	cl	MDAMB231
+	pt	GDC0941
+	pt	MK2206
+	pt	WYE125132
+	pt	Torin1
+	pt	PD0325901
+inst_as: 20216: Metrics for growth responses of MDA-MB-231 and HME-1 cell lines
+	cl	HME1
+	cl	MDAMB231
+	pt	GDC0941
+	pt	MK2206
+	pt	WYE125132
+	pt	Torin1
+	pt	PD0325901
+inst_as: Drug Combination 1: Sensitivity measures of MDA-MB-231 and HME-1 cell lines
+	cl	HME1
+	cl	MDAMB231
+	pt	GDC0941
+	pt	MK2206
+	pt	WYE125132
+	pt	Torin1
+	pt	PD0325901
+inst_as: Drug Combination 2: L1000 response of MDA-MB-231 and HME-1 cell lines
+	cl	HME1
+	cl	MDAMB231
+	pt	GDC0941
+	pt	MK2206
+	pt	WYE125132
+	pt	Torin1
+	pt	PD0325901
+inst_as: CCCLP1: Phenotypic responses by imaging of CCCLP cell lines
+	cl	MCF7
+	cl	PC3
+	cl	A549
+	cl	A375
+	cl	HPAC
+	pt	100 compounds
+inst_as: P100 Phosphoprotein Quantification Assay
+	cl	MCF7
+	cl	PC3
+	cl	A549
+	cl	A375
+	cl	NPC
+	pt	tranche2
+	pt	1271738-62-5 (MI-2)
+	pt	acetyldiline (Ci-994)
+	pt	belinostat
+	pt	BIX 01294
+	pt	CPI-169
+	pt	decitabine
+	pt	DMSO
+	pt	entinostat (MS275)
+	pt	EPZ-5676
+	pt	EPZ-5687
+	pt	EPZ004777
+	pt	EX527
+	pt	geldamycin
+	pt	GSK-J4
+	pt	GSK1210151A
+	pt	gsk126
+	pt	GSK525762A
+	pt	jq1
+	pt	LY-294002
+	pt	methylstat
+	pt	OSI-027
+	pt	rapamycin
+	pt	resveratrol
+	pt	salermide
+	pt	staurosporine
+	pt	trichostatin-a
+	pt	UNC0321
+	pt	UNC0646
+	pt	UNC1215
+	pt	vorinostat
+	pt	zebularine
+inst_as: Global Chromatin Profiling Epigenetic Profiling Assay
+	cl	MCF7
+	cl	PC3
+	cl	A549
+	cl	A375
+	cl	NPC
+	pt	tranche2
+	pt	1271738-62-5 (MI-2)
+	pt	acetyldiline (Ci-994)
+	pt	belinostat
+	pt	BIX 01294
+	pt	CPI-169
+	pt	decitabine
+	pt	DMSO
+	pt	entinostat (MS275)
+	pt	EPZ-5676
+	pt	EPZ-5687
+	pt	EPZ004777
+	pt	EX527
+	pt	geldamycin
+	pt	GSK-J4
+	pt	GSK1210151A
+	pt	gsk126
+	pt	GSK525762A
+	pt	jq1
+	pt	LY-294002
+	pt	methylstat
+	pt	OSI-027
+	pt	rapamycin
+	pt	resveratrol
+	pt	salermide
+	pt	staurosporine
+	pt	trichostatin-a
+	pt	UNC0321
+	pt	UNC0646
+	pt	UNC1215
+	pt	vorinostat
+	pt	zebularine
+inst_as: Fluorescence Imaging Cell Viability Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: Fluorescence Imaging Cell Viability Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: Fluorescence Imaging Cell Viability Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: Fluorescence Imaging Cell Viability Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+	pt	L-glutamate
+inst_as: Fluorescence Imaging Cell Viability Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+	pt	L-glutamate
+inst_as: Fluorescence Imaging Cell Viability Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+	pt	L-glutamate
+inst_as: Fluorescence Imaging Cell Viability Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+	pt	tunicamycin
+inst_as: Fluorescence Imaging Cell Viability Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+	pt	tunicamycin
+inst_as: Fluorescence Imaging Cell Viability Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+	pt	tunicamycin
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: RNA-Seq Gene Expression Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+	pt	L-glutamate
+inst_as: MS Protein Quantification Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: MS Protein Quantification Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: SWATH-MS Protein Quantification Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: SWATH-MS Protein Quantification Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: SWATH-MS Protein Quantification Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: SWATH-MS Protein Quantification Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: SWATH-MS Protein Quantification Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+	pt	stimulation A-N
+inst_as: Atac-seq Epigenetic Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: Atac-seq Epigenetic Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: Atac-seq Epigenetic Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: Atac-seq Epigenetic Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: Atac-seq Epigenetic Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: Atac-seq Epigenetic Profiling Assay
+	cl	CS00iCTR-n2
+	cl	CS14iCTR-n6
+	cl	CS83iCTR-33n1
+	cl	CS25iCTR-18n2
+	cl	CS28iALS-n2A
+	cl	CS29iALS-n1N
+	cl	CS30iALS-n1A
+	cl	CS52iALS-n6A
+	cl	CS32iSMA-n3
+	cl	CS13iSMA-n1
+	cl	83iSMA-n5
+	cl	CS77iSMA-n5
+	pt	spinal muscular atrophy
+	pt	amyotrophic lateral sclerosis
+inst_as: MEMA Cell Growth Assay
+	cl	MCF7
+	cl	HPAC
+	cl	PC3
+	pt	Collagen I
+	pt	Collagen Type II
+	pt	Collagen Type III
+	pt	Collagen Type IV
+	pt	Collagen Type V
+	pt	Collagen XXIII alpha1/COL23A1
+	pt	Desmoglein 2
+	pt	E-cadherin Fc Chimera
+	pt	ECM1
+	pt	Fibronectin 1
+	pt	GAP43
+	pt	HyA-500K
+	pt	HyA-50K
+	pt	ICAM-1
+	pt	Integrin alpha10Beta1
+	pt	Integrin alpha11Beta1
+	pt	Integrin alpha2Beta1
+	pt	Integrin alpha3Beta1
+	pt	Integrin alpha4Beta1
+	pt	Integrin alpha6Beta4
+	pt	Integrin alpha9Beta1
+	pt	Integrin alphaMBeta2
+	pt	Integrin alphaVBeta6
+	pt	ITGAM-B2
+	pt	laminin
+	pt	Laminin-1
+	pt	Laminin-5
+	pt	Lumican
+	pt	M-Cadherin/Cadherin-15 Fc Chimera
+	pt	Osteoadherin
+	pt	Osteopontin
+	pt	P-Cadherin Fc Chimera
+	pt	PECAM1
+	pt	RGD-cyclic
+	pt	rhNidogen-1
+	pt	Tescin C
+	pt	VCAM1
+	pt	vitronectin
+	pt	ALCAM
+	pt	Cadherin-20 (CAD-20)
+	pt	Cadherin-6/KCAD Fc Chimera
+	pt	rhCadherin-8 (CAD-8)/FC Chimera
+	pt	CD44
+	pt	CEACAM6
+	pt	ANGPT1
+	pt	ANGPT2
+	pt	AREG (amphiregulin)
+	pt	CI-4AS-1
+	pt	CTGF
+	pt	CXCL12/SDF1a
+	pt	CXCL12/SDF1b aa 22-93
+	pt	DLL1
+	pt	DLL4
+	pt	EGF
+	pt	B-estradiol
+	pt	Fas Ligand/TNFSF6
+	pt	Fetuin A/AHSG
+	pt	FGF basic 146 aa
+	pt	FGF2
+	pt	FGF6
+	pt	FLT3
+	pt	GM-CSF
+	pt	Gro-a
+	pt	HGF
+	pt	IGF-1
+	pt	IGFBP2
+	pt	IGFBP3
+	pt	IL-7
+	pt	CXCL8/IL-8
+	pt	IL-13
+	pt	IL-15
+	pt	IL-6
+	pt	Interleukin-1 beta (IL-1Beta) [catabolin]
+	pt	Jagged 1 Fc Chimera
+	pt	Jagged 2
+	pt	Kininogen High Molecular Weight
+	pt	LECT2
+	pt	Leptin/OB
+	pt	LYVE-1
+	pt	a-HRG
+	pt	NRG1-Beta1/HRG1-Beta1 EGF domain
+	pt	Osteoprotegerin/TNFRSF11B
+	pt	Osteoactivin/GPNMB Fc Chimera
+	pt	PDGF-AB
+	pt	PDGF-BB
+	pt	Podoplanin
+	pt	Progesterone
+	pt	PTN (pleiotropin)
+	pt	rhBMP-2
+	pt	rhBMP-3
+	pt	rhBMP-4
+	pt	rhBMP-5
+	pt	rhBMP-6
+	pt	rhBMP-7
+	pt	rhTRANCE
+	pt	SCF/c-kit ligand
+	pt	SHH
+	pt	SMDF-HRG
+	pt	TGF-Beta Latency Associated Protein
+	pt	TGF-B1
+	pt	TGF-B2
+	pt	TNFa
+	pt	Thrombopoietin/Tpo
+	pt	VEGF 165
+	pt	WNT3a
+	pt	WNT5a
+	pt	WNT10a
+inst_as: MEMA Cell Growth Assay
+	cl	HCC1954
+	cl	A549
+	cl	A375
+	pt	Collagen I
+	pt	Collagen Type II
+	pt	Collagen Type III
+	pt	Collagen Type IV
+	pt	Collagen Type V
+	pt	Collagen XXIII alpha1/COL23A1
+	pt	Desmoglein 2
+	pt	E-cadherin Fc Chimera
+	pt	ECM1
+	pt	Fibronectin 1
+	pt	GAP43
+	pt	HyA-500K
+	pt	HyA-50K
+	pt	ICAM-1
+	pt	Integrin alpha10Beta1
+	pt	Integrin alpha11Beta1
+	pt	Integrin alpha2Beta1
+	pt	Integrin alpha3Beta1
+	pt	Integrin alpha4Beta1
+	pt	Integrin alpha6Beta4
+	pt	Integrin alpha9Beta1
+	pt	Integrin alphaMBeta2
+	pt	Integrin alphaVBeta6
+	pt	ITGAM-B2
+	pt	laminin
+	pt	Laminin-1
+	pt	Laminin-5
+	pt	Lumican
+	pt	M-Cadherin/Cadherin-15 Fc Chimera
+	pt	Osteoadherin
+	pt	Osteopontin
+	pt	P-Cadherin Fc Chimera
+	pt	PECAM1
+	pt	RGD-cyclic
+	pt	rhNidogen-1
+	pt	Tescin C
+	pt	VCAM1
+	pt	vitronectin
+	pt	ALCAM
+	pt	Cadherin-20 (CAD-20)
+	pt	Cadherin-6/KCAD Fc Chimera
+	pt	rhCadherin-8 (CAD-8)/FC Chimera
+	pt	CD44
+	pt	CEACAM6
+	pt	ANGPT1
+	pt	ANGPT2
+	pt	AREG (amphiregulin)
+	pt	CI-4AS-1
+	pt	CTGF
+	pt	CXCL12/SDF1a
+	pt	CXCL12/SDF1b aa 22-93
+	pt	DLL1
+	pt	DLL4
+	pt	EGF
+	pt	B-estradiol
+	pt	Fas Ligand/TNFSF6
+	pt	Fetuin A/AHSG
+	pt	FGF basic 146 aa
+	pt	FGF2
+	pt	FGF6
+	pt	FLT3
+	pt	GM-CSF
+	pt	Gro-a
+	pt	HGF
+	pt	IGF-1
+	pt	IGFBP2
+	pt	IGFBP3
+	pt	IL-7
+	pt	CXCL8/IL-8
+	pt	IL-13
+	pt	IL-15
+	pt	IL-6
+	pt	Interleukin-1 beta (IL-1Beta) [catabolin]
+	pt	Jagged 1 Fc Chimera
+	pt	Jagged 2
+	pt	Kininogen High Molecular Weight
+	pt	LECT2
+	pt	Leptin/OB
+	pt	LYVE-1
+	pt	a-HRG
+	pt	NRG1-Beta1/HRG1-Beta1 EGF domain
+	pt	Osteoprotegerin/TNFRSF11B
+	pt	Osteoactivin/GPNMB Fc Chimera
+	pt	PDGF-AB
+	pt	PDGF-BB
+	pt	Podoplanin
+	pt	Progesterone
+	pt	PTN (pleiotropin)
+	pt	rhBMP-2
+	pt	rhBMP-3
+	pt	rhBMP-4
+	pt	rhBMP-5
+	pt	rhBMP-6
+	pt	rhBMP-7
+	pt	rhTRANCE
+	pt	SCF/c-kit ligand
+	pt	SHH
+	pt	SMDF-HRG
+	pt	TGF-Beta Latency Associated Protein
+	pt	TGF-B1
+	pt	TGF-B2
+	pt	TNFa
+	pt	Thrombopoietin/Tpo
+	pt	VEGF 165
+	pt	WNT3a
+	pt	WNT5a
+	pt	WNT10a
+[Finished in 0.4s]

@@ -42,7 +42,7 @@ function initialize_visualization(network_data, params){
   var min_num_char = 5;
   var max_num_char = 60;
   var min_label_width = 60;
-  var max_label_width = 280;
+  var max_label_width = 220;
   var label_scale = d3.scale.linear().domain([min_num_char,max_num_char]).range([min_label_width,max_label_width]).clamp('true');
 
   // Nomal Labels 
@@ -107,7 +107,7 @@ function initialize_visualization(network_data, params){
   // the visualization dimensions can be smaller than the svg
   // if there are not many rows the clustergram width will be reduced, but not the svg width 
   //!! needs to be improved 
-  var prevent_col_stretch = d3.scale.linear().domain([1,20]).range([1,1]).clamp('true');
+  var prevent_col_stretch = d3.scale.linear().domain([1,20]).range([0.05,1]).clamp('true');
 
   // clust_dim - clustergram dimensions (the clustergram is smaller than the svg)
   params.clust.dim = {};
@@ -159,14 +159,10 @@ function initialize_visualization(network_data, params){
     clust_row: d3.range(col_nodes.length).sort(function(a, b) { return col_nodes[b].clust  - col_nodes[a].clust; }),
     clust_col: d3.range(row_nodes.length).sort(function(a, b) { return row_nodes[b].clust  - row_nodes[a].clust; }),
     // class
-    class_row: d3.range(col_nodes.length).sort(function(a, b) { return col_nodes[b].class  - col_nodes[a].class; }),
-    class_col: d3.range(row_nodes.length).sort(function(a, b) { return row_nodes[b].class  - row_nodes[a].class; })
+    class_row: d3.range(col_nodes.length).sort(function(a, b) { return col_nodes[b].cl  - col_nodes[a].cl; }),
+    class_col: d3.range(row_nodes.length).sort(function(a, b) { return row_nodes[b].cl  - row_nodes[a].cl; })
   };
   
-  // // initializing cluster order
-  // //!! can be improved - have an optional argument 
-  // params['order'] = 'clust';
-
   // Assign initial ordering for x_scale and y_scale 
   if ( params.inst_order == 'clust' ){ 
     params.x_scale.domain( params.orders.clust_row );
@@ -251,7 +247,6 @@ function initialize_visualization(network_data, params){
   // calculate the zoom factor - the more nodes the more zooming allowed
   params.real_zoom = real_zoom_scale_col(col_nodes.length)*real_zoom_scale_screen(params.clust.dim.width);
 
-  //!! need to set some control for opacity rules - either use max link value or use some fixed domain 
   // set opacity scale 
   var max_link = _.max( network_data.links, function(d){ return Math.abs(d.value) } );
 
@@ -260,15 +255,46 @@ function initialize_visualization(network_data, params){
   // input domain of 0 means set the domain automatically 
   if ( params.input_domain == 0 ){
     // set the domain using the maximum absolute value 
-    params.opacity_scale = d3.scale.log().domain([0.01, Math.abs(max_link.value) ]).clamp(true).range([0.0,1.0]) ; 
+    if (params.opacity_scale == 'linear'){
+      params.opacity_scale = d3.scale.linear().domain([0, Math.abs(max_link.value) ]).clamp(true).range([0.0,1.0]) ; 
+    }
+    else if (params.opacity_scale == 'log'){
+      params.opacity_scale = d3.scale.log().domain([0.001, Math.abs(max_link.value) ]).clamp(true).range([0.0,1.0]) ; 
+    }
   }
   else{
     // set the domain manually 
-    params.opacity_scale = d3.scale.linear().domain([0, params.input_domain ]).clamp(true).range([0.0,1.0]) ; 
+    if (params.opacity_scale == 'linear'){
+      params.opacity_scale = d3.scale.linear().domain([0, params.input_domain ]).clamp(true).range([0.0,1.0]) ; 
+    }
+    else if (params.opacity_scale == 'log'){
+      params.opacity_scale = d3.scale.log().domain([0.001, params.input_domain ]).clamp(true).range([0.0,1.0]) ; 
+    }
   }
 
   // not running a transition
   params.run_trans = 0;
+
+  // console.log(network_data.links[0])
+  // define tile type: rect, group 
+  // rect is the default faster and simpler option 
+  // group is the optional slower and more complex option that is activated with: highlighting or split tiles
+  // if ( _.has(network_data.links[0], 'value_up') || _.has(network_data.links[0], 'highlight') ){
+  if ( _.has(network_data.links[0], 'value_up')  ){
+    params.tile_type = 'group';
+  }
+  else{
+    params.tile_type = 'simple';
+  };
+
+  // check if rects should be highlighted 
+  if ( _.has( d3_clustergram.network_data.links[0], 'highlight' ) ){
+    params.highlight = 1;
+    console.log('found highlight')
+  }
+  else{
+    params.highlight = 0;
+  }
 
   return params
 };
@@ -311,6 +337,24 @@ function make_d3_clustergram(args) {
     params.super.col = args.col_label;
   };
 
+  // add title to tile 
+  if (typeof args.title_tile == 'undefined'){
+    params.title_tile = false;
+  }
+  else{
+    params.title_tile = args.title_tile;
+  }
+
+  // tile colors
+  if (typeof args.tile_colors =='undefined'){
+    // red/blue
+    params.tile_colors = ['#FF0000','#1C86EE'];
+  }
+  else{
+    params.tile_colors = args.tile_colors;
+  }
+
+
   // tile callback function - optional 
   if (typeof args.click_tile == 'undefined'){
     // there is no callback function included 
@@ -339,10 +383,18 @@ function make_d3_clustergram(args) {
     params.input_domain = args.input_domain;
   };
 
+  // set opacity scale type 
+  if (typeof args.opacity_scale == 'undefined'){
+    params.opacity_scale = 'linear';
+  }
+  else{
+    params.opacity_scale = args.opacity_scale;
+  }
+
   // variable/fixed visualization size (needs to be in the arguments)
   if (typeof args.resize == 'undefined'){
     // default resize to yes 
-    params.resize = 'yes';
+    params.resize = true;
   }
   else{
     params.resize = args.resize;
@@ -401,29 +453,24 @@ function make_d3_clustergram(args) {
 
   };
 
-
-  if(_.has(row_nodes[0],'class') || _.has(col_nodes[0],'class')){
+  // check if row/col have class information 
+  if(_.has(row_nodes[0],'cl') || _.has(col_nodes[0],'cl')){
     // gather classes 
     params.class_colors = {};
   }
 
   // gather class information from row 
-  if (_.has(row_nodes[0],'class') == true){
-     var class_row = _.uniq(_.pluck(row_nodes,'class'));
+  if (_.has(row_nodes[0],'cl') == true){
+     var class_row = _.uniq(_.pluck(row_nodes,'cl'));
     // associate classes with colors 
     params.class_colors.row = {};
     for (var i=0; i < class_row.length; i++){
-      if (i==0){
-        params.class_colors.row[class_row[i]] = '#eee';
-      }
-      else{
-        params.class_colors.row[class_row[i]] = params.rand_colors[i+50%num_colors];
-      }
+      params.class_colors.row[class_row[i]] = params.rand_colors[i+50%num_colors]
     };
   };
   // gather class information from col
-  if (_.has(col_nodes[0],'class') == true){
-     var class_col = _.uniq(_.pluck(col_nodes,'class'));
+  if (_.has(col_nodes[0],'cl') == true){
+     var class_col = _.uniq(_.pluck(col_nodes,'cl'));
      // associate classes with colors 
      params.class_colors.col = {};
     for (var i=0; i < class_col.length; i++){
@@ -508,25 +555,36 @@ function make_d3_clustergram(args) {
   // initialize matrix
   /////////////////////////
   params.matrix = [] ;
-  
-  // initialize matrix 
-  row_nodes.forEach( function(tmp,i) {
-    //!! tmp add rl_t and rl_f for LDR 
-    params.matrix[i] = d3.range(col_nodes.length).map(function(j) { return {pos_x: j, pos_y: i, value:0, rl_t:0, rl_f:0, group:0}; });
-  }); 
-
-  // Add information to the matrix
-  network_data.links.forEach( function(link) {
-    // transfer link information to the new adj matrix
-    params.matrix[link.source][link.target].value = link.value;
-    //!! tmp for LDR transfer rl_t and rl_f
-    params.matrix[link.source][link.target].rl_t = link.rl_t;
-    params.matrix[link.source][link.target].rl_f = link.rl_f;
-
-    // transfer color - not being used right now 
-    // params.matrix[link.source][link.target].color = link.color;
-    params.matrix[link.source][link.target].highlight = link.highlight;
-  });
+    
+  // rect only 
+  if ( params.tile_type == 'simple' ){
+    // initialize matrix 
+    row_nodes.forEach( 
+      function(tmp,i) {
+        params.matrix[i] = d3.range(col_nodes.length).map( function(j) { return { pos_x: j, pos_y: i, value:0 };});
+      }); 
+    // Add information to the matrix
+    network_data.links.forEach( function(link) {
+      params.matrix[link.source][link.target].value = link.value;
+    });
+  } 
+  else{
+    // initialize matrix 
+    row_nodes.forEach( 
+      function(tmp,i) {
+        params.matrix[i] = d3.range(col_nodes.length).map( function(j) { return { pos_x: j, pos_y: i, value:0 };});
+      }); 
+    // Add information to the matrix
+    network_data.links.forEach( function(link) {
+      // transfer link information to the new adj matrix
+      params.matrix[link.source][link.target].value = link.value;
+      params.matrix[link.source][link.target].value_up = link.value_up;
+      params.matrix[link.source][link.target].value_dn = link.value_dn;
+      if (params.highlight == 1){
+        params.matrix[link.source][link.target].highlight = link.highlight;
+      } 
+    });
+  }
 
   // save params to the global object d3_clustergram 
   d3_clustergram.params = params;
@@ -561,16 +619,29 @@ function make_d3_clustergram(args) {
     .attr("width",  params.clust.dim.width)
     .attr("height", params.clust.dim.height);
 
-  // make rows 
+  // make rows: make rects or groups  
   // use matrix for the data join, which contains a two dimensional 
   // array of objects, each row of this matrix will be passed into the row function 
-  var row_obj =  params.clust_group.selectAll(".row")
-    .data( params.matrix )
-    .enter()
-    .append("g")
-    .attr("class", "row")
-    .attr("transform", function(d, i) { return "translate(0," + params.y_scale(i) + ")"; })
-    .each( row_function );
+  if (params.tile_type == 'simple'){
+
+    var row_obj =  params.clust_group.selectAll(".row")
+      .data( params.matrix )
+      .enter()
+      .append("g")
+      .attr("class", "row")
+      .attr("transform", function(d, i) { return "translate(0," + params.y_scale(i) + ")"; })
+      .each( row_function );
+
+  }
+  else{
+    var row_obj =  params.clust_group.selectAll(".row")
+      .data( params.matrix )
+      .enter()
+      .append("g")
+      .attr("class", "row")
+      .attr("transform", function(d, i) { return "translate(0," + params.y_scale(i) + ")"; })
+      .each( row_group_function );    
+  }
 
 
   // white lines in clustergram 
@@ -727,13 +798,12 @@ function make_d3_clustergram(args) {
   row_triangle_ini_group
     .append('path')
     .attr('d', function(d) { 
-      // removed border width
       var origin_x = params.class_room.symbol_width - 1;
-      var origin_y = 0 ;//params.border_width;
+      var origin_y = 0;
       var mid_x  = 1;
       var mid_y  =  params.y_scale.rangeBand()/2 ;
       var final_x  =  params.class_room.symbol_width - 1;
-      var final_y  =  params.y_scale.rangeBand() ; // - params.border_width ;
+      var final_y  =  params.y_scale.rangeBand() ;
       var output_string = 'M '+origin_x+','+origin_y+' L ' + mid_x + ',' + mid_y + ', L ' + final_x + ','+final_y+' Z';
       return output_string;
      })
@@ -741,7 +811,7 @@ function make_d3_clustergram(args) {
       // initailize color 
       var inst_color = '#eee';
       if (_.has(params, 'class_colors')){
-        inst_color = params.class_colors.row[d.class];
+        inst_color = params.class_colors.row[d.cl];
       };
       return inst_color;
     });
@@ -922,38 +992,39 @@ function make_d3_clustergram(args) {
     .attr('fill',function(d){
       var inst_color = '#eee';
       if(_.has(params, 'class_colors')){
-        inst_color = params.class_colors.col[d.class];
+        inst_color = params.class_colors.col[d.cl];
       }
       return inst_color;
     });
 
 
   //!! get the abs maximum value from row/col use this to make red/blue bars 
-
   // // get the max abs nl_pval (find obj and get nl_pval)
   // enr_max = _.max( col_nodes, function(d) { return Math.abs(d.nl_pval) } ).nl_pval ; 
 
-  // // the enrichment bar should be 3/4ths of the height of the column labels 
-  // params.bar_scale_col = d3.scale.linear()
-  //   // .domain([0, enr_max])
-  //   .domain([0, 1])
-  //   .range([0, params.norm_label.width.col ]); 
+  // the enrichment bar should be 3/4ths of the height of the column labels 
+  params.bar_scale_col = d3.scale.linear()
+    // .domain([0, enr_max])
+    .domain([0, 1])
+    .range([0, params.norm_label.width.col ]); 
 
-  // // append enrichment bars  
-  // col_label_click
-  //   .append('rect')
-  //   .attr('class','col_bars')
-  //   // column is rotated - effectively width and height are switched
-  //   .attr('width', function(d,i) { 
-  //     return params.bar_scale_col( d.value ); 
-  //   })
-  //   // rotate labels - reduce width if rotating
-  //   .attr('height', params.x_scale.rangeBand() * 0.66 )
-  //   .attr('fill', function(d){
-  //     // return d.color;
-  //     return 'red';
-  //   })
-  //   .attr('opacity', 0.4);
+  // append column value bars  
+  if ( _.has(d3_clustergram.network_data.col_nodes[0], 'value') ){
+    col_label_click
+      .append('rect')
+      .attr('class','col_bars')
+      // column is rotated - effectively width and height are switched
+      .attr('width', function(d,i) { 
+        return params.bar_scale_col( d.value ); 
+      })
+      // rotate labels - reduce width if rotating
+      .attr('height', params.x_scale.rangeBand() * 0.66 )
+      .attr('fill', function(d){
+        // return d.color;
+        return 'red';
+      })
+      .attr('opacity', 0.4);
+  }
 
   // add group labels if necessary 
   //////////////////////////////////
@@ -1219,7 +1290,7 @@ function make_d3_clustergram(args) {
 //////////////////////////////////////////////
 function parent_div_size_pos( params ){
 
-  if (params.resize == 'yes'){
+  if (params.resize == true){
     // get outer_margins
     var outer_margins = params.outer_margins;
 
@@ -1311,15 +1382,12 @@ function highlight_resource_types(params){
 
   // // add color key 
   // ////////////////////
-  // // remove old row color key 
-  // d3.selectAll('.row_color_key').remove();
   // // add keys 
   // var key_divs = d3.select('#res_color_key_div')
   //   .selectAll('row')
   //   .data(all_groups)
   //   .enter()
   //   .append('row')
-  //   .attr('class','row_color_key')
   //   .style('padding-top','15px');
 
   // // add color 
@@ -1369,41 +1437,34 @@ function highlight_resource_types(params){
 // make each row in the clustergram 
 function row_function(row_data) {
 
+  // remove zero values to make visualization faster
+  var row_data = _.filter(row_data, function(num){ return num.value != 0; });
+
   // load parameters
   var params = d3_clustergram.params;
 
   // generate tiles in the current row 
   var tile =  d3.select(this)
     // data join 
-    .selectAll('g')
+    .selectAll('rect')
     .data( row_data )
     .enter()
-    .append('g')
+    .append('rect')
     .attr('class','tile')
     .attr('transform', function(d){
       return 'translate(' + params.x_scale(d.pos_x) + ',0)'
     })
-
-
-  // add callback function to tile group - if one is supplied by the user 
-  if ( typeof params.click_tile =='function' ) {
-    tile
-      .on('click',function(d,i){
-        // export row/col name and value from tile 
-        var tile_info = {};
-        tile_info.row = d3_clustergram.network_data.row_nodes[d.pos_y].name;
-        tile_info.col = d3_clustergram.network_data.col_nodes[d.pos_x].name;
-        tile_info.value = d.value;
-        //!! tmp add more information rl_t, rl_f
-        tile_info.rl_t = d.rl_t;
-        tile_info.rl_f = d.rl_f;
-        // run the user supplied callback function 
-        params.click_tile(tile_info);
-      });
-  };
-
-  // add mouseover highlight event to group 
-  tile
+    .attr("width",  params.x_scale.rangeBand())
+    .attr("height", params.y_scale.rangeBand()*0.98)
+    .style("fill-opacity", function(d) { 
+      // calculate output opacity using the opacity scale 
+      var output_opacity = params.opacity_scale( Math.abs(d.value) );
+      return output_opacity ; 
+    }) 
+    // switch the color based on up/dn value 
+    .style('fill', function(d) { 
+      return d.value > 0 ? params.tile_colors[0] : params.tile_colors[1] ;
+    } )
     .on("mouseover", function(p) {
       // highlight row - set text to active if 
       d3.selectAll(".row_label_text text")
@@ -1418,68 +1479,170 @@ function row_function(row_data) {
     .on("mouseout", function mouseout() {
       d3.selectAll("text").classed("active", false);
     })
+    .attr('title', function(d){
+      return d.value;
+    });
 
+  // add callback function to tile group - if one is supplied by the user 
+  if ( typeof params.click_tile =='function' ) {
+    d3.selectAll('.tile')
+      .on('click',function(d,i){
+        // export row/col name and value from tile 
+        var tile_info = {};
+        tile_info.row = d3_clustergram.network_data.row_nodes[d.pos_y].name;
+        tile_info.col = d3_clustergram.network_data.col_nodes[d.pos_x].name;
+        tile_info.value = d.value;
+        // run the user supplied callback function 
+        params.click_tile(tile_info);
+      });
+  };
+
+  // append title to group 
+  if ( params.title_tile == true ){
+    tile
+      .append('title')
+      .text(function(d){
+        var inst_string = 'value: ' + d.value ;
+        return inst_string;
+      })
+  };
+
+
+
+};
+
+// make each row in the clustergram 
+function row_group_function(row_data) {
+
+  // remove zero values to make visualization faster
+  var row_data = _.filter(row_data, function(num){ return num.value != 0; });
+
+  // load parameters
+  var params = d3_clustergram.params;
+
+  // generate groups 
+  var tile =  d3.select(this)
+    // data join 
+    .selectAll('g')
+    .data( row_data )
+    .enter()
+    .append('g')
+    .attr('class','tile')
+    .attr('transform', function(d){
+      return 'translate(' + params.x_scale(d.pos_x) + ',0)'
+    });
+
+  // append rect 
   tile
-    .append('title')
-    .text(function(d){
-      var inst_string = 'total: ' + d.value + '; released: ' + d.rl_t + '; not-released: ' + d.rl_f;
-      return inst_string;
+    .append('rect')
+    // .attr('class','tile')
+    .attr("width",  params.x_scale.rangeBand())
+    .attr("height", params.y_scale.rangeBand()*0.98)
+    .style("fill-opacity", function(d) { 
+      // calculate output opacity using the opacity scale 
+      var output_opacity = params.opacity_scale( Math.abs(d.value) );
+      if ( Math.abs(d.value_up) > 0 && Math.abs(d.value_dn) > 0 ) {
+        output_opacity = 0;
+      }
+      return output_opacity ; 
+    }) 
+    // switch the color based on up/dn value 
+    .style('fill', function(d) { 
+      // // normal rule 
+      // return d.value > 0 ? params.tile_colors[0] : params.tile_colors[1] ;
+      //!! special rule for LDRgram
+      return d.value_dn < 0 ? params.tile_colors[0] : params.tile_colors[1] ;
+    } )
+
+  tile  
+    .on("mouseover", function(p) {
+      // highlight row - set text to active if 
+      d3.selectAll(".row_label_text text")
+        .classed("active", function(d, i) { 
+          return i == p.pos_y; 
+        });
+      d3.selectAll(".col_label_text text")
+        .classed("active", function(d, i) { 
+          return i == p.pos_x; 
+        });
     })
-    // .attr('title', function(d){
-    //   return d.value;
-    // });
+    .on("mouseout", function mouseout() {
+      d3.selectAll("text").classed("active", false);
+    })
+    .attr('title', function(d){
+      return d.value;
+    });
 
-  //!! custom change: show released and non-released data on top of eachother 
-  ////////////////////////////////////////////////////////////////////////////////
 
-  // append tile rect: released 
+  // // append evidence highlighting - black rects 
+  if ( params.highlight == 1 ){
+    // console.log(row_data[0])
+    tile 
+      .append('rect')
+      .attr("width",  params.x_scale.rangeBand()*0.80)
+      .attr("height", params.y_scale.rangeBand()*0.80)
+      .attr('class','highlighting_rect')
+      .attr('transform','translate('+ params.x_scale.rangeBand()/10 + ' , '+ params.y_scale.rangeBand()/10 + ')')
+      .attr('class', 'cell_highlight')
+      .attr('stroke','black')
+      .attr('stroke-width',1.0)
+      .attr('fill-opacity', 0.0)
+      .attr('stroke-opacity', function(d){
+        // initialize opacity to 0 
+        var inst_opacity = 0;
+        // set opacity to 1 if there is evidence 
+        if (d.highlight == 1){
+          inst_opacity= 1;
+        }
+        return inst_opacity
+      }); 
+  };
+
+  // add callback function to tile group - if one is supplied by the user 
+  if ( typeof params.click_tile =='function' ) {
+    // d3.selectAll('.tile')
+    tile
+      .on('click',function(d,i){
+        // export row/col name and value from tile 
+        var tile_info = {};
+        tile_info.row = d3_clustergram.network_data.row_nodes[d.pos_y].name;
+        tile_info.col = d3_clustergram.network_data.col_nodes[d.pos_x].name;
+        tile_info.value = d.value;
+        // run the user supplied callback function 
+        params.click_tile(tile_info);
+      });
+  };
+
+
+  // split-up
   tile
-    .append("rect")
-    .attr("width",  params.x_scale.rangeBand())
-    .attr("height", params.y_scale.rangeBand())
+    .append('path')
+    .style('stroke','black')
+    .style('stroke-width',0)
+    .attr('d', function(d) { 
+        var start_x = 0 ;
+        var final_x = params.x_scale.rangeBand() ;
+        var start_y = 0;
+        var final_y = params.y_scale.rangeBand() - params.y_scale.rangeBand()/60;
+        var output_string = 'M' + start_x + ','+start_y+', L'+ start_x +', ' + final_y + ', L' + final_x +',0 Z';
+        return output_string;
+       }) 
     .style("fill-opacity", function(d) { 
       // calculate output opacity using the opacity scale 
-      var output_opacity = params.opacity_scale( Math.abs(d.rl_t) );
-      if (d.rl_f > 0){
-        output_opacity = 0;
+      var output_opacity = 0;
+      if ( Math.abs(d.value_dn)  > 0){
+        output_opacity = params.opacity_scale( Math.abs(d.value_up) );
       }
       return output_opacity ; 
     }) 
     // switch the color based on up/dn value 
     .style('fill', function(d) { 
-      // return d.value > 0 ? '#FF0000' : '#1C86EE' ;
-      // orange-available: #ED9124
-      // blue-not available: #6A9CCD
       // rl_t (released) blue  
-      return '#1C86EE' ;
-    } );
-
-  // append tile rect: not - released 
-  tile
-    .append("rect")
-    .attr("width",  params.x_scale.rangeBand())
-    .attr("height", params.y_scale.rangeBand())
-    .style("fill-opacity", function(d) { 
-      // calculate output opacity using the opacity scale 
-      var output_opacity = params.opacity_scale( Math.abs(d.rl_f) );
-      if (d.rl_t > 0){
-        output_opacity = 0;
-      }
-      return output_opacity ; 
-    }) 
-    // switch the color based on up/dn value 
-    .style('fill', function(d) { 
-      // return d.value > 0 ? '#FF0000' : '#1C86EE' ;
-      // orange-available: #ED9124
-      // blue-not available: #6A9CCD
-      // rl_f (not released) orange
-      return '#ED9124'  ;
+      return params.tile_colors[0] ;
     } );
 
 
-  // adding triangles instead of overlapping squares
-  /////////////////////////////////////////////////////
-  // row_2 is up 
+  // split-dn
   tile
     .append('path')
     .style('stroke','black')
@@ -1487,76 +1650,42 @@ function row_function(row_data) {
     .attr('d', function(d) { 
         var start_x = 0;
         var final_x = params.x_scale.rangeBand() ;
-        var output_string = 'M' + start_x + ',0, L'+ start_x +', ' + params.x_scale.rangeBand() + ', L' + final_x +',0 Z';
-        return output_string;
-       }) 
-    .style("fill-opacity", function(d) { 
-      // calculate output opacity using the opacity scale 
-      var output_opacity = 0;
-      if (d.rl_f > 0){
-        output_opacity = params.opacity_scale( Math.abs(d.rl_t) );
-      }
-      return output_opacity ; 
-    }) 
-    // switch the color based on up/dn value 
-    .style('fill', function(d) { 
-      // rl_t (released) blue  
-      return '#1C86EE' ;
-    } );
-
-  // row_3 is down 
-  tile
-    .append('path')
-    .style('stroke','black')
-    .style('stroke-width',0)
-    .attr('d', function(d) { 
-        start_x = 0;
-        final_x = params.x_scale.rangeBand() ;
-        output_string = 'M' + start_x + ', '+params.x_scale.rangeBand()+' ,       L'+ final_x +', ' + params.x_scale.rangeBand() + ',       L' + final_x +',0 Z';
+        var start_y = params.y_scale.rangeBand() - params.y_scale.rangeBand()/60;
+        var final_y = params.y_scale.rangeBand() - params.y_scale.rangeBand()/60;
+        output_string = 'M' + start_x + ', '+start_y+' ,       L'+ final_x +', ' + final_y + ',  L' + final_x +',0 Z';
         return output_string;
        })
     .style("fill-opacity", function(d) { 
       // calculate output opacity using the opacity scale 
       output_opacity = 0;
-      if (d.rl_t > 0){
-        output_opacity = params.opacity_scale( Math.abs(d.rl_f) );
+      if (Math.abs(d.value_up) > 0){
+        output_opacity = params.opacity_scale( Math.abs(d.value_dn) );
       }
       return output_opacity ; 
     }) 
     // switch the color based on up/dn value 
     .style('fill', function(d) { 
       // rl_f (not released) orange
-      return '#ED9124'  ;
+      return params.tile_colors[1] ;
     } );
 
-
-
-  // append evidence highlighting - black rects 
-  //!! only do this if there is evidence 
-  tile 
-    .append('rect')
-    .attr("width",  params.x_scale.rangeBand()*0.80)
-    .attr("height", params.y_scale.rangeBand()*0.80)
-    .attr('class','highlighting_rect')
-    .attr('transform','translate('+ params.x_scale.rangeBand()/10 + ' , '+ params.y_scale.rangeBand()/10 + ')')
-    .attr('class', 'cell_highlight')
-    .attr('stroke','black')
-    .attr('stroke-width',1.0)
-    .attr('fill-opacity', 0.0)
-    .attr('stroke-opacity', function(d){
-      // initialize opacity to 0 
-      var inst_opacity = 0;
-      // set opacity to 1 if there is evidence 
-      if (d.highlight == 1){
-        inst_opacity= 1;
-      }
-      return inst_opacity
-    }); 
+  // append title to group 
+  if ( params.title_tile == true ){
+    tile
+      .append('title')
+      .text(function(d){
+        // var inst_string = 'value: ' + d.value ;
+        // specific to LDR 
+        var inst_string = 'total: ' + d.value + '; released: ' + d.value_up + '; not-released: ' + Math.abs(d.value_dn);
+        return inst_string;
+      })
+  }
+ 
 
 };
 
 // reorder the matrix using the toggle switch 
-function reorder_clust_rank(inst_order) {
+function reorder(inst_order) {
 
   // load parameters from d3_clustergram 
   var params = d3_clustergram.params;
@@ -1616,10 +1745,19 @@ function reorder_clust_rank(inst_order) {
     })
     .each('end',function(){
       // set running transition to 0
+      console.log('finished with transition ')
       d3_clustergram.params.run_trans = 0;
     });
 
+    // backup allow programmatic zoom
+    setTimeout(end_reorder, 2500)
+
 };
+
+// tmp backup function to allow programmatic zoom after reordering 
+function end_reorder() { 
+  d3_clustergram.params.run_trans = 0;
+}
 
 // recalculate the size of the visualization
 // and remake the clustergram 
@@ -1779,16 +1917,16 @@ function apply_transformation( trans_x, trans_y, zoom_x, zoom_y ){
     .style('font-size', fin_font);
 
 
-  // // enrichment bars 
-  // ///////////////////////
-  // d3.selectAll('.col_bars')
-  //   // column is rotated - effectively width and height are switched
-  //   .attr('width', function(d,i) { 
-  //     return params.bar_scale_col( d.value ) / (zoom_x) ; 
-  //   });
+  // column value bars 
+  ///////////////////////
 
-
-
+  if ( _.has(d3_clustergram.network_data.col_nodes[0], 'value') ){
+    d3.selectAll('.col_bars')
+      // column is rotated - effectively width and height are switched
+      .attr('width', function(d,i) { 
+        return params.bar_scale_col( d.value ) / (zoom_x) ; 
+      });
+  }
 
   // //!! change the size of the highlighting rects
   // //////////////////////////////////////////////
@@ -1896,7 +2034,7 @@ function two_translate_zoom( pan_dx, pan_dy, fin_zoom){
     var zoom_x = 1;
 
     // search duration - the duration of zooming and panning 
-    search_duration =700;
+    var search_duration =700;
 
     // center_y
     var center_y = -(zoom_y -1)*half_height;
@@ -1994,18 +2132,21 @@ function two_translate_zoom( pan_dx, pan_dy, fin_zoom){
       });
 
 
-    // // enrichment bars 
-    // ///////////////////////
-    // // reduce the height of the enrichment bars based on the zoom applied 
-    // // recalculate the height and divide by the zooming scale 
-    // // col_label_obj.select('rect')
-    // d3.selectAll('.col_bars')
-    //   .transition()
-    //   .duration(search_duration)
-    //   // column is rotated - effectively width and height are switched
-    //   .attr('width', function(d,i) { 
-    //     return params.bar_scale_col( d.value ) / (zoom_x) ; 
-    //   });
+    // column value bars 
+    ///////////////////////
+    // reduce the height of the column value bars based on the zoom applied 
+    // recalculate the height and divide by the zooming scale 
+    // col_label_obj.select('rect')
+    if ( _.has(d3_clustergram.network_data.col_nodes[0], 'value') ){
+      d3.selectAll('.col_bars')
+        .transition()
+        .duration(search_duration)
+        // column is rotated - effectively width and height are switched
+        .attr('width', function(d,i) { 
+          return params.bar_scale_col( d.value ) / (zoom_x) ; 
+        });
+    }
+
 
   };
 
@@ -2093,6 +2234,9 @@ function reorder_click_row(d,i){
       // set running transition to 0
       d3_clustergram.params.run_trans = 0;
     });
+
+  // backup allow programmatic zoom
+  setTimeout(end_reorder, 2500)
 };
 
 // reorder rows with column click 
@@ -2190,6 +2334,9 @@ function reorder_click_col(d,i){
     .select('rect')
     .style('opacity',1);
 
+  // backup allow programmatic zoom
+  setTimeout(end_reorder, 2500)
+
 
 };
 
@@ -2201,7 +2348,7 @@ function timeout_resize(){
   var params = d3_clustergram.params;
 
   // only resize if allowed 
-  if (params.resize == 'yes'){
+  if (params.resize == true){
 
     // clear timeout
     clearTimeout(doit);
@@ -2264,12 +2411,12 @@ function zoom_and_highlight_found_gene(search_gene){
 // submit genes button 
 $("#gene_search_box").keyup(function (e) {
   if (e.keyCode == 13) {
-    find_gene_in_clust();
+    find_row();
   }
 });
 
 // find gene in clustergram 
-function find_gene_in_clust(){
+function find_row(){
   // get the searched gene 
   search_gene = $('#gene_search_box').val();
 
@@ -2282,8 +2429,8 @@ function find_gene_in_clust(){
 // return d3_clustergram modules 
 return  {
           'make_clust':make_d3_clustergram,
-          'reorder_clust_rank':reorder_clust_rank,
-          'find_gene_in_clust':find_gene_in_clust
+          'reorder':reorder,
+          'find_row':find_row
         }
 
 // end closure 

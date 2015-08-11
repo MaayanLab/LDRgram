@@ -1,9 +1,9 @@
 
 function load_chik_cutoff(inst_cutoff){
 
-		// switch view: remove class and zscore buttons 
-		d3.select('#class_buttons').style('display','none');
-		// d3.select('#zscore_buttons').style('display','none');
+		// // switch view: remove class and zscore buttons 
+		// d3.select('#class_buttons').style('display','none');
+		// // d3.select('#zscore_buttons').style('display','none');
 
 		// set up wait message before request is made 
 		$.blockUI({ css: { 
@@ -37,17 +37,22 @@ function load_chik_cutoff(inst_cutoff){
 		    'right':45
 		  };
 
-		// define arguments object 
-		var arguments_obj = {
-			'network_data': network_data,
-			'svg_div_id': 'svg_div',
-			'row_label':'Assays',
-			'col_label':'Cell Lines',
-		  'outer_margins': outer_margins,
-		  // 'input_domain':10
-		  'click_tile':click_tile,
-		  'order':'rank'
-		};
+	// define arguments object 
+	var arguments_obj = {
+		'network_data': network_data,
+		'svg_div_id': 'svg_div',
+		'row_label':'Row-Data-Name',
+		'col_label':'Column-Data-Name',
+	  'outer_margins': outer_margins,
+	  // 'opacity_scale':'log',
+	  'input_domain':0.1	,
+	  'tile_colors':['#ED9124','#1C86EE'],
+	  'title_tile': true,
+	  // 'click_tile': click_tile_callback,
+	  // 'click_group': click_group_callback
+	  // 'resize':false
+	  'order':'rank'
+	};
 
 		//!! define mock res_color_dict
 		res_color_dict = {};

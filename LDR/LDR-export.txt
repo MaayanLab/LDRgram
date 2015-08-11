@@ -1,0 +1,3662 @@
+DID	LINCS_DTOXS_RNS_001
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	RNASeq
+CLN	Promocell myocytes line 1	cell line	normal	heart
+CLN	Promocell myocytes line 2	cell line	normal	heart
+CLN	Promocell myocytes line 3	cell line	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEGs	gene list
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	http://research.mssm.edu/pst/DToxS/data_results.html
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:01 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_DTOXS_PRT_002
+DSN	MS Protein Quantification Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	Proteomics
+CLN	Promocell myocytes line 1	cell line	normal	heart
+CLN	Promocell myocytes line 2	cell line	normal	heart
+CLN	Promocell myocytes line 3	cell line	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEPs	protein list
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:01 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_WBP_003
+DSN	Western Blot / PCR Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	Western blots/PCR (validation assays)
+CLN	Promocell myocytes line 1	cell line	normal	heart
+CLN	Promocell myocytes line 2	cell line	normal	heart
+CLN	Promocell myocytes line 3	cell line	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	image	image
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Apr 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:01 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_RNS_004
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	RNASeq
+CLN	Promocell myocytes line 4	cell line	normal	heart
+CLN	Myocytes derived from NeuroLINCS iPSCs line 1	iPSC differentiated	normal	heart
+CLN	Myocytes derived from NeuroLINCS iPSCs line 2	iPSC differentiated	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEGs	gene list
+ORG	Homo sapiens	
+TKS	
+LV1	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:01 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_PRT_005
+DSN	MS Protein Quantification Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	Proteomics
+CLN	Promocell myocytes line 4	cell line	normal	heart
+CLN	Myocytes derived from NeuroLINCS iPSCs line 1	iPSC differentiated	normal	heart
+CLN	Myocytes derived from NeuroLINCS iPSCs line 2	iPSC differentiated	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEPs	protein list
+ORG	Homo sapiens	
+TKS	
+LV1	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:01 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_WBP_006
+DSN	Western Blot / PCR Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	Western blots/PCR (validation assays)
+CLN	Promocell myocytes line 4	cell line	normal	heart
+CLN	Myocytes derived from NeuroLINCS iPSCs line 1	iPSC differentiated	normal	heart
+CLN	Myocytes derived from NeuroLINCS iPSCs line 2	iPSC differentiated	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	image	image
+ORG	Homo sapiens	
+TKS	
+LV1	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Fri Jul 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:02 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_RNS_007
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	RNASeq
+CLN	Mount Sinai iPSC-derived myocytes line 1	iPSC differentiated	normal	heart
+CLN	Mount Sinai iPSC-derived myocytes line 2	iPSC differentiated	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEGs	gene list
+ORG	Homo sapiens	
+TKS	
+LV1	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:02 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_PRT_008
+DSN	MS Protein Quantification Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	Proteomics
+CLN	Mount Sinai iPSC-derived myocytes line 1	iPSC differentiated	normal	heart
+CLN	Mount Sinai iPSC-derived myocytes line 2	iPSC differentiated	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEPs	protein list
+ORG	Homo sapiens	
+TKS	
+LV1	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:02 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_WBP_009
+DSN	Western Blot / PCR Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	Western blots/PCR (validation assays)
+CLN	Mount Sinai iPSC-derived myocytes line 1	iPSC differentiated	normal	heart
+CLN	Mount Sinai iPSC-derived myocytes line 2	iPSC differentiated	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	image	image
+ORG	Homo sapiens	
+TKS	
+LV1	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:02 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_RNS_010
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	DTOXS
+DES	Cardiomyocyte "Efficacy/Toxicity Ratio" Joint project- Collaborators: ISMMS, UCI, HMS, Broad/Golub, Broad/Jaffe, OHSU & DCIC*
+ASY	RNASeq
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEGs	gene list
+ORG	Homo sapiens	
+TKS	
+LV1	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:02 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_PRT_011
+DSN	MS Protein Quantification Assay
+CTR	DTOXS
+DES	Cardiomyocyte "Efficacy/Toxicity Ratio" Joint project- Collaborators: ISMMS, UCI, HMS, Broad/Golub, Broad/Jaffe, OHSU & DCIC*
+ASY	Proteomics
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEPs	protein list
+ORG	Homo sapiens	
+TKS	
+LV1	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:02 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_WBP_012
+DSN	Western Blot / PCR Assay
+CTR	DTOXS
+DES	Cardiomyocyte "Efficacy/Toxicity Ratio" Joint project- Collaborators: ISMMS, UCI, HMS, Broad/Golub, Broad/Jaffe, OHSU & DCIC*
+ASY	Western blots/PCR (validation assays)
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	image	image
+ORG	Homo sapiens	
+TKS	
+LV1	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Sat Oct 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:03 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_RNS_013
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	RNASeq
+CLN	Mount Sinai iPSC-derived myocytes line 3	iPSC differentiated	normal	heart
+CLN	Mount Sinai iPSC-derived myocytes line 4	iPSC differentiated	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEGs	gene list
+ORG	Homo sapiens	
+TKS	
+LV1	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+LV4	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:03 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_PRT_014
+DSN	MS Protein Quantification Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	Proteomics
+CLN	Mount Sinai iPSC-derived myocytes line 3	iPSC differentiated	normal	heart
+CLN	Mount Sinai iPSC-derived myocytes line 4	iPSC differentiated	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	DEPs	protein list
+ORG	Homo sapiens	
+TKS	
+LV1	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+LV4	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:03 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_DTOXS_WBP_015
+DSN	Western Blot Assay
+CTR	DTOXS
+DES	Cardiotoxicity Signatures
+ASY	Western blots
+CLN	Mount Sinai iPSC-derived myocytes line 3	iPSC differentiated	normal	heart
+CLN	Mount Sinai iPSC-derived myocytes line 4	iPSC differentiated	normal	heart
+PRT	Afatinib	FDA approved drug
+PRT	Axitinib	FDA approved drug
+PRT	Bosutinib	FDA approved drug
+PRT	Cabozantinib	FDA approved drug
+PRT	Ceritinib	FDA approved drug
+PRT	Crizotinib	FDA approved drug
+PRT	Dabrafenib	FDA approved drug
+PRT	Dasatinib	FDA approved drug
+PRT	Erlotinib	FDA approved drug
+PRT	Gefitinib	FDA approved drug
+PRT	Imatinib	FDA approved drug
+PRT	Lapatinib	FDA approved drug
+PRT	Nilotinib	FDA approved drug
+PRT	Pazopanib	FDA approved drug
+PRT	ponatinib	FDA approved drug
+PRT	Regorafenib	FDA approved drug
+PRT	Ruxolitinib	FDA approved drug
+PRT	Sorafenib	FDA approved drug
+PRT	Sunitinib	FDA approved drug
+PRT	Tofacitinib	FDA approved drug
+PRT	Trametinib	FDA approved drug
+PRT	Vandetanib	FDA approved drug
+PRT	Vemurafenib	FDA approved drug
+PRT	Trastuzumab	FDA approved drug
+PRT	Trastuzumab + Ursodeoxycholic acid	FDA approved drug
+PRT	Trastuzumab + Loperamide	FDA approved drug
+PRT	Trastuzumab + Domperidone	FDA approved drug
+PRT	Sunitinib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sunitinib + Domperidone	FDA approved drug
+PRT	Sunitinib + Loparemide	FDA approved drug
+PRT	Sunitinib + Prednisolone	FDA approved drug
+PRT	Sorafenib + Ursodeoxycholic acid	FDA approved drug
+PRT	Sorafenib + Entecavir	FDA approved drug
+PRT	Sorafenib + Diethylpropion	FDA approved drug
+PRT	Sorafenib + Olmesartan	FDA approved drug
+PRT	Sorefenib + Diclofenac	FDA approved drug
+PRT	Dasatinib + Cytarabine	FDA approved drug
+PRT	Erlotinib + Cefuroxime	FDA approved drug
+PRT	Imatinib + Cyclosporine	FDA approved drug
+PRT	Ursodeoxycholic acid	FDA approved drug
+PRT	Loperamide	FDA approved drug
+PRT	Domperidone	FDA approved drug
+PRT	Prednisolone	FDA approved drug
+PRT	Entecavir	FDA approved drug
+PRT	Diethylpropion	FDA approved drug
+PRT	Olmesartan	FDA approved drug
+PRT	Diclofenac	FDA approved drug
+PRT	Cytarabine	FDA approved drug
+PRT	Cefuroxime	FDA approved drug
+PRT	Cyclosporine	FDA approved drug
+RDO	image	image
+ORG	Homo sapiens	
+TKS	
+LV1	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+LV4	Sun Jan 31 2016 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:03 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_LINCS-Transcriptomics_SHR_016
+DSN	L1000 Gene Expression Profiling Assay
+CTR	Broad-LINCS-Transcriptomics
+DES	L1000
+ASY	Evaluating shRNAs (vs CRISPRs)
+CLN	MCF7	cell line	cancer line	breast
+CLN	PC3	cell line	cancer line	prostate
+CLN	A375	cell line	cancer line	skin
+CLN	HT29	cell line	cancer line	ovarian
+CLN	HA1E	cell line	imm cells	colon
+CLN	A549	cell line	cancer line	lung
+PRT	EGFP(control)	genetic
+PRT	EGFR	genetic
+PRT	MUC1	genetic
+PRT	BRAF	genetic
+PRT	MTOR	genetic
+PRT	AKT2	genetic
+PRT	AURKB	genetic
+PRT	BIRC5	genetic
+PRT	MCL1	genetic
+PRT	MYL9	genetic
+PRT	ERBB3	genetic
+PRT	ERG	genetic
+PRT	PDGFA	genetic
+PRT	PIK3CA	genetic
+PRT	CXCR4	genetic
+PRT	KIT	genetic
+PRT	KRAS	genetic
+RDO	L1000 gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:03 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_LINCS-Transcriptomics_CRS_017
+DSN	L1000 Gene Expression Profiling Assay
+CTR	Broad-LINCS-Transcriptomics
+DES	L1000
+ASY	Evaluating CRISPRs (vs shRNAs)
+CLN	MCF7	cell line	cancer line	breast
+CLN	PC3	cell line	cancer line	prostate
+CLN	A375	cell line	cancer line	skin
+CLN	HT29	cell line	cancer line	ovarian
+CLN	HA1E	cell line	imm cells	colon
+CLN	A549	cell line	cancer line	lung
+PRT	EGFP(control)	genetic
+PRT	EGFR	genetic
+PRT	MUC1	genetic
+PRT	BRAF	genetic
+PRT	MTOR	genetic
+PRT	AKT2	genetic
+PRT	AURKB	genetic
+PRT	BIRC5	genetic
+PRT	MCL1	genetic
+PRT	MYL9	genetic
+PRT	ERBB3	genetic
+PRT	ERG	genetic
+PRT	PDGFA	genetic
+PRT	PIK3CA	genetic
+PRT	CXCR4	genetic
+PRT	KIT	genetic
+PRT	KRAS	genetic
+RDO	L1000 gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:03 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_LINCS-Transcriptomics_DEC_018
+DSN	L1000 Gene Expression Profiling Assay
+CTR	Broad-LINCS-Transcriptomics
+DES	L1000
+ASY	Deep exploration of cellular context (small-molecules)
+CLN	MCF7	cell line	cancer line	breast
+CLN	PC3	cell line	cancer line	prostate
+CLN	A375	cell line	cancer line	skin
+CLN	HT29	cell line	cancer line	ovarian
+CLN	HA1E	cell line	imm cells	colon
+CLN	A549	cell line	cancer line	lung
+CLN	HPAC	cell line	cancer line	pancreas
+PRT	acetyldiline (Ci-994)	chemical
+PRT	alpha-estradiol	chemical
+PRT	belinostat	chemical
+PRT	beta-estradiol	chemical
+PRT	BIX 01294	chemical
+PRT	BIX 01338	chemical
+PRT	CPI-169	chemical
+PRT	decitabine	chemical
+PRT	DMSO	chemical
+PRT	entinostat	chemical (MS275)
+PRT	fluphezine	chemical
+PRT	fulvestrant	chemical
+PRT	geldamycin	chemical
+PRT	genistein	chemical
+PRT	GSK-J4	chemical
+PRT	GSK1210151A	chemical
+PRT	gsk126	chemical
+PRT	GSK525762A	chemical
+PRT	jq1	chemical
+PRT	LY-294002	chemical
+PRT	methylstat	chemical
+PRT	Mitoxantrone	chemical
+PRT	monorden	chemical
+PRT	OSI-027	chemical
+PRT	rapamycin	chemical
+PRT	resveratrol	chemical
+PRT	salermide	chemical
+PRT	sirolimus	chemical
+PRT	staurosporine	chemical
+PRT	tanespamycin	chemical
+PRT	thioridazine	chemical
+PRT	tretinoin (atra)	chemical
+PRT	trichostatin a	chemical
+PRT	trifluoperazine	chemical
+PRT	troglitazone	chemical
+PRT	unc0321	chemical
+PRT	unc0646	chemical
+PRT	unc1215	chemical
+PRT	valproic acid	chemical
+PRT	vorinostat	chemical
+PRT	withaferin a	chemical
+PRT	wortmannin	chemical
+PRT	zebularine	chemical
+RDO	L1000 gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138
+MET	https://clue.io/start
+QCD	https://clue.io/start
+MOD	Sat Jul 18 2015 15:39:54 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_LINCS-Transcriptomics_DEC_019
+DSN	L1000 Gene Expression Profiling Assay
+CTR	Broad-LINCS-Transcriptomics
+DES	L1000
+ASY	Deep exploration of cellular context (biologicals)
+CLN	MCF7	cell line	cancer line	breast
+CLN	PC3	cell line	cancer line	prostate
+CLN	A375	cell line	cancer line	skin
+CLN	HT29	cell line	cancer line	ovarian
+CLN	HA1E	cell line	imm cells	colon
+CLN	A549	cell line	cancer line	lung
+CLN	HPAC	cell line	cancer line	pancreas
+PRT	acetyldiline (Ci-994)	chemical
+PRT	alpha-estradiol	chemical
+PRT	belinostat	chemical
+PRT	beta-estradiol	chemical
+PRT	BIX 01294	chemical
+PRT	BIX 01338	chemical
+PRT	CPI-169	chemical
+PRT	decitabine	chemical
+PRT	DMSO	chemical
+PRT	entinostat	chemical (MS275)
+PRT	fluphezine	chemical
+PRT	fulvestrant	chemical
+PRT	geldamycin	chemical
+PRT	genistein	chemical
+PRT	GSK-J4	chemical
+PRT	GSK1210151A	chemical
+PRT	gsk126	chemical
+PRT	GSK525762A	chemical
+PRT	jq1	chemical
+PRT	LY-294002	chemical
+PRT	methylstat	chemical
+PRT	Mitoxantrone	chemical
+PRT	monorden	chemical
+PRT	OSI-027	chemical
+PRT	rapamycin	chemical
+PRT	resveratrol	chemical
+PRT	salermide	chemical
+PRT	sirolimus	chemical
+PRT	staurosporine	chemical
+PRT	tanespamycin	chemical
+PRT	thioridazine	chemical
+PRT	tretinoin (atra)	chemical
+PRT	trichostatin a	chemical
+PRT	trifluoperazine	chemical
+PRT	troglitazone	chemical
+PRT	unc0321	chemical
+PRT	unc0646	chemical
+PRT	unc1215	chemical
+PRT	valproic acid	chemical
+PRT	vorinostat	chemical
+PRT	withaferin a	chemical
+PRT	wortmannin	chemical
+PRT	zebularine	chemical
+RDO	L1000 gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138
+MET	https://clue.io/start
+QCD	https://clue.io/start
+MOD	Sat Jul 18 2015 15:39:46 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_FIA_020
+DSN	20217: Viability and Apoptosis 
+CTR	HMS-LINCS
+DES	20217: Viability and apoptosis in BRAF(V600E/D) melanoma cell lines monitored by imaging: Data published in Fallahi-Sichani, et al. (2015) Mol Syst Biol. PMID: 25814555. Imaging assay - monitoring dose response of anti-mitotic compounds in human cancer cell lines at 24, 48, and 72 hours to determine their effects on apoptosis.  To score viability and apoptosis, a dye-based imaging assay was used; the cell-permeable DNA dye Hoechst 33342 was used to mark nuclei and DEVD-NucView488 caspase-3 substrate was used to mark apoptosis (stains nuclei of cells undergoing apoptosis, in which caspase 3 is active).
+ASY	Fluorescence Imaging Apoptosis and/or Cell Count Assay
+CLN	C32	cell line	cancer line	skin
+CLN	COLO858	cell line	cancer line	skin
+CLN	K2	cell line	cancer line	skin
+CLN	LOXIMVI	cell line	cancer line	skin
+CLN	MMACSF	cell line	cancer line	skin
+CLN	MZ7MEL	cell line	cancer line	skin
+CLN	RVH421	cell line	cancer line	skin
+CLN	SKMEL28	cell line	cancer line	skin
+CLN	WM115	cell line	cancer line	skin
+CLN	WM1552C	cell line	cancer line	skin
+PRT	AZ628	small molecule
+PRT	Selumetinib	small molecule
+PRT	Vemurafenib	small molecule
+PRT	PLX4720	small molecule
+PRT	SB590885	small molecule
+RDO	Nuclei/cell count	image
+RDO	Apoptotic cells	image
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20217/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_RPA_021
+DSN	20218: Phosphorylation State and Protein Levels 
+CTR	HMS-LINCS
+DES	20218: Phosphorylation state and protein levels measured in BRAF(V600E/D) melanoma cell lines monitored by Reverse Phase Protein Arrays (RPPA): Data published in Fallahi-Sichani, et al. (2015) Mol Syst Biol. Reverse Phase Protein Arrays - monitoring  phosphorylation state and protein levelsof 21 targets in BRAF(V600E/D) melanoma cell lines. Staining and analysis of RPPA data using validated antibodies were performed as described in Sevecka et al, 2011, PMID: 21296872. PMID: 25814555
+ASY	RPPA Protein State Assay
+CLN	C32	cell line	cancer line	skin
+CLN	COLO858	cell line	cancer line	skin
+CLN	K2	cell line	cancer line	skin
+CLN	LOXIMVI	cell line	cancer line	skin
+CLN	MMACSF	cell line	cancer line	skin
+CLN	MZ7MEL	cell line	cancer line	skin
+CLN	RVH421	cell line	cancer line	skin
+CLN	SKMEL28	cell line	cancer line	skin
+CLN	WM115	cell line	cancer line	skin
+CLN	WM1552C	cell line	cancer line	skin
+PRT	AZ628	small molecule
+PRT	Selumetinib	small molecule
+PRT	Vemurafenib	small molecule
+PRT	PLX4720	small molecule
+PRT	SB590885	small molecule
+RDO	pMEK(S217/221)	phosphorylation level
+RDO	pERK(T202/Y204)	phosphorylation level
+RDO	p-p90RSK(S380)	phosphorylation level
+RDO	p-p90RSK(T573)	phosphorylation level
+RDO	p-AKT(T308)	phosphorylation level
+RDO	p-AKT(S473)	phosphorylation level
+RDO	p-mTOR(S2448)	phosphorylation level
+RDO	p-p70S6K(T421/S424)	phosphorylation level
+RDO	p-p70S6K(T389)	phosphorylation level
+RDO	p-S6(S235/236)	phosphorylation level
+RDO	p-AMPK(T172)	phosphorylation level
+RDO	p-JNK(T183/Y185)	phosphorylation level
+RDO	Total c-Jun	phosphorylation level
+RDO	p-cJun(S63)	phosphorylation level
+RDO	p-P38(T180/Y182)	phosphorylation level
+RDO	p-HSP27(S82)	phosphorylation level
+RDO	p-NFKB(S536)	phosphorylation level
+RDO	Bim	phosphorylation level
+RDO	cPARP	phosphorylation level
+RDO	p-Histone H3(S10)	phosphorylation level
+RDO	p27 Kip1	phosphorylation level
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20218/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_FIP_022
+DSN	20219: Phosphorylation State and Protein Levels 
+CTR	HMS-LINCS
+DES	20219: Phosphorylation state and protein levels measured in BRAF(V600E/D) melanoma cell lines monitored by imaging: Data published in Fallahi-Sichani, et al. (2015) Mol Syst Biol. PMID: 25814555. Imaging assay - monitoring  protein (or phospho protein) levels of  7 targets. 
+ASY	Fluorescence Imaging Protein State Assay
+CLN	COLO858	cell line	cancer line	skin
+CLN	LOXIMVI	cell line	cancer line	skin
+CLN	WM115	cell line	cancer line	skin
+CLN	WM1552C	cell line	cancer line	skin
+PRT	Vemurafenib	small molecule
+PRT	JNK-IN-8	small molecule
+PRT	Vemurafenib + JNK-IN-8	small molecule
+RDO	p27 Kip1--Alexa488	image
+RDO	p-Histone H3(S10)--Alexa488	image
+RDO	Ki-67--Alexa488	image
+RDO	p-Rb(S807/S811)--Alexa568	image
+RDO	p-ERK(T202/Y204)--Alexa647	image
+RDO	p-S6(S235/S236--Alexa647	image
+RDO	p-cJun(S73)--Alexa647	image
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20219/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_KIS_023
+DSN	20220: KINOMEscan
+CTR	HMS-LINCS
+DES	20220: ZSTK474 KINOMEscan
+ASY	KINOMEscan Kinase-Small Molecule Binding Assay
+PRT	ZSTK474	small molecule
+RDO	KINOMEscan	
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20220/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_KIS_024
+DSN	20221: KINOMEscan
+CTR	HMS-LINCS
+DES	20221: MPS-1-IN-1 KINOMEscan
+ASY	KINOMEscan Kinase-Small Molecule Binding Assay
+PRT	MPS-1-IN-1	small molecule
+RDO	KINOMEscan	
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20221/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_KIS_025
+DSN	20222: KINOMEscan
+CTR	HMS-LINCS
+DES	20222: Ibrutinib KINOMEscan
+ASY	KINOMEscan Kinase-Small Molecule Binding Assay
+PRT	Ibrutinib	small molecule
+RDO	KINOMEscan	
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20222/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_KIS_026
+DSN	20223: KINOMEscan
+CTR	HMS-LINCS
+DES	20223: TGX221 KINOMEscan
+ASY	KINOMEscan Kinase-Small Molecule Binding Assay
+PRT	TGX221	small molecule
+RDO	KINOMEscan	
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20223/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_KIS_027
+DSN	20224: KINOMEscan
+CTR	HMS-LINCS
+DES	20224: BGJ398 KINOMEscan
+ASY	KINOMEscan Kinase-Small Molecule Binding Assay
+PRT	BGJ398	small molecule
+RDO	KINOMEscan	
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20224/
+MET	
+QCD	
+MOD	Mon Jul 20 2015 15:16:59 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_KIS_028
+DSN	20225: KINOMEscan
+CTR	HMS-LINCS
+DES	20225: CGP082996 KINOMEscan
+ASY	KINOMEscan Kinase-Small Molecule Binding Assay
+PRT	CGP082996	small molecule
+RDO	KINOMEscan	
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20225/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_KIS_029
+DSN	20227: KINOMEscan
+CTR	HMS-LINCS
+DES	20227: Baricitinib KINOMEscan
+ASY	KINOMEscan Kinase-Small Molecule Binding Assay
+PRT	Baricitinib	small molecule
+RDO	KINOMEscan	
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20227/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_KIS_030
+DSN	20228: KINOMEscan
+CTR	HMS-LINCS
+DES	20228: MRT67307 KINOMEscan
+ASY	KINOMEscan Kinase-Small Molecule Binding Assay
+PRT	MRT67307	small molecule
+RDO	KINOMEscan	
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20228/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_BBI_031
+DSN	Synovial Fibroblast 1: Secretion response 
+CTR	HMS-LINCS
+DES	Synovial Fibroblast 1: Secretion response of two primary human synovial fibroblast donor samples to a panel of 10 stimuli and 10 small molecule inhibitors. Bead-based sandwich immunoassays - To generate measures of the secretion response of two primary human synovial fibroblast donor samples to individual stimulation with 10 stimuli in the presence or absence with one of 10 kinase-targeted small molecule inhibitors. Supernatant levels of 51 cytokines, chemokines, growth factors, proteases, etc are quantified. 
+ASY	Bead-Based Immunoassay for Protein State
+CLN	Human fibroblast-like synoviocytes lot #2586			
+CLN	Human fibroblast-like synoviocytes-RA lot #2159			
+PRT	CI1040	small molecule
+PRT	A6730 (Sigma)	small molecule
+PRT	PI103	small molecule
+PRT	Lestaurtinib	small molecule
+PRT	Ruxolitinib	small molecule
+PRT	Tofacitinib	small molecule
+PRT	EO1428	small molecule
+PRT	JNK-IN-8	small molecule
+PRT	JNK-IN-11	small molecule
+PRT	IKK16	small molecule
+PRT	IL-1	protein
+PRT	TNFalpha	protein
+PRT	poly IC	protein
+RDO	Bioplex 27-plex and 21-plex cytokines kits (e.g. IL-6, GRO-a, MCP-1, IL-8, IP-10 and 43 other analytes) and MMP-1, -2, -3 kits from R&D Systems	
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV4	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_BBI_032
+DSN	Synovial Fibroblast 2: Secretion response 
+CTR	HMS-LINCS
+DES	Synovial Fibroblast 2: Secretion response of seven primary human synovial fibroblast donor samples to a panel of three stimuli, five small molecule inhibitors, and one clinical-grade therapeutic antibody. Bead-based sandwich immunoassays - To generate measures of the secretion response landscape of seven primary human synovial fibroblast donors samples to stimulation with three stimuli in the presence or absence ot targeted inhibitors, with a key goal of evaluating variability of secretion response across patient samples. Supernatant levels of 51 cytokines, chemokines, growth factors, proteases, etc, are quantified. Indepedent experimental replicates are collected on separate days. 
+ASY	Bead-Based Immunoassay for Protein State
+CLN	Human fibroblast-like synoviocytes lot #2586			
+CLN	Human fibroblast-like synoviocytes lot #2645			
+CLN	Human fibroblast-like synoviocytes lot #2759			
+CLN	Human fibroblast-like synoviocytes-RA lot #1869			
+CLN	Human fibroblast-like synoviocytes-RA lot 1931			
+CLN	Human fibroblast-like synoviocytes-RA lot #2159			
+CLN	Human fibroblast-like synoviocytes-RA lot #2708			
+PRT	PH 797804	small molecule
+PRT	JNK-IN-8	small molecule
+PRT	IKK16	small molecule
+PRT	Tofacitinib	small molecule
+PRT	5z-7-oxozeaenol	small molecule
+PRT	Tocilizumab	small molecule
+PRT	IL-1	protein
+PRT	TNFalpha	protein
+PRT	poly IC	protein
+RDO	Bioplex 27-plex and 21-plex cytokines kits (e.g. IL-6, GRO-a, MCP-1, IL-8, IP-10 and 43 other analytes) and MMP-1, -2, -3 kits from R&D Systems	
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV4	Thu Jun 30 2016 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_BBI_033
+DSN	Synovial Fibroblast 3: Composition of serial dilution 
+CTR	HMS-LINCS
+DES	Synovial Fibroblast 3: Composition of serial dilution of RA synovial fluids, secretion response of primary human synovial fibroblasts to exposure to serial dilutions of RA synovial fluids, secretion response of primary human synovial fibroblasts to exposure to RA synovial fluids in the presence of MAP3K7/TAK1 inhibitor 5z-7-oxozeaenol. 
+ASY	Bead-Based Immunoassay for Protein State
+CLN	Human fibroblast-like synoviocytes-RA lot #2159			
+PRT	5z-7-oxozeaenol	small molecule
+PRT	RA synovial fluid lot. no. 112050075	proteins
+PRT	RA synovial fluid lot no. 113060040	proteins
+PRT	RA synovial fluid lot no. 118050105	proteins
+PRT	interleukin-1alpha	protein
+RDO	Bioplex 27-plex and 21-plex cytokines kits (e.g. IL-6, GRO-a, MCP-1, IL-8, IP-10 and 43 other analytes) and MMP-1, -2, -3 kits from R&D Systems	
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	Thu Jun 30 2016 06:00:00 GMT+0000 (UTC)
+LV4	Fri Sep 30 2016 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:04 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIM_034
+DSN	Breast Cancer HCI1: High content images 
+CTR	HMS-LINCS
+DES	Breast Cancer HCI1: High content images of 4 breast cancer cell lines treated with 106 kinase inhibitors (plates LJP5-6); collaboration with the David Andrews lab (University of Toronto). Imaging assay - 4 cell lines treated with 3 different doses of the LJP5&6 plates of kinase inhibitors. Cells were stained with TMRE (mitochondria) and DRAQ5 (DNA/nuclei). Intensity, mophology and texture features were extracted at the well and single cell levels.
+ASY	Fluorescence Imaging Subcellular Morphology Assay
+CLN	BT20	cell line	cancer line	breast
+CLN	MCF10A	cell line	cancer line	breast
+CLN	MCF7	cell line	cancer line	breast
+CLN	MDAMB231	cell line	cancer line	breast
+PRT	106 compounds	small molecules
+RDO	Intensity, mophology and texture features (300+ features total)	image
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:05 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIM_035
+DSN	Breast Cancer HCI2: High content images 
+CTR	HMS-LINCS
+DES	Breast Cancer HCI2: High content images of 2 breast cancer cell lines treated with 106 kinase inhibitors (plates LJP5-6); complement to dataset Breast cancer HCI1. Imaging assay - 2 cell lines treated with 3 different doses of the LJP5&6 plates of kinase inhibitors. Cells will be  stained with TMRE (mitochondria) and DRAQ5 (DNA/nuclei). Intensity, mophology and texture features will be extracted at the well and single cell levels.
+ASY	Fluorescence Imaging Subcellular Morphology Assay
+CLN	HS578T	cell line	cancer line	breast
+PRT	106 compounds	small molecules
+RDO	Intensity, mophology and texture features (300+ features total)	image
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:05 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIP_036
+DSN	CycIF: Highly-multiplexed imaging 
+CTR	HMS-LINCS
+DES	CycIF: Highly-multiplexed imaging of cell responses to perturbagens. Imaging assay - This project focuses on development of a new method for highly-multiplexed imaging of fixed cells. This particular dataset presents serial imaging of cancer cell lines following kinase inhibition as a proof of concept for development of the method.
+ASY	Fluorescence Imaging Protein State Assay
+CLN	C32	cell line	cancer line	skin
+CLN	COLO858	cell line	cancer line	skin
+CLN	LOXIMVI	cell line	cancer line	skin
+CLN	MCF7	cell line	cancer line	breast
+CLN	MCF10A	cell line	cancer line	breast
+CLN	WM115	cell line	cancer line	skin
+CLN	WM1552C	cell line	cancer line	skin
+PRT	Vemurafenib(PLX4032)	small molecule
+PRT	PD98059	small molecule
+PRT	MK2206	small molecule
+PRT	SB230580	small molecule
+RDO	p-ERK1/2	phosphorylation level
+RDO	p-RB	phosphorylation level
+RDO	p-S6(235/236)	phosphorylation level
+RDO	p-S6(240/244)	phosphorylation level
+RDO	Ki-67	protein level
+RDO	p-H3	phosphorylation level
+RDO	p21	protein level
+RDO	SOX2	protein level
+RDO	p-Tyrosine	phosphorylation level
+RDO	PCNA	protein level
+RDO	cJun	protein level
+RDO	p-cJun	phosphorylation level
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Mon Jul 20 2015 19:22:06 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_SYS_037
+DSN	Apoptotic Threshold 1: Live-cell imaging assay 
+CTR	HMS-LINCS
+DES	Apoptotic Threshold 1: Live-cell imaging assay of cell viability in 5 cell lines treated with 6 apoptosis-modulating perturbagens individually and in combination. Data published in Roux et al. (2015) Mol Syst Biol. Imaging assay - Time-lapse, live-cell imaging of HeLa cells treated with a variety of perturbagens (TRAIL receptor agonists, over-expressed genes, and small molecules) individually and in combination to probe the apoptotic threshold defined by initiator caspase activation. PMID: 25953765
+ASY	Analysis
+CLN	HeLa	cell line	cancer line	cervix
+CLN	HeLa+FLIP-L	cell line	cancer line	cervix
+CLN	HeLa+FLIP-S	cell line	cancer line	cervix
+CLN	HeLa+Bcl-2	cell line	cancer line	cervix
+CLN	HeLa+Bcl-XL	cell line	cancer line	cervix
+PRT	Bortezomib	small molecule
+PRT	ABT-263	small molecule
+PRT	TRAIL	ligand
+PRT	Apomab	antibody
+PRT	Mapatumumab	antibody
+PRT	anti-Fc antibody	antibody
+RDO	Cell count	image
+RDO	Apoptotic fraction	image
+RDO	Caspase-8 activity	image
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:05 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIP_038
+DSN	FoxO3a Dynamics: Live-cell imaging assay 
+CTR	HMS-LINCS
+DES	FoxO3a Dynamics: Live-cell imaging assay of ligand-responsive FoxO3a dynamics in a mammary epithelial cell line. Imaging assay - Time-lapse, live-cell imaging of FoxO3a reporter dynamics across treatment doses of 6 ligands in a mammary epithelial cell line.
+ASY	Fluorescence Imaging Protein State Assay
+CLN	184A1-F3aN400	cell line	normal	breast
+PRT	IGF1	cytokine/growth factor
+PRT	HRG	cytokine/growth factor
+PRT	HGF	cytokine/growth factor
+PRT	EGF	cytokine/growth factor
+PRT	BTC	cytokine/growth factor
+PRT	EPR	cytokine/growth factor
+RDO	FoxO3a localization	
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Jun 30 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Jun 30 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:05 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIP_039
+DSN	BRAF4: Phosphorylation state and levels of signaling 
+CTR	HMS-LINCS
+DES	BRAF4: Phosphorylation state and levels of signaling and cell state markers measured in BRAF(V600E/D) melanoma cell lines in response to drug in the presence or absence of cytokine monitored by highly. Imaging assay - monitoring  protein (or phospho protein) levels of  multiple targets.  multiplex (~12-plex) immunofluorescence imaging.
+ASY	Fluorescence Imaging Protein State Assay
+CLN	C32	cell line	cancer line	skin
+CLN	COLO858	cell line	cancer line	skin
+CLN	MMACSF	cell line	cancer line	skin
+CLN	WM115	cell line	cancer line	skin
+CLN	MZ7MEL	cell line	cancer line	skin
+PRT	Vemurafenib	small molecule
+PRT	EGF	cytokine/growth factor
+PRT	PDGF	cytokine/growth factor
+PRT	NRG	cytokine/growth factor
+PRT	IGF	cytokine/growth factor
+PRT	FGF	cytokine/growth factor
+PRT	HGF	cytokine/growth factor
+PRT	TGF-Beta	cytokine/growth factor
+PRT	TNF	cytokine/growth factor
+RDO	p-ERK, pS6, p-Rb, Ki67, and other target proteins	
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:05 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIA_040
+DSN	BRAF5: Viability and apoptosis 
+CTR	HMS-LINCS
+DES	BRAF5: Viability and apoptosis in BRAF(V600E/D) melanoma cell lines  in response to drug in the presence or absence of cytokine monitored by imaging. Imaging assay - monitoring dose response of anti-mitotic compounds in human cancer cell lines at 72 to 96 hours to determine their effects on apoptosis.  To score viability and apoptosis, a dye-based imaging assay will be used; the cell-permeable DNA dye Hoechst 33342 is used to mark nuclei and DEVD-NucView488 caspase-3 substrate is used to mark apoptosis (stains nuclei of cells undergoing apoptosis, in which caspase 3 is active).
+ASY	Fluorescence Imaging Apoptosis and/or Cell Count Assay
+CLN	C32	cell line	cancer line	skin
+CLN	COLO858	cell line	cancer line	skin
+CLN	MMACSF	cell line	cancer line	skin
+CLN	WM115	cell line	cancer line	skin
+CLN	MZ7MEL	cell line	cancer line	skin
+PRT	Vemurafenib	small molecule
+PRT	EGF	cytokine/growth factor
+PRT	PDGF	cytokine/growth factor
+PRT	NRG	cytokine/growth factor
+PRT	IGF	cytokine/growth factor
+PRT	FGF	cytokine/growth factor
+PRT	HGF	cytokine/growth factor
+PRT	TGF-Beta	cytokine/growth factor
+PRT	TNF	cytokine/growth factor
+RDO	Nuclei/cell count	image
+RDO	Apoptotic cells	image
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:05 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIP_041
+DSN	BRAF6: Phosphorylation state and levels
+CTR	HMS-LINCS
+DES	BRAF6: Phosphorylation state and levels of ~24 transcription factors measured in BRAF(V600E/D) melanoma cell lines monitored by imaging. Imaging assay - monitoring  protein (or phospho protein) levels of  multiple targets. 
+ASY	Fluorescence Imaging Protein State Assay
+CLN	COLO858	cell line	cancer line	skin
+CLN	WM115	cell line	cancer line	skin
+CLN	MMACSF	cell line	cancer line	skin
+CLN	MZ7MEL	cell line	cancer line	skin
+PRT	Vemurafenib	small molecule
+RDO	c-Jun, p-cJun, Foxo3a, p-Stat3, NFkB, and other target proteins	
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:05 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIA_042
+DSN	Breast Cancer Density: Imaging assay 
+CTR	HMS-LINCS
+DES	Breast Cancer Density: Imaging assay of the density- and context-dependence of drug response in breast cancer cell lines. Imaging assay - Image-based analysis of cell counts to measure the density- and context-dependence of drug responses in breast cancer cell lines.
+ASY	Fluorescence Imaging Apoptosis and/or Cell Count Assay
+CLN	BT20	cell line	cancer line	breast
+CLN	HS578T	cell line	cancer line	breast
+CLN	MCF10	cell line	cancer line	breast
+CLN	MCF7	cell line	cancer line	breast
+CLN	MDAMB231	cell line	cancer line	breast
+CLN	SKBR3	cell line	cancer line	breast
+PRT	12 compounds	small molecules
+RDO	Cell count	image
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Jun 30 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Jun 30 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:05 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_MSP_043
+DSN	Proteomics 1: Basal total proteome for 10 ICBP43
+CTR	HMS-LINCS
+DES	Proteomics 1: Basal total proteome for 10 ICBP43 cell lines. Tandem Mass Tag (TMT) mass spectrometry to profile the basal total proteome for 10 ICBP43 cell lines (no perturbagen).
+ASY	Mass Spectrometry Protein State Assay
+CLN	BT20	cell line	cancer line	breast
+CLN	BT549	cell line	cancer line	breast
+CLN	HCC1806	cell line	cancer line	breast
+CLN	HCC70	cell line	cancer line	breast
+CLN	HS578T	cell line	cancer line	breast
+CLN	MCF10	cell line	cancer line	breast
+CLN	MCF7	cell line	cancer line	breast
+CLN	MDAMB231	cell line	cancer line	breast
+CLN	SKBR3	cell line	cancer line	breast
+RDO	Mass spec	
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_MSP_044
+DSN	Proteomics 2: Basal phosphoproteome for 10 ICBP43 
+CTR	HMS-LINCS
+DES	Proteomics 2: Basal phosphoproteome for 10 ICBP43 cell lines. Tandem Mass Tag (TMT) mass spectrometry to profile the basal phosphoproteome for 10 ICBP43 cell lines (no perturbagen).
+ASY	Mass Spectrometry Protein State Assay
+CLN	BT20	cell line	cancer line	breast
+CLN	BT549	cell line	cancer line	breast
+CLN	HCC1806	cell line	cancer line	breast
+CLN	HCC70	cell line	cancer line	breast
+CLN	HS578T	cell line	cancer line	breast
+CLN	MCF10	cell line	cancer line	breast
+CLN	MCF7	cell line	cancer line	breast
+CLN	MDAMB231	cell line	cancer line	breast
+CLN	SKBR3	cell line	cancer line	breast
+RDO	Mass spec	
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_MSP_045
+DSN	Proteomics 3: Basal cell surface proteome for the ICBP43
+CTR	HMS-LINCS
+DES	Proteomics 3: Basal cell surface proteome for the ICBP43 cell line panel. Tandem Mass Tag (TMT) mass spectrometry to profile the basal cell surface proteome for the ICBP43 cell line panel (no perturbagen).
+ASY	Mass Spectrometry Protein State Assay
+CLN	~40 cell lines from the ICBP43 panel			
+RDO	Mass spec	
+ORG	Homo sapiens	
+TKS	
+LV1	Fri Sep 30 2016 06:00:00 GMT+0000 (UTC)
+LV2	Fri Sep 30 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIA_046
+DSN	LJP5&6-growth inhibition/single drugs
+CTR	HMS-LINCS
+DES	LJP5&6-growth inhibition/single drugs: Sensitivity measures of 6 breast cancer cell lines to treatment plates LJP5&6 (106 kinase inhibitors); complement to dataset LJP5&6-L1000/single drugs. Imaging assay - To generate measures of the sensitivities of 6 cell lines to LJP5&6 plates of kinase inhibitors, we treated cells with single drugs and measured the cell number after three days of drug exposure.  
+ASY	Fluorescence Imaging Apoptosis and/or Cell Count Assay
+CLN	BT20	cell line	cancer line	breast
+CLN	HS578T	cell line	cancer line	breast
+CLN	MCF10A	cell line	cancer line	breast
+CLN	MCF7	cell line	cancer line	breast
+CLN	MDAMB231	cell line	cancer line	breast
+CLN	SKBR3	cell line	cancer line	breast
+PRT	106 compounds	small molecules
+RDO	Nuclei/cell count	kinase inhibitor sensitivity measurements
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV4	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIA_047
+DSN	LJP5&6-growth inhibition/drug combinations
+CTR	HMS-LINCS
+DES	LJP5&6-growth inhibition/drug combinations: Sensitivity measures of 6 breast cancer cell lines to combination treatment of kinase inhibitors based on results of dataset LJP5&6-growth inhibition/single drugs. Imaging assay - To generate measures of the sensitivities of some cell lines to combinations of kinase inhibitors, we treated cells with drugs and measured the cell number after three days of drug exposure.  
+ASY	Fluorescence Imaging Apoptosis and/or Cell Count Assay
+CLN	TBD among cell lines from LJP5&6-growth inhibition/ single drugs			
+PRT	among HMSL compounds	
+RDO	Nuclei/cell count	kinase inhibitor sensitivity measurements
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIA_048
+DSN	20215: Sensitivity measures of MDA-MB-231 and HME-1 cell lines
+CTR	HMS-LINCS
+DES	20215: Sensitivity measures of MDA-MB-231 and HME-1 cell lines to LINCS Phase I Common Cell Line Project kinase inhibitors - single drug treatments. Imaging assay - monitoring cell number via Hoechst 33342 (nuclei) staining. To generate measures of the sensitivities of two cell lines to LINCS Phase I Common Cell Line Project kinase inhibitors we treated cells with single drugs at multiple concentrations. After 3 days of incubation, cells were stained with Hoechst 33342 and nuclei were counted. Cell numbers after drug exposure were compared with numbers present on Day 0, immediately after drug was added. Calculated metrics (IC50, GI50, EC50, Hill coefficient and Einf) from these data are available in HMS-LINCS dataset 20216.
+ASY	Fluorescence Imaging Apoptosis and/or Cell Count Assay
+CLN	HME1	cell line	normal	breast
+CLN	MDAMB231	cell line	normal	breast
+PRT	GDC0941	small molecule
+PRT	MK2206	small molecule
+PRT	WYE125132	small molecule
+PRT	Torin1	small molecule
+PRT	PD0325901	small molecule
+RDO	Nuclei/cell count	kinase inhibitor sensitivity measurements
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Mar 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Mar 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Mar 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20215/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_SYS_049
+DSN	20216: Metrics for growth responses of MDA-MB-231 and HME-1 cell lines
+CTR	HMS-LINCS
+DES	20216: Metrics for growth responses of MDA-MB-231 and HME-1 cell lines to LINCS Phase I Common Cell Line Project kinase inhibitors - single drug treatments. Analysis Dataset - This dataset presents calculated metrics (IC50, GI50, EC50, Hill coefficient and Einf) for the data in HMS-LINCS dataset #20215. The data in #20215 are measures of the sensitivities of two cell lines to the LINCS Phase I Common Cell Line kinase inhibitors - cells were treated with single drugs and cell number was measured after three days of drug exposure.
+ASY	Analysis
+CLN	HME1	cell line	normal	breast
+CLN	MDAMB231	cell line	normal	breast
+PRT	GDC0941	small molecule
+PRT	MK2206	small molecule
+PRT	WYE125132	small molecule
+PRT	Torin1	small molecule
+PRT	PD0325901	small molecule
+RDO	IC50, GI50, EC50, Hill coefficient, and Einf	
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Mar 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Mar 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Mar 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	
+PUB	
+DTA	http://lincs.hms.harvard.edu/db/datasets/20216/
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_HMS-LINCS_FIA_050
+DSN	Drug Combination 1: Sensitivity measures of MDA-MB-231 and HME-1 cell lines
+CTR	HMS-LINCS
+DES	Drug Combination 1: Sensitivity measures of MDA-MB-231 and HME-1 cell lines to selected kinase inhibitors - drug combinations. Imaging assay - monitoring cell number via Hoechst 33342 (nuclei) staining. To generate measures of the sensitivities of two cell lines to LINCS Phase I Common Cell Line Project kinase inhibitors we treated cells with two drugs at a time and measured the cell number after three days of drug exposure.  All pairwise combinations have been tested. Dataset Drug Combination 2 tests the same cell/drug conditions with L1000 readout.
+ASY	Fluorescence Imaging Apoptosis and/or Cell Count Assay
+CLN	HME1	cell line	normal	breast
+CLN	MDAMB231	cell line	normal	breast
+PRT	GDC0941	small molecule
+PRT	MK2206	small molecule
+PRT	WYE125132	small molecule
+PRT	Torin1	small molecule
+PRT	PD0325901	small molecule
+RDO	Nuclei/cell count	kinase inhibitor sensitivity measurements
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_L1K_051
+DSN	Drug Combination 2: L1000 response of MDA-MB-231 and HME-1 cell lines
+CTR	HMS-LINCS
+DES	Drug Combination 2: L1000 response of MDA-MB-231 and HME-1 cell lines to selected kinase inhibitors - drug combinations. Transcriptional response dataset - corresponding to the cell/drug conditions tested in dataset Drug Combination 1, but measured with the L1000 assay at the Broad Institute.
+ASY	L1000 mRNA Profiling Assay
+CLN	HME1	cell line	normal	breast
+CLN	MDAMB231	cell line	normal	breast
+PRT	GDC0941	small molecule
+PRT	MK2206	small molecule
+PRT	WYE125132	small molecule
+PRT	Torin1	small molecule
+PRT	PD0325901	small molecule
+RDO	L1000 gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_HMS-LINCS_FIA_052
+DSN	CCCLP1: Phenotypic responses by imaging of CCCLP cell lines 
+CTR	HMS-LINCS
+DES	CCCLP1: Phenotypic responses by imaging of CCCLP cell lines to selected kinase inhibitors. Imaging assay - phenotypic responses of 5 cell lines to up to 100 small molecule perturbations at a single timepoint (carried out in dose response).
+ASY	Fluorescence Imaging Apoptosis and/or Cell Count Assay
+CLN	MCF7	cell line	cancer line	breast
+CLN	PC3	cell line	cancer line	prostate
+CLN	A549	cell line	cancer line	lung
+CLN	A375	cell line	cancer line	skin
+CLN	HPAC	cell line	cancer line	pancreas
+PRT	100 compounds	small molecules
+RDO	Nuclei/cell count	image
+RDO	Cell viability	
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Jun 30 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Jun 30 2016 06:00:00 GMT+0000 (UTC)
+LV3	
+LV4	
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_LINCS-PCCSE_P1M_053
+DSN	P100 Phosphoprotein Quantification Assay
+CTR	Broad-LINCS-PCCSE
+DES	Reduced Representation Phosphoprofiling
+ASY	P100
+CLN	MCF7	cell line	cancer line	breast
+CLN	PC3	cell line	cancer line	prostate
+CLN	A549	cell line	cancer line	lung
+CLN	A375	cell line	cancer line	skin
+CLN	undefined	cell line	cancer line	pancreas
+CLN	NPC	cell line	differentiated line	brain
+PRT	 tranche2	chemical
+PRT	1271738-62-5 (MI-2)	chemical
+PRT	acetyldiline (Ci-994)	chemical
+PRT	belinostat	chemical
+PRT	BIX 01294	chemical
+PRT	CPI-169	chemical
+PRT	decitabine	chemical
+PRT	DMSO	chemical
+PRT	entinostat (MS275)	chemical
+PRT	EPZ-5676	chemical
+PRT	EPZ-5687	chemical
+PRT	EPZ004777	chemical
+PRT	EX527	chemical
+PRT	geldamycin	chemical
+PRT	GSK-J4	chemical
+PRT	GSK1210151A	chemical
+PRT	gsk126	chemical
+PRT	GSK525762A	chemical
+PRT	jq1	chemical
+PRT	LY-294002	chemical
+PRT	methylstat	chemical
+PRT	OSI-027	chemical
+PRT	rapamycin	chemical
+PRT	resveratrol	chemical
+PRT	salermide	chemical
+PRT	staurosporine	chemical
+PRT	trichostatin-a	chemical
+PRT	UNC0321	chemical
+PRT	UNC0646	chemical
+PRT	UNC1215	chemical
+PRT	vorinostat	chemical
+PRT	zebularine	chemical
+RDO	protein levels	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	https://panoramaweb.org/labkey/project/LINCS/P100/begin.view
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_LINCS-PCCSE_GCP_054
+DSN	Global Chromatin Profiling Epigenetic Profiling Assay
+CTR	Broad-LINCS-PCCSE
+DES	Global Chromatin Profiling
+ASY	GCP
+CLN	MCF7	cell line	cancer line	breast
+CLN	PC3	cell line	cancer line	prostate
+CLN	A549	cell line	cancer line	lung
+CLN	A375	cell line	cancer line	skin
+CLN	undefined	cell line	cancer line	pancreas
+CLN	NPC	cell line	differentiated line	brain
+PRT	 tranche2	chemical
+PRT	1271738-62-5 (MI-2)	chemical
+PRT	acetyldiline (Ci-994)	chemical
+PRT	belinostat	chemical
+PRT	BIX 01294	chemical
+PRT	CPI-169	chemical
+PRT	decitabine	chemical
+PRT	DMSO	chemical
+PRT	entinostat (MS275)	chemical
+PRT	EPZ-5676	chemical
+PRT	EPZ-5687	chemical
+PRT	EPZ004777	chemical
+PRT	EX527	chemical
+PRT	geldamycin	chemical
+PRT	GSK-J4	chemical
+PRT	GSK1210151A	chemical
+PRT	gsk126	chemical
+PRT	GSK525762A	chemical
+PRT	jq1	chemical
+PRT	LY-294002	chemical
+PRT	methylstat	chemical
+PRT	OSI-027	chemical
+PRT	rapamycin	chemical
+PRT	resveratrol	chemical
+PRT	salermide	chemical
+PRT	staurosporine	chemical
+PRT	trichostatin-a	chemical
+PRT	UNC0321	chemical
+PRT	UNC0646	chemical
+PRT	UNC1215	chemical
+PRT	vorinostat	chemical
+PRT	zebularine	chemical
+RDO	histone modifications	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	https://panoramaweb.org/labkey/project/LINCS/GCP/begin.view
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:06 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_NeuroLINCS_IMN_055
+DSN	Fluorescence Imaging Cell Viability Assay
+CTR	NeuroLINCS
+DES	Imaging assay--monitoring cell survival in control, ALS, and SMA iMNs. iMNs will be transfected with a fluorescence reporter and imaged daily for 10 days. Images will be run through a custom analysis software package that tracks individual cells over time. The time of death (if it occurs) for each neuron will be determined. Neurite arborization will be determined using custom software analysis on these images. .
+ASY	iMN toxicity as determined by RM
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	cell fluorescence	image
+RDO	survival time	image
+RDO	morphology	image
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:07 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_IMN_056
+DSN	Fluorescence Imaging Cell Viability Assay
+CTR	NeuroLINCS
+DES	Imaging assay--monitoring cell survival in control, ALS, and SMA iMNs. iMNs will be transfected with a fluorescence reporter and imaged daily for 10 days. Images will be run through a custom analysis software package that tracks individual cells over time. The time of death (if it occurs) for each neuron will be determined. Neurite arborization will be determined using custom software analysis on these images. .
+ASY	iMN toxicity as determined by RM
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	cell fluorescence	image
+RDO	survival time	image
+RDO	morphology	image
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:07 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_IMN_057
+DSN	Fluorescence Imaging Cell Viability Assay
+CTR	NeuroLINCS
+DES	Imaging assay--monitoring cell survival in control, ALS, and SMA iMNs. iMNs will be transfected with a fluorescence reporter and imaged daily for 10 days. Images will be run through a custom analysis software package that tracks individual cells over time. The time of death (if it occurs) for each neuron will be determined. Neurite arborization will be determined using custom software analysis on these images. .
+ASY	iMN toxicity as determined by RM
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	cell fluorescence	image
+RDO	survival time	image
+RDO	morphology	image
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:07 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_IMN_058
+DSN	Fluorescence Imaging Cell Viability Assay
+CTR	NeuroLINCS
+DES	iPSN Sensitivity to Glutamate-induced Toxicity. To test iPSN sensitivity to glutamate-induced excitotoxicity,  control and ALS/SMA iPSNs will be treated with various concentrations of L-glutamate (1, 3, 10, 30, 100 uM) for 2 to 8 hr in NDM, all concentrations for each experiment will be performed in triplicate. At the appropriate time point, cells will be incubated with 1 uM propidium iodide and 1 uM calcein AM for 30 min to visualize dead and live cells, respectively.  Five to ten fields of view will then be imaged for each treatment using excitation/emission filters of 535/617 nm and 495/515 nm for propidium iodide and calcein AM, respectively. The number of propidium iodide positive and calcein AM iPSNs will be quantified using Image J over 3 separate experiments. 
+ASY	iMN glutamate toxicity- Excitotoxicity
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+PRT	L-glutamate	small molecule
+RDO	cell fluorescence after propidium iodide	image
+RDO	number of cells with PI uptake	image features
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:07 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_IMN_059
+DSN	Fluorescence Imaging Cell Viability Assay
+CTR	NeuroLINCS
+DES	iPSN Sensitivity to Glutamate-induced Toxicity. To test iPSN sensitivity to glutamate-induced excitotoxicity,  control and ALS/SMA iPSNs will be treated with various concentrations of L-glutamate (1, 3, 10, 30, 100 uM) for 2 to 8 hr in NDM, all concentrations for each experiment will be performed in triplicate. At the appropriate time point, cells will be incubated with 1 uM propidium iodide and 1 uM calcein AM for 30 min to visualize dead and live cells, respectively.  Five to ten fields of view will then be imaged for each treatment using excitation/emission filters of 535/617 nm and 495/515 nm for propidium iodide and calcein AM, respectively. The number of propidium iodide positive and calcein AM iPSNs will be quantified using Image J over 3 separate experiments. 
+ASY	iMN glutamate toxicity- Excitotoxicity
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+PRT	L-glutamate	small molecule
+RDO	cell fluorescence after propidium iodide	image
+RDO	number of cells with PI uptake	image features
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:07 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_IMN_060
+DSN	Fluorescence Imaging Cell Viability Assay
+CTR	NeuroLINCS
+DES	iPSN Sensitivity to Glutamate-induced Toxicity. To test iPSN sensitivity to glutamate-induced excitotoxicity,  control and ALS/SMA iPSNs will be treated with various concentrations of L-glutamate (1, 3, 10, 30, 100 uM) for 2 to 8 hr in NDM, all concentrations for each experiment will be performed in triplicate. At the appropriate time point, cells will be incubated with 1 uM propidium iodide and 1 uM calcein AM for 30 min to visualize dead and live cells, respectively.  Five to ten fields of view will then be imaged for each treatment using excitation/emission filters of 535/617 nm and 495/515 nm for propidium iodide and calcein AM, respectively. The number of propidium iodide positive and calcein AM iPSNs will be quantified using Image J over 3 separate experiments. 
+ASY	iMN glutamate toxicity- Excitotoxicity
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+PRT	L-glutamate	small molecule
+RDO	cell fluorescence after propidium iodide	image
+RDO	number of cells with PI uptake	image features
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:07 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_IMN_061
+DSN	Fluorescence Imaging Cell Viability Assay
+CTR	NeuroLINCS
+DES	Sensitivity to tunicamycin/ER Stress.  iPS neurons will be  differentiated in 24 well plates for 39 days before treatment with increasing tunicamycin concentrations (0, 0.1, 0.3, 0.6, 1.0, or 3.0 uM). After 24 h of incubation with tunicamycin, 0.5 uM of propidium iodide (PI) will be added to each well and incubated for 30 minutes. The PI signal will be imaged. For each treatment and dose, at least 10 images were taken per experiment, and the number of iPS neurons exhibiting PI uptake will be quantified using the analyze particle function of the Image J software (NIH).
+ASY	iMN Tunicamycin Toxicity: ER Stress
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+PRT	tunicamycin	small molecule
+RDO	cell fluorescence after propidium iodide	image
+RDO	number of cells with PI uptake	image features
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:07 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_IMN_062
+DSN	Fluorescence Imaging Cell Viability Assay
+CTR	NeuroLINCS
+DES	Sensitivity to tunicamycin/ER Stress.  iPS neurons will be  differentiated in 24 well plates for 39 days before treatment with increasing tunicamycin concentrations (0, 0.1, 0.3, 0.6, 1.0, or 3.0 uM). After 24 h of incubation with tunicamycin, 0.5 uM of propidium iodide (PI) will be added to each well and incubated for 30 minutes. The PI signal will be imaged. For each treatment and dose, at least 10 images were taken per experiment, and the number of iPS neurons exhibiting PI uptake will be quantified using the analyze particle function of the Image J software (NIH).
+ASY	iMN Tunicamycin Toxicity: ER Stress
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+PRT	tunicamycin	small molecule
+RDO	cell fluorescence after propidium iodide	image
+RDO	number of cells with PI uptake	image features
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:07 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_IMN_063
+DSN	Fluorescence Imaging Cell Viability Assay
+CTR	NeuroLINCS
+DES	Sensitivity to tunicamycin/ER Stress.  iPS neurons will be  differentiated in 24 well plates for 39 days before treatment with increasing tunicamycin concentrations (0, 0.1, 0.3, 0.6, 1.0, or 3.0 uM). After 24 h of incubation with tunicamycin, 0.5 uM of propidium iodide (PI) will be added to each well and incubated for 30 minutes. The PI signal will be imaged. For each treatment and dose, at least 10 images were taken per experiment, and the number of iPS neurons exhibiting PI uptake will be quantified using the analyze particle function of the Image J software (NIH).
+ASY	iMN Tunicamycin Toxicity: ER Stress
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+PRT	tunicamycin	small molecule
+RDO	cell fluorescence after propidium iodide	image
+RDO	number of cells with PI uptake	image features
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:07 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_RNS_064
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	NeuroLINCS
+DES	Baseline RNAseq for control and diseased iPSC lines. Baseline gene expression dataset for QC and pipeline development -- 11 total control iPSC cell lines 3 in triplicate and 1 in duplicate and 28 diseased iPSC, 4 ALS and 4 SMA with replicates and with no additional perturbagen. Determine cell line variability and assay reproducibility. RNAseq QC statistics and expression correlation statistics will guide the development of QC standards and appropriate analysis pipeline.
+ASY	RNASeq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	http://neurolincs.org/index.php?pageID=7
+MET	http://neurolincs.org/index.php?pageID=7
+QCD	
+MOD	Wed Jul 22 2015 14:27:06 GMT+0000 (UTC)
+APR	YES
+REL	YES
+
+DID	LINCS_NeuroLINCS_RNS_065
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	NeuroLINCS
+DES	Baseline RNAseq for control and diseased iPSC lines. Baseline gene expression dataset for QC and pipeline development -- 11 total control iPSC cell lines 3 in triplicate and 1 in duplicate and 28 diseased iPSC, 4 ALS and 4 SMA with replicates and with no additional perturbagen. Determine cell line variability and assay reproducibility. RNAseq QC statistics and expression correlation statistics will guide the development of QC standards and appropriate analysis pipeline.
+ASY	RNASeq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_RNS_066
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	NeuroLINCS
+DES	RNAseq for control and diseased iMNs. Baseline gene expression dataset for iMN and diseased state signature -- 4 control, 4 ALS, and 4 SMA iPSC-derived iMN with replicates and with no additional perturbagen. Generate gene expression signatures and analyze disease/control contrast for statistically significant differentially expressed genes. Generate disease signatures for future systems analysis: pathway, network, and category enrichment analysis, as well as for integration with other omics and machine learning analyses. 
+ASY	RNASeq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_RNS_067
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	NeuroLINCS
+DES	RNAseq for control and diseased iMNs. Baseline gene expression dataset for iMN and diseased state signature -- 4 control, 4 ALS, and 4 SMA iPSC-derived iMN with replicates and with no additional perturbagen. Generate gene expression signatures and analyze disease/control contrast for statistically significant differentially expressed genes. Generate disease signatures for future systems analysis: pathway, network, and category enrichment analysis, as well as for integration with other omics and machine learning analyses. 
+ASY	RNASeq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_RNS_068
+DSN	RNA-Seq Gene Expression Profiling Assay
+CTR	NeuroLINCS
+DES	RNASeq for control and diseased iMNs plus perturbagens. Gene expression dataset for iMN and disease signature response to perturbagens -- 4 control, 4 ALS, and 4 SMA iPSC-derived iMN with replicates plus additional perturbagen. Generate gene expression signatures and for both disease and control and analyze perturb/disease & perturb/control contrasts for statistically significant differentially expressed genes. Using a GLM setup multi-factor design matrix to analyze disease vs control with each perturbagen as an additional factor. Generate signatures for future systems analysis: pathway, network, and category enrichment analysis, as well as for integration with other omics and machine learning analyses. 
+ASY	RNASeq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+PRT	L-glutamate	small molecule
+RDO	gene expression	number
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_SOP_069
+DSN	MS Protein Quantification Assay
+CTR	NeuroLINCS
+DES	MS analysis on the QE and or Triple TOF MS instrument  of trypsin digested  iPSC derived from 4 control, 4 ALS and 4 SMA lines for 3 different wells at  multiple cell passages.
+ASY	QC and SOP development for proteomic analysis iPSC to motor neuron differentiation
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	protein levels	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_SOP_070
+DSN	MS Protein Quantification Assay
+CTR	NeuroLINCS
+DES	MS analysis on the QE and or Triple TOF MS instrument  of trypsin digested  iPSC derived from 4 control, 4 ALS and 4 SMA lines for 3 different wells at  multiple cell passages.
+ASY	QC and SOP development for proteomic analysis iPSC to motor neuron differentiation
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	protein levels	number
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_SWT_071
+DSN	SWATH-MS Protein Quantification Assay
+CTR	NeuroLINCS
+DES	SWATH: Global cellular protein quantification of iPSCs and motor neuron cultures. Build MS SWATH peptide library using the QE and 6600 MS instrument and use the library to identifiy and quantitate the proteome of individual control and disease cell lines. A) Build SWATH Library on iPSCs and motor neuron cell cultures. B) Run individual iPSC cells.C) Run individual mature motor neurons 
+ASY	Quantitative discovery proteomics (SWATH)
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	protein levels	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_SWT_072
+DSN	SWATH-MS Protein Quantification Assay
+CTR	NeuroLINCS
+DES	SWATH: Global cellular protein quantification of iPSCs and motor neuron cultures. Build MS SWATH peptide library using the QE and 6600 MS instrument and use the library to identifiy and quantitate the proteome of individual control and disease cell lines. A) Build SWATH Library on iPSCs and motor neuron cell cultures. B) Run individual iPSC cells. C) Run individual mature motor neurons 
+ASY	Quantitative discovery proteomics (SWATH)
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	protein levels	number
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_SWT_073
+DSN	SWATH-MS Protein Quantification Assay
+CTR	NeuroLINCS
+DES	SWATH: Phosphorylation state. Build MS SWATH data library: Using the 6600 MS instrument analyzing either fractionated individuals and pools of iPSC dervied from 4 controls and SMA and ALS lines. A) Build SWATH Library. B) Run individual iPSC cells. C) Run individual mature motor neurons
+ASY	Quantitative discovery proteomics (SWATH)
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS00iCTR-n2	mature motor neuron	normal	brain
+CLN	CS14iCTR-n6	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	mature motor neuron	huntington's disease	brain
+CLN	CS25iCTR-18n2	mature motor neuron	huntington's disease	brain
+CLN	CS28iALS-n2A	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	mature motor neuron	spinal muscular atrophy	brain
+CLN	83iSMA-n5	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS00iCTR-n2	iPSC differentiated-phosphorylation enriched	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated-phosphorylation enriched	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated-phosphorylation enriched	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS00iCTR-n2	mature motor neuron-phosphorylation	normal	brain
+CLN	CS14iCTR-n6	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	mature motor neuron-phosphorylation	huntington's disease	brain
+CLN	CS25iCTR-18n2	mature motor neuron-phosphorylation	huntington's disease	brain
+CLN	CS28iALS-n2A	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	83iSMA-n5	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	protein levels	number
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_SWT_074
+DSN	SWATH-MS Protein Quantification Assay
+CTR	NeuroLINCS
+DES	SWATH: Phosphorylation state. Build MS SWATH data library: Using the 6600 MS instrument analyzing either fractionated individuals and pools of iPSC dervied from 4 controls and SMA and ALS lines. A) Build SWATH Library. B) Run individual iPSC cells. C) Run individual mature motor neurons
+ASY	Quantitative discovery proteomics (SWATH)
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS00iCTR-n2	mature motor neuron	normal	brain
+CLN	CS14iCTR-n6	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	mature motor neuron	huntington's disease	brain
+CLN	CS25iCTR-18n2	mature motor neuron	huntington's disease	brain
+CLN	CS28iALS-n2A	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	mature motor neuron	spinal muscular atrophy	brain
+CLN	83iSMA-n5	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS00iCTR-n2	iPSC differentiated-phosphorylation enriched	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated-phosphorylation enriched	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated-phosphorylation enriched	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS00iCTR-n2	mature motor neuron-phosphorylation	normal	brain
+CLN	CS14iCTR-n6	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	mature motor neuron-phosphorylation	huntington's disease	brain
+CLN	CS25iCTR-18n2	mature motor neuron-phosphorylation	huntington's disease	brain
+CLN	CS28iALS-n2A	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	83iSMA-n5	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	protein levels	number
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_SWT_075
+DSN	SWATH-MS Protein Quantification Assay
+CTR	NeuroLINCS
+DES	SWATH: Next stage with perturbations. SWATH analysis of proteomic changes in disease and control lines with various perturbations on iPSC and potentially neuron cultures. Analyze total protein and phosphorylation initially. A) Run individual iPSC with stimulation A-N. B) Run individual mature motor neuron cultures with stimulation A-N. C) Run phospho-peptide enriched iPSC with stimulation A-N. D) Run phospho-peptide enriched motor neuron cultures with stimulation A-N
+ASY	Quantitative discovery proteomics (SWATH)
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS00iCTR-n2	mature motor neuron	normal	brain
+CLN	CS14iCTR-n6	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	mature motor neuron	huntington's disease	brain
+CLN	CS25iCTR-18n2	mature motor neuron	huntington's disease	brain
+CLN	CS28iALS-n2A	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	mature motor neuron	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	mature motor neuron	spinal muscular atrophy	brain
+CLN	83iSMA-n5	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	mature motor neuron	spinal muscular atrophy	brain
+CLN	CS00iCTR-n2	iPSC differentiated-phosphorylation enriched	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated-phosphorylation enriched	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated-phosphorylation enriched	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated-phosphorylation enriched	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated-phosphorylation enriched	spinal muscular atrophy	brain
+CLN	CS00iCTR-n2	mature motor neuron-phosphorylation	normal	brain
+CLN	CS14iCTR-n6	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	mature motor neuron-phosphorylation	huntington's disease	brain
+CLN	CS25iCTR-18n2	mature motor neuron-phosphorylation	huntington's disease	brain
+CLN	CS28iALS-n2A	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	mature motor neuron-phosphorylation	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	83iSMA-n5	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	mature motor neuron-phosphorylation	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+PRT	stimulation A-N	stimulation
+RDO	protein levels	number
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:09 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_ATC_076
+DSN	Atac-seq Epigenetic Profiling Assay
+CTR	NeuroLINCS
+DES	Epigenomics-Baseline ATAC-Seq for control and disease iPSC lines. Baseline ATAC-seq experiments for protocol assay optimization, QC and development of analysis methods -- 4 control, 4 ALS and 4 SMA iPSC cell lines with replicates, without additional perturbagens. Determine optimal conditions for purification of high quality nuclei to preserve chromatin structure and for transposase reaction (number of nuclei, enzyme concentration and incubation time) to avoid over- or under-digestion. Set up analysis pipelines and perform correlation and clustering tests to determine cell line variability and assay reproducibility  between either technical or biological replicates and Identify potential problematic samples.
+ASY	ATAC-Seq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	Raw Data (fastq) and BAM files (aligned reads)	sequence
+RDO	Genomic coordinates and intensity for each significant peak	number
+RDO	Differentially expressed peaks relative to population control	number
+ORG	Homo sapiens	
+TKS	
+LV1	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Tue Jun 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:09 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_ATC_077
+DSN	Atac-seq Epigenetic Profiling Assay
+CTR	NeuroLINCS
+DES	Epigenomics-Baseline ATAC-Seq for control and disease iPSC lines. Baseline ATAC-seq experiments for protocol assay optimization, QC and development of analysis methods -- 4 control, 4 ALS and 4 SMA iPSC cell lines with replicates, without additional perturbagens. Determine optimal conditions for purification of high quality nuclei to preserve chromatin structure and for transposase reaction (number of nuclei, enzyme concentration and incubation time) to avoid over- or under-digestion. Set up analysis pipelines and perform correlation and clustering tests to determine cell line variability and assay reproducibility  between either technical or biological replicates and Identify potential problematic samples.
+ASY	ATAC-Seq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	Raw Data (fastq) and BAM files (aligned reads)	sequence
+RDO	Genomic coordinates and intensity for each significant peak	number
+RDO	Differentially expressed peaks relative to population control	number
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:09 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_ATC_078
+DSN	Atac-seq Epigenetic Profiling Assay
+CTR	NeuroLINCS
+DES	Epigenomics-Baseline ATAC-Seq for control and disease iPSC lines. Baseline ATAC-seq experiments for protocol assay optimization, QC and development of analysis methods -- 4 control, 4 ALS and 4 SMA iPSC cell lines with replicates, without additional perturbagens. Determine optimal conditions for purification of high quality nuclei to preserve chromatin structure and for transposase reaction (number of nuclei, enzyme concentration and incubation time) to avoid over- or under-digestion. Set up analysis pipelines and perform correlation and clustering tests to determine cell line variability and assay reproducibility  between either technical or biological replicates and Identify potential problematic samples.
+ASY	ATAC-Seq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	Raw Data (fastq) and BAM files (aligned reads)	sequence
+RDO	Genomic coordinates and intensity for each significant peak	number
+RDO	Differentially expressed peaks relative to population control	number
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:09 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_ATC_079
+DSN	Atac-seq Epigenetic Profiling Assay
+CTR	NeuroLINCS
+DES	Epigenomics-ATAC-Seq for control and disease iMNs. Baseline ATAC-seq experiments for iMN and disease state signatures -- 4 control, 4 ALS, and 4 SMA iPSC-derived iMN lines with replicates without additional perturbagens. Annotate open chromatin regions and map transcription factor binding events in regulatory elements genome-wide. Generate chromatin accessibility signatures  for each sample individually by calculating the enrichment of genomic regions relative to a set of control reads from Tn5-treated naked genomic DNA. Detect differential peaks between disease and control state. Generate disease signatures for future systems analysis and integration with other omics by 1) identifying genes mapping near differential peaks and detecting significantly enriched GO terms for these gene lists; 2) performing DNA foo printing, motif scoring and applying regression methods to infer transcription factors responsible for gene expression signatures.
+ASY	ATAC-Seq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	Raw Data (fastq) and BAM files (aligned reads)	sequence
+RDO	Genomic coordinates and intensity for each significant peak	number
+RDO	Differentially expressed peaks relative to population control	number
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:09 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_ATC_080
+DSN	Atac-seq Epigenetic Profiling Assay
+CTR	NeuroLINCS
+DES	Epigenomics-ATAC-Seq for control and disease iMNs. Baseline ATAC-seq experiments for iMN and disease state signatures -- 4 control, 4 ALS, and 4 SMA iPSC-derived iMN lines with replicates without additional perturbagens. Annotate open chromatin regions and map transcription factor binding events in regulatory elements genome-wide. Generate chromatin accessibility signatures  for each sample individually by calculating the enrichment of genomic regions relative to a set of control reads from Tn5-treated naked genomic DNA. Detect differential peaks between disease and control state. Generate disease signatures for future systems analysis and integration with other omics by 1) identifying genes mapping near differential peaks and detecting significantly enriched GO terms for these gene lists; 2) performing DNA foo printing, motif scoring and applying regression methods to infer transcription factors responsible for gene expression signatures.
+ASY	ATAC-Seq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	Raw Data (fastq) and BAM files (aligned reads)	sequence
+RDO	Genomic coordinates and intensity for each significant peak	number
+RDO	Differentially expressed peaks relative to population control	number
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:09 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_NeuroLINCS_ATC_081
+DSN	Atac-seq Epigenetic Profiling Assay
+CTR	NeuroLINCS
+DES	Epigenomics-ATAC-Seq for control and disease iMNs plus perturbations. ATAC-seq dataset for iMN and disease signature response to perturbagens -- 4 control, 4 ALS, and 4 SMA iPSC-derived iMN lines with replicates plus additional perturbagens. Generate chromatin accessibility signatures  for each sample individually by calculating the enrichment of genomic regions relative to a set of control reads from Tn5-treated naked genomic DNA. Analyze perturb/disease & perturb/control datasets to detected differentially enriched peaks reflecting changes in chromatin structures as a consequence of perturbation. Generate disease signatures for future systems analysis and integration with other omics and machine learning analyses.
+ASY	ATAC-Seq
+CLN	CS00iCTR-n2	iPSC differentiated	normal	brain
+CLN	CS14iCTR-n6	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS83iCTR-33n1	iPSC differentiated	huntington's disease	brain
+CLN	CS25iCTR-18n2	iPSC differentiated	huntington's disease	brain
+CLN	CS28iALS-n2A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS29iALS-n1N	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS30iALS-n1A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS52iALS-n6A	iPSC differentiated	amyotrophic lateral sclerosis	brain
+CLN	CS32iSMA-n3	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS13iSMA-n1	iPSC differentiated	spinal muscular atrophy	brain
+CLN	83iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+CLN	CS77iSMA-n5	iPSC differentiated	spinal muscular atrophy	brain
+PRT	spinal muscular atrophy	disease
+PRT	amyotrophic lateral sclerosis	disease
+RDO	Raw Data (fastq) and BAM files (aligned reads)	sequence
+RDO	Genomic coordinates and intensity for each significant peak	number
+RDO	Differentially expressed peaks relative to population control	number
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV2	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV3	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+LV4	Thu Dec 31 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:09 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_MEP-LINCS_MMA_082
+DSN	MEMA Cell Growth Assay
+CTR	MEP-LINCS
+DES	Use microenvironment microarray (MEMA) based platform to assess the impacts of ~3000 different pairwise combinations of ME perturbagens (MEPs) on 10 biological response endpoints.
+ASY	High-throughput MEMA array
+CLN	MCF7	cell line	cancer line	breast
+CLN	HPAC	cell line	cancer line	pancreas
+CLN	PC3	cell line	cancer line	prostate
+PRT	Collagen I	ECM
+PRT	Collagen Type II	ECM
+PRT	Collagen Type III	ECM
+PRT	Collagen Type IV	ECM
+PRT	Collagen Type V	ECM
+PRT	Collagen XXIII alpha1/COL23A1	ECM
+PRT	Desmoglein 2	ECM
+PRT	E-cadherin Fc Chimera	ECM
+PRT	ECM1	ECM
+PRT	Fibronectin 1	ECM
+PRT	GAP43	ECM
+PRT	HyA-500K	ECM
+PRT	HyA-50K	ECM
+PRT	ICAM-1	ECM
+PRT	Integrin alpha10Beta1	ECM
+PRT	Integrin alpha11Beta1	ECM
+PRT	Integrin alpha2Beta1	ECM
+PRT	Integrin alpha3Beta1	ECM
+PRT	Integrin alpha4Beta1	ECM
+PRT	Integrin alpha6Beta4	ECM
+PRT	Integrin alpha9Beta1	ECM
+PRT	Integrin alphaMBeta2	ECM
+PRT	Integrin alphaVBeta6	ECM
+PRT	ITGAM-B2	ECM
+PRT	laminin	ECM
+PRT	Laminin-1	ECM
+PRT	Laminin-5	ECM
+PRT	Lumican	ECM
+PRT	M-Cadherin/Cadherin-15 Fc Chimera	ECM
+PRT	Osteoadherin	ECM
+PRT	Osteopontin	ECM
+PRT	P-Cadherin Fc Chimera	ECM
+PRT	PECAM1	ECM
+PRT	RGD-cyclic	ECM
+PRT	rhNidogen-1	ECM
+PRT	Tescin C	ECM
+PRT	VCAM1	ECM
+PRT	vitronectin	ECM
+PRT	ALCAM	ECM
+PRT	Cadherin-20 (CAD-20)	ECM
+PRT	Cadherin-6/KCAD Fc Chimera	ECM
+PRT	rhCadherin-8 (CAD-8)/FC Chimera	ECM
+PRT	CD44	ECM
+PRT	CEACAM6	ECM
+PRT	ANGPT1	Growth Factor
+PRT	ANGPT2	Growth Factor
+PRT	AREG (amphiregulin)	Growth Factor
+PRT	CI-4AS-1	Growth Factor
+PRT	CTGF	Growth Factor
+PRT	CXCL12/SDF1a	Growth Factor
+PRT	CXCL12/SDF1b aa 22-93	Growth Factor
+PRT	DLL1	Growth Factor
+PRT	DLL4	Growth Factor
+PRT	EGF	Growth Factor
+PRT	B-estradiol	Growth Factor
+PRT	Fas Ligand/TNFSF6	Growth Factor
+PRT	Fetuin A/AHSG	Growth Factor
+PRT	FGF basic 146 aa	Growth Factor
+PRT	FGF2	Growth Factor
+PRT	FGF6	Growth Factor
+PRT	FLT3	Growth Factor
+PRT	GM-CSF	Growth Factor
+PRT	Gro-a	Growth Factor
+PRT	HGF	Growth Factor
+PRT	IGF-1	Growth Factor
+PRT	IGFBP2	Growth Factor
+PRT	IGFBP3	Growth Factor
+PRT	IL-7	Growth Factor
+PRT	CXCL8/IL-8	Growth Factor
+PRT	IL-13	Growth Factor
+PRT	IL-15	Growth Factor
+PRT	IL-6	Growth Factor
+PRT	Interleukin-1 beta (IL-1Beta) [catabolin]	Growth Factor
+PRT	Jagged 1 Fc Chimera	Growth Factor
+PRT	Jagged 2	Growth Factor
+PRT	Kininogen High Molecular Weight	Growth Factor
+PRT	LECT2	Growth Factor
+PRT	Leptin/OB	Growth Factor
+PRT	LYVE-1	Growth Factor
+PRT	a-HRG	Growth Factor
+PRT	NRG1-Beta1/HRG1-Beta1 EGF domain	Growth Factor
+PRT	Osteoprotegerin/TNFRSF11B	Growth Factor
+PRT	Osteoactivin/GPNMB Fc Chimera	Growth Factor
+PRT	PDGF-AB	Growth Factor
+PRT	PDGF-BB	Growth Factor
+PRT	Podoplanin	Growth Factor
+PRT	Progesterone 	Growth Factor
+PRT	PTN (pleiotropin)	Growth Factor
+PRT	rhBMP-2	Growth Factor
+PRT	rhBMP-3	Growth Factor
+PRT	rhBMP-4	Growth Factor
+PRT	rhBMP-5	Growth Factor
+PRT	rhBMP-6	Growth Factor
+PRT	rhBMP-7	Growth Factor
+PRT	rhTRANCE	Growth Factor
+PRT	SCF/c-kit ligand	Growth Factor
+PRT	SHH	Growth Factor
+PRT	SMDF-HRG	Growth Factor
+PRT	TGF-Beta Latency Associated Protein	Growth Factor
+PRT	TGF-B1	Growth Factor
+PRT	TGF-B2	Growth Factor
+PRT	TNFa	Growth Factor
+PRT	Thrombopoietin/Tpo	Growth Factor
+PRT	VEGF 165	Growth Factor
+PRT	WNT3a	Growth Factor
+PRT	WNT5a	Growth Factor
+PRT	WNT10a	Growth Factor
+RDO	Quantitated image features, antibody sets 1,2,3	image features
+ORG	Homo sapiens	
+TKS	
+LV1	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV2	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV3	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+LV4	Wed Sep 30 2015 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 20:42:08 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
+DID	LINCS_MEP-LINCS_MMA_083
+DSN	MEMA Cell Growth Assay
+CTR	MEP-LINCS
+DES	Use microenvironment microarray (MEMA) based platform to assess the impacts of ~3000 different pairwise combinations of ME perturbagens (MEPs) on 10 biological response endpoints.
+ASY	High-throughput MEMA array
+CLN	HCC1954	cell line	cancer line	breast
+CLN	A549	cell line	cancer line	lung
+CLN	A375	cell line	cancer line	skin
+PRT	Collagen I	ECM
+PRT	Collagen Type II	ECM
+PRT	Collagen Type III	ECM
+PRT	Collagen Type IV	ECM
+PRT	Collagen Type V	ECM
+PRT	Collagen XXIII alpha1/COL23A1	ECM
+PRT	Desmoglein 2	ECM
+PRT	E-cadherin Fc Chimera	ECM
+PRT	ECM1	ECM
+PRT	Fibronectin 1	ECM
+PRT	GAP43	ECM
+PRT	HyA-500K	ECM
+PRT	HyA-50K	ECM
+PRT	ICAM-1	ECM
+PRT	Integrin alpha10Beta1	ECM
+PRT	Integrin alpha11Beta1	ECM
+PRT	Integrin alpha2Beta1	ECM
+PRT	Integrin alpha3Beta1	ECM
+PRT	Integrin alpha4Beta1	ECM
+PRT	Integrin alpha6Beta4	ECM
+PRT	Integrin alpha9Beta1	ECM
+PRT	Integrin alphaMBeta2	ECM
+PRT	Integrin alphaVBeta6	ECM
+PRT	ITGAM-B2	ECM
+PRT	laminin	ECM
+PRT	Laminin-1	ECM
+PRT	Laminin-5	ECM
+PRT	Lumican	ECM
+PRT	M-Cadherin/Cadherin-15 Fc Chimera	ECM
+PRT	Osteoadherin	ECM
+PRT	Osteopontin	ECM
+PRT	P-Cadherin Fc Chimera	ECM
+PRT	PECAM1	ECM
+PRT	RGD-cyclic	ECM
+PRT	rhNidogen-1	ECM
+PRT	Tescin C	ECM
+PRT	VCAM1	ECM
+PRT	vitronectin	ECM
+PRT	ALCAM	ECM
+PRT	Cadherin-20 (CAD-20)	ECM
+PRT	Cadherin-6/KCAD Fc Chimera	ECM
+PRT	rhCadherin-8 (CAD-8)/FC Chimera	ECM
+PRT	CD44	ECM
+PRT	CEACAM6	ECM
+PRT	ANGPT1	Growth Factor
+PRT	ANGPT2	Growth Factor
+PRT	AREG (amphiregulin)	Growth Factor
+PRT	CI-4AS-1	Growth Factor
+PRT	CTGF	Growth Factor
+PRT	CXCL12/SDF1a	Growth Factor
+PRT	CXCL12/SDF1b aa 22-93	Growth Factor
+PRT	DLL1	Growth Factor
+PRT	DLL4	Growth Factor
+PRT	EGF	Growth Factor
+PRT	B-estradiol	Growth Factor
+PRT	Fas Ligand/TNFSF6	Growth Factor
+PRT	Fetuin A/AHSG	Growth Factor
+PRT	FGF basic 146 aa	Growth Factor
+PRT	FGF2	Growth Factor
+PRT	FGF6	Growth Factor
+PRT	FLT3	Growth Factor
+PRT	GM-CSF	Growth Factor
+PRT	Gro-a	Growth Factor
+PRT	HGF	Growth Factor
+PRT	IGF-1	Growth Factor
+PRT	IGFBP2	Growth Factor
+PRT	IGFBP3	Growth Factor
+PRT	IL-7	Growth Factor
+PRT	CXCL8/IL-8	Growth Factor
+PRT	IL-13	Growth Factor
+PRT	IL-15	Growth Factor
+PRT	IL-6	Growth Factor
+PRT	Interleukin-1 beta (IL-1Beta) [catabolin]	Growth Factor
+PRT	Jagged 1 Fc Chimera	Growth Factor
+PRT	Jagged 2	Growth Factor
+PRT	Kininogen High Molecular Weight	Growth Factor
+PRT	LECT2	Growth Factor
+PRT	Leptin/OB	Growth Factor
+PRT	LYVE-1	Growth Factor
+PRT	a-HRG	Growth Factor
+PRT	NRG1-Beta1/HRG1-Beta1 EGF domain	Growth Factor
+PRT	Osteoprotegerin/TNFRSF11B	Growth Factor
+PRT	Osteoactivin/GPNMB Fc Chimera	Growth Factor
+PRT	PDGF-AB	Growth Factor
+PRT	PDGF-BB	Growth Factor
+PRT	Podoplanin	Growth Factor
+PRT	Progesterone 	Growth Factor
+PRT	PTN (pleiotropin)	Growth Factor
+PRT	rhBMP-2	Growth Factor
+PRT	rhBMP-3	Growth Factor
+PRT	rhBMP-4	Growth Factor
+PRT	rhBMP-5	Growth Factor
+PRT	rhBMP-6	Growth Factor
+PRT	rhBMP-7	Growth Factor
+PRT	rhTRANCE	Growth Factor
+PRT	SCF/c-kit ligand	Growth Factor
+PRT	SHH	Growth Factor
+PRT	SMDF-HRG	Growth Factor
+PRT	TGF-Beta Latency Associated Protein	Growth Factor
+PRT	TGF-B1	Growth Factor
+PRT	TGF-B2	Growth Factor
+PRT	TNFa	Growth Factor
+PRT	Thrombopoietin/Tpo	Growth Factor
+PRT	VEGF 165	Growth Factor
+PRT	WNT3a	Growth Factor
+PRT	WNT5a	Growth Factor
+PRT	WNT10a	Growth Factor
+RDO	Quantitated image features, antibody sets 1,2,3	image features
+ORG	Homo sapiens	
+TKS	
+LV1	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV2	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV3	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+LV4	Thu Mar 31 2016 06:00:00 GMT+0000 (UTC)
+PUB	
+DTA	
+MET	
+QCD	
+MOD	Fri Jul 17 2015 16:05:10 GMT+0000 (UTC)
+APR	YES
+REL	NO
+
