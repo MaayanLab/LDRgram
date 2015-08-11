@@ -27,25 +27,25 @@ MEMA	MEMA Cell Growth Assay
 MS Proteomics	MS Protein Quantification Assay
 P100	P100 Phosphoprotein Quantification Assay
 RNA-Seq	RNA-Seq Gene Expression Profiling Assay
-SWATH-MS	SWATH-MS Protein Quantification Assay
+SWATH-MS	Protein Quantification Assay
 Secretion	Synovial Fibroblast 1: Secretion response
 Secretion	Synovial Fibroblast 2: Secretion response:
 Secretion	Synovial Fibroblast 3: Composition of serial dilution
 Western Blot	Western Blot / PCR Assay
 Western Blot	Western Blot Assay
 Proteomics 2: Basal phosphoproteome for 10 ICBP43
-KINOMEscan	20227: KINOMEscan
-KINOMEscan	20228: KINOMEscan
-KINOMEscan	20224: KINOMEscan
-KINOMEscan	20221: KINOMEscan
-SWATH-MS	SWATH-MS Protein Quantification Assay
-KINOMEscan	20220: KINOMEscan
+20227: KINOMEscan
+20228: KINOMEscan
+20224: KINOMEscan
+20221: KINOMEscan
+SWATH-MS Protein Quantification Assay
+20220: KINOMEscan
 Proteomics 3: Basal cell surface proteome for the ICBP43
-KINOMEscan	20222: KINOMEscan
-KINOMEscan	20225: KINOMEscan
+20222: KINOMEscan
+20225: KINOMEscan
 Proteomics 1: Basal total proteome for 10 ICBP43
-KINOMEscan	20223: KINOMEscan
-Secretion	Synovial Fibroblast 2: Secretion response
+20223: KINOMEscan
+Synovial Fibroblast 2: Secretion response
 
 
 

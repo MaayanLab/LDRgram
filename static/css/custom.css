@@ -385,6 +385,12 @@ li{
   font-weight: 300;
 }
 
+/* default svg size for fixed svg option*/
+#svg_div{
+  width:600px;
+  height:500px;
+}
+
 .svg_div{
   /*margin-top: 0px;*/
   /*margin-left: 50px;*/

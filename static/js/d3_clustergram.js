@@ -42,7 +42,7 @@ function initialize_visualization(network_data, params){
   var min_num_char = 5;
   var max_num_char = 60;
   var min_label_width = 60;
-  var max_label_width = 220;
+  var max_label_width = 240; // !! LDR minor adjustment
   var label_scale = d3.scale.linear().domain([min_num_char,max_num_char]).range([min_label_width,max_label_width]).clamp('true');
 
   // Nomal Labels 
@@ -1192,7 +1192,8 @@ function make_d3_clustergram(args) {
       .attr('transform', function(){
         // position in the middle of the clustergram
         var inst_x = params.super_label_width - params.uni_margin;
-        var inst_y = params.clust.dim.height/2 ;
+        // !! LDR minor adjustment
+        var inst_y = params.clust.dim.height/1.5  ;
         return 'translate('+inst_x+','+inst_y+')';
       });
 

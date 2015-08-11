@@ -2,28 +2,139 @@
 
 def main():
 
+	# load Avi's dictionary of cell lines and assays 
+	assay_cl_dict()
+
 	# extract data and save to flattened matrices 
-	###############################################
-	# extract the nodes
-	nodes = extract_nodes()
-	# construct actual array
-	construct_array(nodes)
+	construct_array()
 
 	# LDR make clust 
 	#########################
 	make_ldr_clust()
 
-def construct_array(nodes):
+def assay_cl_dict():
+	import json_scripts
+
+	f = open('LDR/assays_and_cl_lists_for_Avi-AM.txt', 'r')
+	lines = f.readlines()
+	f.close()
+
+	# make names dictionary 
+	names = {}
+	names['as'] = {}
+	names['cl'] = {}
+
+	# will go through assays and cell lines 
+	inst_data = ''
+
+	# loop through the lines 
+	for inst_line in lines:
+
+		# strip the line 
+		inst_line = inst_line.strip()
+
+		if 'assays:' in inst_line:
+			inst_data = 'as'
+			# print(inst_data)
+
+		if 'cell lines:' in inst_line:
+			inst_data = 'cl'
+			# print(inst_data)
+
+		# load assays 
+		##############
+		if inst_data == 'as':
+			# check if there is a short name 
+			if '\t' in inst_line:
+				inst_sn = inst_line.split('\t')[0]
+				inst_ln =  inst_line.split('\t')[1]
+
+				names[inst_data][inst_ln] = inst_sn
+
+				# # add data to dictionary 
+				# if inst_ln not in names[inst_data]:
+				# # add short name to dictionary 
+				# names[inst_data][inst_key].append(inst_ln)
+
+			# if there is no short name add long name as key and value 
+			elif len(inst_line) > 0:
+				names[inst_data][inst_line] = inst_line
+				# names[inst_data][inst_line].append(inst_line)
+
+		# load cell lines 
+		###################
+		if inst_data == 'cl':
+			# check if there is a short name 
+			if '\t' in inst_line:
+				inst_sn = inst_line.split('\t')[0]
+				inst_ln  = inst_line.split('\t')[1]
+
+				names[inst_data][inst_ln] = inst_sn
+
+				# # add data to dictionary
+				# if inst_key not in names[inst_data]:
+				# 	names[inst_data][inst_key] = []
+				# # add short name to dictionary 
+				# names[inst_data][inst_key].append(inst_ln)
+
+			# if tehre is no short name add long name as key and value 
+			elif len(inst_line) > 0:
+				names[inst_data][inst_line] = inst_line
+				# names[inst_data][inst_line].append(inst_line)
+
+	# print(len(names['as'].keys()))
+	# print('\n')
+	# print(len(names['cl'].keys()))
+	# print('\n')
+	# print( len(list(set(names['cl'].values()))) )
+	# print('\n')
+	# print( len(list(set(names['as'].values()))) )
+
+	json_scripts.save_to_json(names,'as_cl_dict.json','indent')
+
+def construct_array():
 	import json_scripts
 	import scipy
 
-	print('\nconstructing array')
+	print('\nconstructing array\n')
 
 	# load the LDR data is json format 
 	ldr = json_scripts.load_to_dict('LDR/LDR_api.json')
 
-	# initialize matrix
-	# mat = scipy.zeros([ len(nodes['as']), len(nodes['cl']), len(nodes['pt'])  ])
+	# load cl and as dictionary 
+	as_cl_dict = json_scripts.load_to_dict('as_cl_dict.json')
+
+	# get nodes from 'short name' dictionary values 
+	nodes = {}
+	nodes['as'] = sorted(list(set(as_cl_dict['as'].values())))
+	nodes['cl'] = list(set(as_cl_dict['cl'].values()))
+	# add cell-free to list of cell lines 
+	nodes['cl'].append('cell-free')
+	nodes['cl'] = sorted(nodes['cl'])
+
+	# print(nodes['as'])
+	# print(nodes['cl'])
+	# print('\n\n\n')
+
+
+
+	# # run once - add back removed as and cl to Avi dictionary 
+	# # find assays and cell lines that were removed from original list 
+	# #####################################################################
+	# all_nodes = extract_nodes()
+	# for inst_data in as_cl_dict:
+	# 	# get all nodes
+	# 	tmp_dict = set( as_cl_dict[inst_data].keys() )
+	# 	tmp_all = set( all_nodes[inst_data] )
+	# 	not_found = list( tmp_all - tmp_dict )
+	# 	print('\n')
+	# 	print(inst_data)
+	# 	for tmp in not_found:
+	# 		print(tmp)
+	# 	print('\n')
+
+
+
 	# make 2d matrix for now 
 	mat = scipy.zeros([ len(nodes['as']), len(nodes['cl']) ])
 
@@ -32,33 +143,25 @@ def construct_array(nodes):
 	rl['t'] = scipy.zeros([ len(nodes['as']), len(nodes['cl']) ])
 	rl['f'] = scipy.zeros([ len(nodes['as']), len(nodes['cl']) ])
 
-	# print(mat.shape)
-	# print(mat[:,:,0].shape)
-	# print(mat[:,:,1].shape)
-
-	# print(nodes['as'])
-	# print('\n')
-	# print(nodes['cl'])
-	# print('\n')
-	# print(nodes['pt'])
-
 	total = 0
-
 
 	# loop through the ldf datasets 
 	for inst_ldr in ldr:
 
-		# get the inst_assay 
-		inst_as = inst_ldr['datasetName'].strip()
-
-		# print('inst_as: '+ inst_as)
+		# get the inst_assay: put name through dictionary 
+		# print( inst_ldr['datasetName'].strip() )
+		inst_as = as_cl_dict['as'][ inst_ldr['datasetName'].strip() ]
+		print('inst_as: '+ inst_as)
 
 		# get the cell line(s)
 		inst_cls = [] 
+
+
 		for inst_cl in inst_ldr['metadata']['cellLines']:
 			if 'name' in inst_cl:
-				inst_cls.append( inst_cl['name'].strip() )
-				# print('\tcl\t'+inst_cl['name'].strip())
+				#!! remove cell line 'TBD among cell ...'
+				if 'TBD among' not in inst_cl['name'].strip():
+					inst_cls.append( as_cl_dict['cl'][ inst_cl['name'].strip() ] )
 
 
 		# get the perturbations 
@@ -66,6 +169,21 @@ def construct_array(nodes):
 		for inst_pt in inst_ldr['metadata']['perturbagens']:
 			inst_pts.append( inst_pt['name'].strip() )
 			# print('\tpt\t'+inst_pt['name'].strip())
+
+
+		# # check if there eare cases with perturbations and no cell lines 
+		# if len(inst_ldr['metadata']['cellLines']) == 0 and len(inst_pts) > 0:
+		# 	print('\n\nno cell lines found ')
+		# 	print(inst_ldr['datasetName'])
+		# 	print(inst_pts)
+		# 	print('\n\n')
+
+		# if the assay is kinomescan then set cell line to 'cell-free
+		if inst_as == 'KINOMEscan':
+			print('kinomescan')
+			inst_cls.append( 'cell-free' )
+			print(inst_cls)
+			print('\n\n\n')
 
 
 		# add information to mat
@@ -89,13 +207,6 @@ def construct_array(nodes):
 					mult_pts = int(inst_pt.split(' ')[0])
 				else:
 					mult_pts = 0
-
-				# # add value to matrix 
-				# mat[ index_as, index_cl ] = mat[ index_as, index_cl ] + 1
-
-				# print( 'released: ' + str(inst_ldr['released']) )
-
-				# print('\n\n')
 
 				if mult_pts == 0:
 					mat[ index_as, index_cl ] = mat[ index_as, index_cl ] + 1
@@ -123,20 +234,6 @@ def construct_array(nodes):
 
 				# add to total 
 				total = total + 1
-
-				# if mat[ index_as, index_cl ] > 2:
-				# 	print(mat[ index_as, index_cl ])				
-
-				# print(index_assay)
-				# print(index_cl)
-				# print(index_pt)	
-
-	# print('\n\n')
-	# print(nodes['as'][0])
-	# print(nodes['cl'][0])
-	# print(mat[1,:])
-	# print(mat[1,23])
-	# print(nodes['cl'][23])
 
 	# print('\n\n'+str(total))
 	# save the matrix 
