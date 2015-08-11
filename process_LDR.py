@@ -2,13 +2,6 @@
 
 def main():
 
-	# # initial 
-	# ##############
-	# # first look at the json 
-	# first_look()
-	# # construct 3d array
-	# example_construct_array()
-
 	# extract data and save to flattened matrices 
 	###############################################
 	# extract the nodes
@@ -16,15 +9,9 @@ def main():
 	# construct actual array
 	construct_array(nodes)
 
-	# # collapse into three matrices 
-	# collapse_mat()
-
-	# # export tsv for clustergrammer visualization 
-	# ##############################################
-	# export_tsv()
-
-
-
+	# LDR make clust 
+	#########################
+	make_ldr_clust()
 
 def construct_array(nodes):
 	import json_scripts
@@ -33,7 +20,7 @@ def construct_array(nodes):
 	print('\nconstructing array')
 
 	# load the LDR data is json format 
-	ldr = json_scripts.load_to_dict('LDR_api.json')
+	ldr = json_scripts.load_to_dict('LDR/LDR_api.json')
 
 	# initialize matrix
 	# mat = scipy.zeros([ len(nodes['as']), len(nodes['cl']), len(nodes['pt'])  ])
@@ -108,7 +95,7 @@ def construct_array(nodes):
 
 				# print( 'released: ' + str(inst_ldr['released']) )
 
-				print('\n\n')
+				# print('\n\n')
 
 				if mult_pts == 0:
 					mat[ index_as, index_cl ] = mat[ index_as, index_cl ] + 1
@@ -165,77 +152,13 @@ def construct_array(nodes):
 
 	json_scripts.save_to_json( ldr_mat, 'ldr_mat.json', 'no-indent' )
 
-
-def example_construct_array():
-	import scipy
-	print('constructing example array')
-
-
-	mat = scipy.zeros([3, 5	, 5])
-
-	print(mat)
-
-	# the ndim array is basically 
-	# three 5x5 matrices stacked on each other 
-
-	# [[[ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]]
-
-	# [[ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]]
-
-	# [[ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]
-	#  [ 0.  0.  0.  0.  0.]]]
-
-	print('\n\n')
-
-	# printing one slice of the matrix 
-	print(mat[0,:,:])
-	
-	# [[ 0.  0.  0.  0.  0.]
-	# [ 0.  0.  0.  0.  0.]
-	# [ 0.  0.  0.  0.  0.]
-	# [ 0.  0.  0.  0.  0.]
-	# [ 0.  0.  0.  0.  0.]]
-
-def first_look():
-	import json_scripts
-
-	print('having a first look at the data')
-
-	# load the LDR data is json format 
-	ldr = json_scripts.load_to_dict('LDR_api.json')
-
-	# the data is a list of jsons, each json has information on a study 
-
-	print('Assay: datasetName')
-	print(ldr[0]['datasetName'])
-	print('\n')
-
-	print('CellLines')
-	print(ldr[0]['metadata']['cellLines'][0]['name'])
-	print('\n')
-
-	print('perturbagens')
-	print(ldr[0]['metadata']['perturbagens'][0]['name'])
-	print('\n')
-
 def extract_nodes():
 	import json_scripts
 
 	print('extracting nodes: as, cl, pt')
 
 	# load the LDR data is json format 
-	ldr = json_scripts.load_to_dict('LDR_api.json')
+	ldr = json_scripts.load_to_dict('LDR/LDR_api.json')
 
 	# first generate lists of cell_lines, assays, and perturbagens 
 	nodes = {}
@@ -274,122 +197,91 @@ def extract_nodes():
 
 	return nodes
 
-
-
-def export_tsv():
+def make_ldr_clust():
 	import json_scripts
 	import numpy as np
+	import d3_clustergram 
 
-	ldr_mat = json_scripts.load_to_dict('ldr_mat_collapse.json')
+	# load LDR data
+	ldr = json_scripts.load_to_dict('ldr_mat.json')
 
-	ldr_mat['as_cl_mat'] = np.asarray(ldr_mat['as_cl_mat'])
+	print(ldr.keys())
 
-	print(ldr_mat.keys())
+	ldr['mat'] = np.asarray(ldr['mat'])
+	ldr['rl']['t'] = np.asarray(ldr['rl']['t'])
+	ldr['rl']['f'] = np.asarray(ldr['rl']['f'])
 
-	print('as\t'+str(objectlen(ldr_mat['nodes']['as'])))
-	print('cl\t'+str(len(ldr_mat['nodes']['cl'])))
-	print('pt\t'+str(len(ldr_mat['nodes']['pt'])))
+	print( 'sum all \t' + str(np.sum(ldr['mat'])) )
+	print( 'sum yes \t' + str(np.sum(ldr['rl']['t'])) )
+	print( 'sum no  \t' + str(np.sum(ldr['rl']['f'])) )
 
-	# write tab separated file 
-	filename = 'tmp_export.txt'
-	# write first line 
-	fw = open(filename, 'w')
+	print(len(ldr['nodes']['as']))
+	print(len(ldr['nodes']['cl']))
+	print(ldr['mat'].shape)
 
-	fw.write('\t')
+	# define nodes: unfiltered
+	nodes_uf = {}
+	nodes_uf['row'] = ldr['nodes']['as']
+	nodes_uf['col'] = ldr['nodes']['cl']
 
-	# write row
-	for i in range(len(ldr_mat['nodes']['cl'])):
+	# define parameters
+	compare_cutoff = 0.05
+	min_num_compare = 2
 
-		fw.write( ldr_mat['nodes']['cl'][i] + '\t')
+	# filter to remove nodes with no values 
+	ldr['mat'], nodes = d3_clustergram.filter_sim_mat( ldr['mat'], nodes_uf, 1, 1 )
+	# cherrypick using hte nodes 
+	ldr['rl']['t'] = d3_clustergram.cherrypick_mat_from_nodes(nodes_uf, nodes, ldr['rl']['t'])
+	ldr['rl']['f'] = d3_clustergram.cherrypick_mat_from_nodes(nodes_uf, nodes, ldr['rl']['f'])
 
-	fw.write('\n')
-
-
-	# get matrix dimensions 
-	inst_dim = ldr_mat['as_cl_mat']
-
-	x = ldr_mat['as_cl_mat'].shape[0]
-	y = ldr_mat['as_cl_mat'].shape[1]
-
-	# print(inst_dim)
-
-	for i in range(x):
-
-		# print rows 
-		fw.write( ldr_mat['nodes']['as'][i] + '\t' )
-
-		# print columns 
-		for j in range(y):
-
-			# write cols 
-			fw.write( str(ldr_mat['as_cl_mat'][i,j]) + '\t' )
-
-		fw.write('\n')
-
-	fw.close()
-
-def collapse_mat():
-	import json_scripts
-	import scipy
-	import numpy as np
-
-	# load ldr_mat
-	ldr_mat = json_scripts.load_to_dict('ldr_mat.json')
-
-	# save matrix as array 
-	ldr_mat['mat'] = np.asarray(ldr_mat['mat'])
-
-	# matrix
-	# mat[ as, cl, pt ]
-
-	# make three matrices 
-	# as vs cl, sum pt
-	# as vs pt, sum cl 
-	# cl vs pt, sum as 
-
-	# make list of lists
-	comp = []
-	comp.append(['as','cl'])
-	comp.append(['as','pt'])
-	comp.append(['cl','pt'])
-
-	flat_index = [2,1,0]
-
-	print(ldr_mat['mat'].shape)
-	print('as\t'+str(len(ldr_mat['nodes']['as'])))
-	print('cl\t'+str(len(ldr_mat['nodes']['cl'])))
-	print('pt\t'+str(len(ldr_mat['nodes']['pt'])))
+	print( 'size all \t' + str(ldr['mat'].shape) )
+	print( 'size yes \t' + str(ldr['rl']['t'].shape) )
+	print( 'size no  \t' + str(ldr['rl']['f'].shape) )	
 	print('\n')
 
-	# initialize three matrices 
-	for i in range(len(comp)):
+	print( 'sum all \t' + str(np.sum(ldr['mat'])) )
+	print( 'sum yes \t' + str(np.sum(ldr['rl']['t'])) )
+	print( 'sum no  \t' + str(np.sum(ldr['rl']['f'])) )	
+	print( 'total yes/no:\t' + str( np.sum(ldr['rl']['t']) + np.sum(ldr['rl']['f']) ) )
 
-		# get inst_comp
-		inst_comp = comp[i]
+	print('\n\n\n')
+	# print out nodes 
+	for inst_row in nodes['row']:
+		print(inst_row)
 
-		# get dimensions 
-		inst_x = len(ldr_mat['nodes'][inst_comp[0]])
-		inst_y = len(ldr_mat['nodes'][inst_comp[1]])
+		
+	print('\n\n\n')
+	# print out nodes 
+	for inst_row in nodes['row']:
+		print(inst_row)
 
-		print('\n')
-		print(flat_index[i])
-		print(inst_comp)
-		print( np.sum(ldr_mat['mat'], axis=flat_index[i]).shape )
+	print('\n\n\n')
 
-		# generate collapsed matrices 
-		ldr_mat[inst_comp[0]+'_'+inst_comp[1]+'_mat'] = np.sum(ldr_mat['mat'], axis=flat_index[i])
+	# cluster rows and columns 
+	print('calculating clustering')
+	clust_order = d3_clustergram.cluster_row_and_column( nodes, ldr['mat'], 'cosine', compare_cutoff, min_num_compare )
 
-		# convert matrix to list 
-		ldr_mat[inst_comp[0]+'_'+inst_comp[1]+'_mat'] = ldr_mat[inst_comp[0]+'_'+inst_comp[1]+'_mat'].tolist()
+	print('finished calculating clustering')
 
-	# convert ldr_mat['mat'] to list
-	ldr_mat['mat'] = ldr_mat['mat'].tolist() 
+	# write the d3_clustergram 
+	base_path = 'static/networks/'
+	full_path = base_path + 'LDR_as_cl.json'
 
-	# save to json 
-	json_scripts.save_to_json( ldr_mat, 'ldr_mat_collapse.json', 'no-indent' )
+	# add class information 
+	row_class = {}
+	col_class = {}
 
+	print(len(nodes['row']))
+	print(len(nodes['col']))
 
+	# # last minute cleaning up of row/col names 
+	# for i in range(len(nodes['col'])):
+	# 	nodes['col'][i] = nodes['col'][i].replace('/ single drugs','')
+	# for i in range(len(nodes['row'])):
+	# 	nodes['row'][i] = nodes['row'][i].replace('cell lines','')
 
+	# write the clustergram 
+	d3_clustergram.write_json_single_value( nodes, clust_order, ldr, full_path, row_class, col_class)
 
 # run main
 main()

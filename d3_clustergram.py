@@ -78,35 +78,15 @@ def write_json_single_value(nodes, clust_order, LDR, full_path, row_class={}, co
 				inst_dict['source'] = i
 				inst_dict['target'] = j
 				inst_dict['value'] = mat[i,j]
+				# !! custom change for LDRgram
 				inst_dict['value_up'] = rl['t'][i,j]
 				inst_dict['value_dn'] = -rl['f'][i,j]
 
-				# print( '\ntotal pts: ' + str(inst_dict['value']) )
-				# print( 'released: ' + str(inst_dict['rl_t']))
-				# print( 'not released: ' + str(inst_dict['rl_f']) + '\n' )
-
-
-				# # initailize with no highlight
-				# inst_dict['highlight'] = 0
-
-				# # add highlight if necessary 
-				# if len(link_hl) > 0:
-				# 	# check highlight
-				# 	if nodes['col'][j] in link_hl:
-				# 		# check if gene is a known target of the transcription factor 
-				# 		if nodes['row'][i] in link_hl[nodes['col'][j]]:
-
-				# 			# highlight 
-				# 			inst_dict['highlight'] = 1
-							
 				d3_json['links'].append( inst_dict )
 
 	# write json 
 	##############
-	# fw = open(full_path, 'w')
-	# fw.write( json.dumps( d3_json, indent=2) )
-	# fw.close()	
-	json_scripts.save_to_json(d3_json, full_path, 'noindent')
+	json_scripts.save_to_json(d3_json, full_path, 'indent')
 
 def make_network_json_single_value(nodes, clust_order, mat ):
 	import json
@@ -143,7 +123,7 @@ def make_network_json_single_value(nodes, clust_order, mat ):
 
 # cluster rows and columns
 def cluster_row_and_column( nodes, data_mat, dist_type, compare_cutoff, min_num_compare ):
-	import find_dict_in_list
+	# import find_dict_in_list
 	import scipy
 	import scipy.cluster.hierarchy as hier
 	import numpy as np 
@@ -547,7 +527,7 @@ def threshold_vect_comparison(x, y, cutoff):
 # convert enrichment results from dict format to array format 
 def convert_enr_dict_to_array(enr, pval_cutoff):
 	import scipy
-	import find_dict_in_list
+	# import find_dict_in_list
 	import numpy as np
 
 	# enr - data structure 
@@ -626,7 +606,7 @@ def convert_enr_dict_to_array(enr, pval_cutoff):
 				if any(d['name'] == inst_gene for d in inst_enr):
 
 					# get the dict from the list
-					inst_dict = find_dict_in_list.main( inst_enr, 'name', inst_gene)
+					inst_dict = find_dict_in_list( inst_enr, 'name', inst_gene)
 					
 					# only include significant pvalues
 					if inst_dict['pval_bh'] <= 0.05:
@@ -672,7 +652,7 @@ def convert_enr_dict_to_array(enr, pval_cutoff):
 # convert enr array into gene rows and term columns 
 def convert_enr_to_nodes_mat(enr):
 	import scipy
-	import find_dict_in_list
+	# import find_dict_in_list
 	import numpy as np
 
 	# enr - data structure 
@@ -719,7 +699,7 @@ def convert_enr_to_nodes_mat(enr):
 		j = all_col.index(inst_col)
 
 		# get the enrichment dict 
-		inst_enr = find_dict_in_list.main( enr, 'name', inst_col )
+		inst_enr = find_dict_in_list( enr, 'name', inst_col )
 
 		# grab the intersecting genes 
 		inst_gene_list = inst_enr['int_genes']
@@ -792,4 +772,19 @@ def combine_enr_exp(nodes, data_mat):
 
 	return new_nodes, new_mat
 
+# find a dict in a list of dicts by searching for a value 
+def find_dict_in_list(list_dict, search_value, search_string):
+
+	# get all the possible values of search_value
+	all_values = [d[search_value] for d in list_dict]
+
+	# check if the search value is in the keys 
+	if search_string in all_values:
+		# find the dict 
+		found_dict = (item for item in list_dict if item[search_value] == search_string).next()
+	else:
+		found_dict = {}
+
+	# return the found dictionary
+	return found_dict
 		
