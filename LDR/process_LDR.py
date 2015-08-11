@@ -113,7 +113,7 @@ def construct_array(nodes):
 				if mult_pts == 0:
 					mat[ index_as, index_cl ] = mat[ index_as, index_cl ] + 1
 
-					print('total: 1')
+					# print('total: 1')
 
 					# track number of released 
 					if inst_ldr['released'] == True:
