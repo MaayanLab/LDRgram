@@ -9,7 +9,6 @@ def main():
 	construct_array()
 
 	# LDR make clust 
-	#########################
 	make_ldr_clust()
 
 def assay_cl_dict():

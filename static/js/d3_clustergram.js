@@ -600,8 +600,9 @@ function make_d3_clustergram(args) {
     .attr("width",  params.svg_dim.width )
     // the height is reduced by more than the width because the tiles go right up to the bottom border 
     .attr("height", params.svg_dim.height )
-    // call zoom on the entire svg 
-    .call( params.zoom ); 
+    //!! LDR specific no zoom 
+    // // call zoom on the entire svg 
+    // .call( params.zoom ); 
 
   params.clust_group = outer_group
     // append a group that will hold clust_group and position it once 
@@ -668,7 +669,7 @@ function make_d3_clustergram(args) {
     .append('line')
     .attr('x1',0)
     //!! could be improved 
-    .attr('x2',-20*params.clust.dim.height)
+    .attr('x2',-params.clust.dim.height)
     .style('stroke-width', params.border_width+'px')
     .style('stroke','white');
 
@@ -1677,7 +1678,7 @@ function row_group_function(row_data) {
       .text(function(d){
         // var inst_string = 'value: ' + d.value ;
         // specific to LDR 
-        var inst_string = 'total: ' + d.value + '; released: ' + d.value_up + '; not-released: ' + Math.abs(d.value_dn);
+        var inst_string = 'perturbations: ' + d.value + '; released: ' + d.value_up + '; not-released: ' + Math.abs(d.value_dn);
         return inst_string;
       })
   }
