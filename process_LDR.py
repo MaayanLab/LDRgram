@@ -6,10 +6,10 @@ def main():
 	assay_cl_dict()
 
 	# extract data and save to flattened matrices 
-	construct_array()
+	perts = construct_array()
 
 	# LDR make clust 
-	make_ldr_clust()
+	make_ldr_clust(perts)
 
 def assay_cl_dict():
 	import json_scripts
@@ -111,12 +111,6 @@ def construct_array():
 	nodes['cl'].append('cell-free')
 	nodes['cl'] = sorted(nodes['cl'])
 
-	# print(nodes['as'])
-	# print(nodes['cl'])
-	# print('\n\n\n')
-
-
-
 	# # run once - add back removed as and cl to Avi dictionary 
 	# # find assays and cell lines that were removed from original list 
 	# #####################################################################
@@ -132,8 +126,6 @@ def construct_array():
 	# 		print(tmp)
 	# 	print('\n')
 
-
-
 	# make 2d matrix for now 
 	mat = scipy.zeros([ len(nodes['as']), len(nodes['cl']) ])
 
@@ -141,6 +133,10 @@ def construct_array():
 	rl = {}
 	rl['t'] = scipy.zeros([ len(nodes['as']), len(nodes['cl']) ])
 	rl['f'] = scipy.zeros([ len(nodes['as']), len(nodes['cl']) ])
+
+	# generate perturbation dictionary that will save perturbation 
+	# information for assays and cell lines 
+	perts = {}
 
 	total = 0
 
@@ -150,7 +146,7 @@ def construct_array():
 		# get the inst_assay: put name through dictionary 
 		# print( inst_ldr['datasetName'].strip() )
 		inst_as = as_cl_dict['as'][ inst_ldr['datasetName'].strip() ]
-		print('inst_as: '+ inst_as)
+		# print('inst_as: '+ inst_as)
 
 		# get the cell line(s)
 		inst_cls = [] 
@@ -162,27 +158,18 @@ def construct_array():
 				if 'TBD among' not in inst_cl['name'].strip():
 					inst_cls.append( as_cl_dict['cl'][ inst_cl['name'].strip() ] )
 
-
 		# get the perturbations 
 		inst_pts = []
 		for inst_pt in inst_ldr['metadata']['perturbagens']:
 			inst_pts.append( inst_pt['name'].strip() )
-			# print('\tpt\t'+inst_pt['name'].strip())
 
-
-		# # check if there eare cases with perturbations and no cell lines 
-		# if len(inst_ldr['metadata']['cellLines']) == 0 and len(inst_pts) > 0:
-		# 	print('\n\nno cell lines found ')
-		# 	print(inst_ldr['datasetName'])
-		# 	print(inst_pts)
-		# 	print('\n\n')
 
 		# if the assay is kinomescan then set cell line to 'cell-free
 		if inst_as == 'KINOMEscan':
-			print('kinomescan')
+			# print('kinomescan')
 			inst_cls.append( 'cell-free' )
-			print(inst_cls)
-			print('\n\n\n')
+			# print(inst_cls)
+			# print('\n\n\n')
 
 
 		# add information to mat
@@ -198,41 +185,54 @@ def construct_array():
 
 			for inst_pt in inst_pts:
 
-				# # get the index of the perturbation
-				# index_pt = nodes['pt'].index(inst_pt)
-
 				# check if the perturbation represents multiple perturbations 
 				if 'compounds' in inst_pt and 'among' not in inst_pt:
 					mult_pts = int(inst_pt.split(' ')[0])
 				else:
 					mult_pts = 0
 
+				# track the number of perturbations and the released status 
+				##############################################################
 				if mult_pts == 0:
 					mat[ index_as, index_cl ] = mat[ index_as, index_cl ] + 1
 
-					# print('total: 1')
-
 					# track number of released 
 					if inst_ldr['released'] == True:
-						# add to number of released 
 						rl['t'][index_as, index_cl] = rl['t'][index_as, index_cl] + 1
-						# print('released')
 					else:
 						rl['f'][index_as, index_cl] = rl['f'][index_as, index_cl] + 1
-						# print('not released')
 
 				else:
 					mat[ index_as, index_cl ] = mat[ index_as, index_cl ] + mult_pts
 
 					# track number of released 
 					if inst_ldr['released'] == True:
-						# add to number of released 
 						rl['t'][index_as, index_cl] = rl['t'][index_as, index_cl] + mult_pts
 					else:
 						rl['f'][index_as, index_cl] = rl['f'][index_as, index_cl] + mult_pts
 
+				# keep track of perturbation information in the dictionary 
+				##############################################################
+				# genrate as cl tuple 
+				inst_tuple = (inst_as, inst_cl) 
+				# initailize list if necessary 
+				if inst_tuple not in perts:
+					perts[inst_tuple] = []
+				# generate pert_dict
+				pert_dict = {}
+				pert_dict['name'] = inst_pt 
+				pert_dict['release'] = inst_ldr['released']
+				pert_dict['_id'] = inst_ldr['_id']
+				# add dictionary to list 
+				perts[inst_tuple].append(pert_dict)
+
 				# add to total 
 				total = total + 1
+
+	# check perts dictionary 
+	print('perts dictionary - the number of found as/cl combinations')
+	print(len(perts.keys()))
+	# print(perts)
 
 	# print('\n\n'+str(total))
 	# save the matrix 
@@ -245,8 +245,12 @@ def construct_array():
 	ldr_mat['nodes'] = nodes
 	ldr_mat['mat'] = mat
 	ldr_mat['rl'] = rl
+	# ldr_mat['perts'] = perts
 
 	json_scripts.save_to_json( ldr_mat, 'ldr_mat.json', 'no-indent' )
+
+	# return perts since tuple dictionaries do not save as json easily
+	return perts 
 
 def extract_nodes():
 	import json_scripts
@@ -293,14 +297,15 @@ def extract_nodes():
 
 	return nodes
 
-def make_ldr_clust():
+def make_ldr_clust(perts):
+
 	import json_scripts
 	import numpy as np
 	import d3_clustergram 
 
 	# load LDR data
 	ldr = json_scripts.load_to_dict('ldr_mat.json')
-
+	print('\nclustering')
 	print(ldr.keys())
 
 	ldr['mat'] = np.asarray(ldr['mat'])
@@ -340,18 +345,18 @@ def make_ldr_clust():
 	print( 'sum no  \t' + str(np.sum(ldr['rl']['f'])) )	
 	print( 'total yes/no:\t' + str( np.sum(ldr['rl']['t']) + np.sum(ldr['rl']['f']) ) )
 
-	print('\n\n\n')
-	# print out nodes 
-	for inst_row in nodes['row']:
-		print(inst_row)
+	# print('\n\n\n')
+	# # print out nodes 
+	# for inst_row in nodes['row']:
+	# 	print(inst_row)
 
 		
-	print('\n\n\n')
-	# print out nodes 
-	for inst_row in nodes['row']:
-		print(inst_row)
+	# print('\n\n\n')
+	# # print out nodes 
+	# for inst_row in nodes['row']:
+	# 	print(inst_row)
 
-	print('\n\n\n')
+	# print('\n\n\n')
 
 	# cluster rows and columns 
 	print('calculating clustering')
@@ -377,7 +382,7 @@ def make_ldr_clust():
 	# 	nodes['row'][i] = nodes['row'][i].replace('cell lines','')
 
 	# write the clustergram 
-	d3_clustergram.write_json_single_value( nodes, clust_order, ldr, full_path, row_class, col_class)
+	d3_clustergram.write_json_single_value( nodes, clust_order, ldr, full_path, perts, row_class, col_class)
 
 # run main
 main()

@@ -583,6 +583,7 @@ function make_d3_clustergram(args) {
       if (params.highlight == 1){
         params.matrix[link.source][link.target].highlight = link.highlight;
       } 
+      params.matrix[link.source][link.target].perts = link.perts;
     });
   }
 
@@ -1610,6 +1611,7 @@ function row_group_function(row_data) {
         tile_info.row = d3_clustergram.network_data.row_nodes[d.pos_y].name;
         tile_info.col = d3_clustergram.network_data.col_nodes[d.pos_x].name;
         tile_info.value = d.value;
+        tile_info.perts = d.perts;
         // run the user supplied callback function 
         params.click_tile(tile_info);
       });

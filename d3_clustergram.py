@@ -1,9 +1,11 @@
 # d3_clustergram.py has functions that will generate a d3 clustergram 
 
-def write_json_single_value(nodes, clust_order, LDR, full_path, row_class={}, col_class={}, link_hl={} ):
+def write_json_single_value(nodes, clust_order, LDR, full_path, perts, row_class={}, col_class={}, link_hl={} ):
 	import json
 	import json_scripts
 	import d3_clustergram
+
+	print(perts.keys())
 
 	#!! special case, encode extra released information for LDR 
 	mat = LDR['mat']
@@ -81,6 +83,14 @@ def write_json_single_value(nodes, clust_order, LDR, full_path, row_class={}, co
 				# !! custom change for LDRgram
 				inst_dict['value_up'] = rl['t'][i,j]
 				inst_dict['value_dn'] = -rl['f'][i,j]
+
+				# print('\tas: '+nodes['row'][i])
+				# print('\tcl: '+nodes['col'][j])
+				# add perturbation information 
+				inst_tuple = ( nodes['row'][i], nodes['col'][j] )
+				# print( perts[inst_tuple] )
+				# add to dictionary 
+				inst_dict['perts'] = perts[inst_tuple]
 
 				d3_json['links'].append( inst_dict )
 
