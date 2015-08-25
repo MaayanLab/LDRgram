@@ -302,8 +302,11 @@ def make_ldr_clust(perts):
 	import json_scripts
 	import numpy as np
 	import d3_clustergram 
+	from d3_clustergram_class import Network 
 
-	# load LDR data
+	# load LDR data - stored as:
+	# released status (rl)
+	# nodes, and mat 
 	ldr = json_scripts.load_to_dict('ldr_mat.json')
 	print('\nclustering')
 	print(ldr.keys())
@@ -319,21 +322,7 @@ def make_ldr_clust(perts):
 	print(len(ldr['nodes']['as']))
 	print(len(ldr['nodes']['cl']))
 	print(ldr['mat'].shape)
-
-	# define nodes: unfiltered
-	nodes_uf = {}
-	nodes_uf['row'] = ldr['nodes']['as']
-	nodes_uf['col'] = ldr['nodes']['cl']
-
-	# define parameters - cutoff of 4 and compare 10 
-	compare_cutoff = 0	
-	min_num_compare = 2
-
-	# filter to remove nodes with no values 
-	ldr['mat'], nodes = d3_clustergram.filter_sim_mat( ldr['mat'], nodes_uf, 1, 1 )
-	# cherrypick using hte nodes 
-	ldr['rl']['t'] = d3_clustergram.cherrypick_mat_from_nodes(nodes_uf, nodes, ldr['rl']['t'])
-	ldr['rl']['f'] = d3_clustergram.cherrypick_mat_from_nodes(nodes_uf, nodes, ldr['rl']['f'])
+	print('\n')
 
 	print( 'size all \t' + str(ldr['mat'].shape) )
 	print( 'size yes \t' + str(ldr['rl']['t'].shape) )
@@ -345,48 +334,38 @@ def make_ldr_clust(perts):
 	print( 'sum no  \t' + str(np.sum(ldr['rl']['f'])) )	
 	print( 'total yes/no:\t' + str( np.sum(ldr['rl']['t']) + np.sum(ldr['rl']['f']) ) )
 
-	# print('\n\n\n')
-	# # print out nodes 
-	# for inst_row in nodes['row']:
-	# 	print(inst_row)
+	# define nodes: unfiltered
+	nodes_uf = {}
+	nodes_uf['row'] = ldr['nodes']['as']
+	nodes_uf['col'] = ldr['nodes']['cl']
 
-		
-	# print('\n\n\n')
-	# # print out nodes 
-	# for inst_row in nodes['row']:
-	# 	print(inst_row)
+	# initialize a new network class 
+	##################################
+	net = Network()
 
-	# print('\n\n\n')
+	net.dat['nodes']['row'] = nodes_uf['row']
+	net.dat['nodes']['col'] = nodes_uf['col']
+	net.dat['mat'] = ldr['mat']
+	net.dat['mat_up'] = ldr['rl']['t']
+	net.dat['mat_dn'] = -ldr['rl']['f']
 
+	# filter the matrix using cutoff and min_num_meet
+	###################################################
+	# filtering matrix 
+	cutoff_meet = 1
+	min_num_meet = 1
+	net.filter_network_thresh( cutoff_meet, min_num_meet )
 
-	# cluster based on having or not having perturabations - since this is more imporant than the actual number
-	# of perturbations
+	# cluster 
+	#############
+	cutoff_comp = 3
+	min_num_comp = 4
+	net.cluster_row_and_col('cos', cutoff_comp, min_num_comp, dendro=False)
 
-	# cluster rows and columns 
-	print('calculating clustering')
-	clust_order = d3_clustergram.cluster_row_and_column( nodes, ldr['mat'], 'cosine', compare_cutoff, min_num_compare )
+	# export data visualization to file 
+	######################################
+	net.write_json_to_file('viz', 'static/networks/class_network.json','indent')
 
-	print('finished calculating clustering')
-
-	# write the d3_clustergram 
-	base_path = 'static/networks/'
-	full_path = base_path + 'LDR_as_cl.json'
-
-	# add class information 
-	row_class = {}
-	col_class = {}
-
-	print(len(nodes['row']))
-	print(len(nodes['col']))
-
-	# # last minute cleaning up of row/col names 
-	# for i in range(len(nodes['col'])):
-	# 	nodes['col'][i] = nodes['col'][i].replace('/ single drugs','')
-	# for i in range(len(nodes['row'])):
-	# 	nodes['row'][i] = nodes['row'][i].replace('cell lines','')
-
-	# write the clustergram 
-	d3_clustergram.write_json_single_value( nodes, clust_order, ldr, full_path, perts, row_class, col_class)
-
+	
 # run main
 main()

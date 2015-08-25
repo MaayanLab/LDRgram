@@ -1,0 +1,1477 @@
+{
+  "row_nodes": [
+    {
+      "rank": 6, 
+      "name": "ATAC-Seq", 
+      "clust": 0, 
+      "ini": 0
+    }, 
+    {
+      "rank": 1, 
+      "name": "CycIF", 
+      "clust": 9, 
+      "ini": 1
+    }, 
+    {
+      "rank": 9, 
+      "name": "High content imaging", 
+      "clust": 12, 
+      "ini": 2
+    }, 
+    {
+      "rank": 3, 
+      "name": "Immunofluorescence", 
+      "clust": 10, 
+      "ini": 3
+    }, 
+    {
+      "rank": 0, 
+      "name": "KINOMEscan", 
+      "clust": 14, 
+      "ini": 4
+    }, 
+    {
+      "rank": 14, 
+      "name": "L1000", 
+      "clust": 2, 
+      "ini": 5
+    }, 
+    {
+      "rank": 11, 
+      "name": "Live-cell imaging", 
+      "clust": 1, 
+      "ini": 6
+    }, 
+    {
+      "rank": 13, 
+      "name": "MEMA", 
+      "clust": 3, 
+      "ini": 7
+    }, 
+    {
+      "rank": 10, 
+      "name": "MS Proteomics", 
+      "clust": 7, 
+      "ini": 8
+    }, 
+    {
+      "rank": 5, 
+      "name": "P100", 
+      "clust": 4, 
+      "ini": 9
+    }, 
+    {
+      "rank": 12, 
+      "name": "RNA-Seq", 
+      "clust": 6, 
+      "ini": 10
+    }, 
+    {
+      "rank": 2, 
+      "name": "RPPA", 
+      "clust": 11, 
+      "ini": 11
+    }, 
+    {
+      "rank": 7, 
+      "name": "SWATH-MS", 
+      "clust": 8, 
+      "ini": 12
+    }, 
+    {
+      "rank": 4, 
+      "name": "Secretion", 
+      "clust": 15, 
+      "ini": 13
+    }, 
+    {
+      "rank": 15, 
+      "name": "Viability", 
+      "clust": 5, 
+      "ini": 14
+    }, 
+    {
+      "rank": 8, 
+      "name": "Western Blot", 
+      "clust": 13, 
+      "ini": 15
+    }
+  ], 
+  "col_nodes": [
+    {
+      "rank": 0, 
+      "name": "184A1-F3aN400", 
+      "clust": 41, 
+      "ini": 0
+    }, 
+    {
+      "rank": 20, 
+      "name": "83iSMA-n5", 
+      "clust": 10, 
+      "ini": 1
+    }, 
+    {
+      "rank": 42, 
+      "name": "A375", 
+      "clust": 14, 
+      "ini": 2
+    }, 
+    {
+      "rank": 43, 
+      "name": "A549", 
+      "clust": 15, 
+      "ini": 3
+    }, 
+    {
+      "rank": 38, 
+      "name": "BT20", 
+      "clust": 42, 
+      "ini": 4
+    }, 
+    {
+      "rank": 16, 
+      "name": "C32", 
+      "clust": 45, 
+      "ini": 5
+    }, 
+    {
+      "rank": 17, 
+      "name": "COLO858", 
+      "clust": 46, 
+      "ini": 6
+    }, 
+    {
+      "rank": 21, 
+      "name": "CS00iCTR-n2", 
+      "clust": 11, 
+      "ini": 7
+    }, 
+    {
+      "rank": 22, 
+      "name": "CS13iSMA-n1", 
+      "clust": 9, 
+      "ini": 8
+    }, 
+    {
+      "rank": 23, 
+      "name": "CS14iCTR-n6", 
+      "clust": 8, 
+      "ini": 9
+    }, 
+    {
+      "rank": 24, 
+      "name": "CS25iCTR-18n2", 
+      "clust": 7, 
+      "ini": 10
+    }, 
+    {
+      "rank": 25, 
+      "name": "CS28iALS-n2A", 
+      "clust": 6, 
+      "ini": 11
+    }, 
+    {
+      "rank": 26, 
+      "name": "CS29iALS-n1N", 
+      "clust": 5, 
+      "ini": 12
+    }, 
+    {
+      "rank": 27, 
+      "name": "CS30iALS-n1A", 
+      "clust": 4, 
+      "ini": 13
+    }, 
+    {
+      "rank": 28, 
+      "name": "CS32iSMA-n3", 
+      "clust": 3, 
+      "ini": 14
+    }, 
+    {
+      "rank": 29, 
+      "name": "CS52iALS-n6A", 
+      "clust": 2, 
+      "ini": 15
+    }, 
+    {
+      "rank": 30, 
+      "name": "CS77iSMA-n5", 
+      "clust": 1, 
+      "ini": 16
+    }, 
+    {
+      "rank": 31, 
+      "name": "CS83iCTR-33n1", 
+      "clust": 0, 
+      "ini": 17
+    }, 
+    {
+      "rank": 35, 
+      "name": "HA1E", 
+      "clust": 40, 
+      "ini": 18
+    }, 
+    {
+      "rank": 33, 
+      "name": "HCC1954", 
+      "clust": 39, 
+      "ini": 19
+    }, 
+    {
+      "rank": 13, 
+      "name": "HME1", 
+      "clust": 38, 
+      "ini": 20
+    }, 
+    {
+      "rank": 41, 
+      "name": "HPAC", 
+      "clust": 37, 
+      "ini": 21
+    }, 
+    {
+      "rank": 39, 
+      "name": "HS578T", 
+      "clust": 36, 
+      "ini": 22
+    }, 
+    {
+      "rank": 36, 
+      "name": "HT29", 
+      "clust": 35, 
+      "ini": 23
+    }, 
+    {
+      "rank": 1, 
+      "name": "HeLa", 
+      "clust": 34, 
+      "ini": 24
+    }, 
+    {
+      "rank": 2, 
+      "name": "HeLa+Bcl-2", 
+      "clust": 33, 
+      "ini": 25
+    }, 
+    {
+      "rank": 3, 
+      "name": "HeLa+Bcl-XL", 
+      "clust": 32, 
+      "ini": 26
+    }, 
+    {
+      "rank": 4, 
+      "name": "HeLa+FLIP-L", 
+      "clust": 31, 
+      "ini": 27
+    }, 
+    {
+      "rank": 5, 
+      "name": "HeLa+FLIP-S", 
+      "clust": 30, 
+      "ini": 28
+    }, 
+    {
+      "rank": 7, 
+      "name": "K2", 
+      "clust": 29, 
+      "ini": 29
+    }, 
+    {
+      "rank": 11, 
+      "name": "LOXIMVI", 
+      "clust": 43, 
+      "ini": 30
+    }, 
+    {
+      "rank": 10, 
+      "name": "MCF10", 
+      "clust": 28, 
+      "ini": 31
+    }, 
+    {
+      "rank": 37, 
+      "name": "MCF10A", 
+      "clust": 27, 
+      "ini": 32
+    }, 
+    {
+      "rank": 46, 
+      "name": "MCF7", 
+      "clust": 12, 
+      "ini": 33
+    }, 
+    {
+      "rank": 40, 
+      "name": "MDAMB231", 
+      "clust": 16, 
+      "ini": 34
+    }, 
+    {
+      "rank": 14, 
+      "name": "MMACSF", 
+      "clust": 26, 
+      "ini": 35
+    }, 
+    {
+      "rank": 15, 
+      "name": "MZ7MEL", 
+      "clust": 25, 
+      "ini": 36
+    }, 
+    {
+      "rank": 19, 
+      "name": "NPC", 
+      "clust": 24, 
+      "ini": 37
+    }, 
+    {
+      "rank": 44, 
+      "name": "PC3", 
+      "clust": 13, 
+      "ini": 38
+    }, 
+    {
+      "rank": 45, 
+      "name": "Promocell myocytes", 
+      "clust": 23, 
+      "ini": 39
+    }, 
+    {
+      "rank": 8, 
+      "name": "RVH421", 
+      "clust": 22, 
+      "ini": 40
+    }, 
+    {
+      "rank": 34, 
+      "name": "SKBR3", 
+      "clust": 21, 
+      "ini": 41
+    }, 
+    {
+      "rank": 9, 
+      "name": "SKMEL28", 
+      "clust": 20, 
+      "ini": 42
+    }, 
+    {
+      "rank": 18, 
+      "name": "WM115", 
+      "clust": 47, 
+      "ini": 43
+    }, 
+    {
+      "rank": 12, 
+      "name": "WM1552C", 
+      "clust": 44, 
+      "ini": 44
+    }, 
+    {
+      "rank": 6, 
+      "name": "cell-free", 
+      "clust": 19, 
+      "ini": 45
+    }, 
+    {
+      "rank": 47, 
+      "name": "iPSC-derived myocytes", 
+      "clust": 18, 
+      "ini": 46
+    }, 
+    {
+      "rank": 32, 
+      "name": "synoviocytes", 
+      "clust": 17, 
+      "ini": 47
+    }
+  ], 
+  "links": [
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 1, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -0.0, 
+      "target": 2, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -0.0, 
+      "target": 3, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 7, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 8, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 9, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 10, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 11, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 12, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 13, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 14, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 15, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 16, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -12.0, 
+      "target": 17, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -0.0, 
+      "target": 33, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -0.0, 
+      "target": 37, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 0, 
+      "value_dn": -0.0, 
+      "target": 38, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 1, 
+      "value_dn": -4.0, 
+      "target": 5, 
+      "value": 4.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 1, 
+      "value_dn": -4.0, 
+      "target": 6, 
+      "value": 4.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 1, 
+      "value_dn": -4.0, 
+      "target": 30, 
+      "value": 4.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 1, 
+      "value_dn": -4.0, 
+      "target": 32, 
+      "value": 4.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 1, 
+      "value_dn": -4.0, 
+      "target": 33, 
+      "value": 4.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 1, 
+      "value_dn": -4.0, 
+      "target": 43, 
+      "value": 4.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 1, 
+      "value_dn": -4.0, 
+      "target": 44, 
+      "value": 4.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 2, 
+      "value_dn": -106.0, 
+      "target": 4, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 2, 
+      "value_dn": -106.0, 
+      "target": 22, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 2, 
+      "value_dn": -106.0, 
+      "target": 32, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 2, 
+      "value_dn": -106.0, 
+      "target": 33, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 2, 
+      "value_dn": -106.0, 
+      "target": 34, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 3, 
+      "value_dn": -9.0, 
+      "target": 5, 
+      "value": 9.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 3, 
+      "value_dn": -10.0, 
+      "target": 6, 
+      "value": 13.0, 
+      "value_up": 3.0
+    }, 
+    {
+      "source": 3, 
+      "value_dn": -0.0, 
+      "target": 30, 
+      "value": 3.0, 
+      "value_up": 3.0
+    }, 
+    {
+      "source": 3, 
+      "value_dn": -10.0, 
+      "target": 35, 
+      "value": 10.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 3, 
+      "value_dn": -10.0, 
+      "target": 36, 
+      "value": 10.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 3, 
+      "value_dn": -10.0, 
+      "target": 43, 
+      "value": 13.0, 
+      "value_up": 3.0
+    }, 
+    {
+      "source": 3, 
+      "value_dn": -0.0, 
+      "target": 44, 
+      "value": 3.0, 
+      "value_up": 3.0
+    }, 
+    {
+      "source": 4, 
+      "value_dn": -0.0, 
+      "target": 45, 
+      "value": 8.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 5, 
+      "value_dn": -34.0, 
+      "target": 2, 
+      "value": 120.0, 
+      "value_up": 86.0
+    }, 
+    {
+      "source": 5, 
+      "value_dn": -34.0, 
+      "target": 3, 
+      "value": 120.0, 
+      "value_up": 86.0
+    }, 
+    {
+      "source": 5, 
+      "value_dn": -34.0, 
+      "target": 18, 
+      "value": 120.0, 
+      "value_up": 86.0
+    }, 
+    {
+      "source": 5, 
+      "value_dn": -5.0, 
+      "target": 20, 
+      "value": 5.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 5, 
+      "value_dn": -0.0, 
+      "target": 21, 
+      "value": 86.0, 
+      "value_up": 86.0
+    }, 
+    {
+      "source": 5, 
+      "value_dn": -34.0, 
+      "target": 23, 
+      "value": 120.0, 
+      "value_up": 86.0
+    }, 
+    {
+      "source": 5, 
+      "value_dn": -34.0, 
+      "target": 33, 
+      "value": 120.0, 
+      "value_up": 86.0
+    }, 
+    {
+      "source": 5, 
+      "value_dn": -5.0, 
+      "target": 34, 
+      "value": 5.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 5, 
+      "value_dn": -34.0, 
+      "target": 38, 
+      "value": 120.0, 
+      "value_up": 86.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -6.0, 
+      "target": 0, 
+      "value": 6.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -100.0, 
+      "target": 2, 
+      "value": 100.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -100.0, 
+      "target": 3, 
+      "value": 100.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -12.0, 
+      "target": 4, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -100.0, 
+      "target": 21, 
+      "value": 100.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -12.0, 
+      "target": 22, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -6.0, 
+      "target": 24, 
+      "value": 6.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -6.0, 
+      "target": 25, 
+      "value": 6.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -6.0, 
+      "target": 26, 
+      "value": 6.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -6.0, 
+      "target": 27, 
+      "value": 6.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -6.0, 
+      "target": 28, 
+      "value": 6.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -12.0, 
+      "target": 31, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -112.0, 
+      "target": 33, 
+      "value": 112.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -12.0, 
+      "target": 34, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -100.0, 
+      "target": 38, 
+      "value": 100.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 6, 
+      "value_dn": -12.0, 
+      "target": 41, 
+      "value": 12.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 7, 
+      "value_dn": -107.0, 
+      "target": 2, 
+      "value": 107.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 7, 
+      "value_dn": -107.0, 
+      "target": 3, 
+      "value": 107.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 7, 
+      "value_dn": -107.0, 
+      "target": 19, 
+      "value": 107.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 7, 
+      "value_dn": -107.0, 
+      "target": 21, 
+      "value": 107.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 7, 
+      "value_dn": -107.0, 
+      "target": 33, 
+      "value": 107.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 7, 
+      "value_dn": -107.0, 
+      "target": 38, 
+      "value": 107.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 1, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 7, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 8, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 9, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 10, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 11, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 12, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 13, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 14, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 15, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 16, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -2.0, 
+      "target": 17, 
+      "value": 4.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -200.0, 
+      "target": 39, 
+      "value": 200.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 8, 
+      "value_dn": -300.0, 
+      "target": 46, 
+      "value": 300.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 9, 
+      "value_dn": -0.0, 
+      "target": 2, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 9, 
+      "value_dn": -0.0, 
+      "target": 3, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 9, 
+      "value_dn": -0.0, 
+      "target": 33, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 9, 
+      "value_dn": -0.0, 
+      "target": 37, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 9, 
+      "value_dn": -0.0, 
+      "target": 38, 
+      "value": 32.0, 
+      "value_up": 32.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 1, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 7, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 8, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 9, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 10, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 11, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 12, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 13, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 14, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 15, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 16, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -9.0, 
+      "target": 17, 
+      "value": 11.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -50.0, 
+      "target": 39, 
+      "value": 200.0, 
+      "value_up": 150.0
+    }, 
+    {
+      "source": 10, 
+      "value_dn": -300.0, 
+      "target": 46, 
+      "value": 300.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 5, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 6, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 29, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 30, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 35, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 36, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 40, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 42, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 43, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 11, 
+      "value_dn": -0.0, 
+      "target": 44, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 1, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 7, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 8, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 9, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 10, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 11, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 12, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 13, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 14, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 15, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 16, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 12, 
+      "value_dn": -30.0, 
+      "target": 17, 
+      "value": 32.0, 
+      "value_up": 2.0
+    }, 
+    {
+      "source": 13, 
+      "value_dn": -94.0, 
+      "target": 47, 
+      "value": 94.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 1, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -106.0, 
+      "target": 4, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -9.0, 
+      "target": 5, 
+      "value": 14.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -9.0, 
+      "target": 6, 
+      "value": 14.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 7, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 8, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 9, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 10, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 11, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 12, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 13, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 14, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 15, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 16, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -16.0, 
+      "target": 17, 
+      "value": 24.0, 
+      "value_up": 8.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -5.0, 
+      "target": 20, 
+      "value": 15.0, 
+      "value_up": 10.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -106.0, 
+      "target": 22, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -0.0, 
+      "target": 29, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -0.0, 
+      "target": 30, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -106.0, 
+      "target": 32, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -106.0, 
+      "target": 33, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -111.0, 
+      "target": 34, 
+      "value": 121.0, 
+      "value_up": 10.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -9.0, 
+      "target": 35, 
+      "value": 14.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -9.0, 
+      "target": 36, 
+      "value": 14.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -0.0, 
+      "target": 40, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -106.0, 
+      "target": 41, 
+      "value": 106.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -0.0, 
+      "target": 42, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -9.0, 
+      "target": 43, 
+      "value": 14.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 14, 
+      "value_dn": -0.0, 
+      "target": 44, 
+      "value": 5.0, 
+      "value_up": 5.0
+    }, 
+    {
+      "source": 15, 
+      "value_dn": -200.0, 
+      "target": 39, 
+      "value": 200.0, 
+      "value_up": 0.0
+    }, 
+    {
+      "source": 15, 
+      "value_dn": -300.0, 
+      "target": 46, 
+      "value": 300.0, 
+      "value_up": 0.0
+    }
+  ]
+}

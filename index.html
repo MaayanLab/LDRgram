@@ -259,8 +259,8 @@
     }
 
     //!! temporary change to test similarity matrix 
-    // d3.json('/LDRgram/static/networks/chik_cutoff_'+inst_cutoff+'.json', function(network_data){
-    d3.json('static/networks/LDR_as_cl.json', function(network_data){
+    // d3.json('static/networks/LDR_as_cl.json', function(network_data){
+    d3.json('static/networks/class_network.json', function(network_data){
 
       console.log(network_data)
 
@@ -288,14 +288,17 @@
         'row_label':'Assays',
         'col_label':'Cell Lines',
         'outer_margins': outer_margins,
-        // 'opacity_scale':'log',
-        'input_domain':20 ,
-        'tile_colors':['#ED9124','#1C86EE'],
+        'opacity_scale':'log',
+        // 'input_domain':20 ,
+        'tile_colors':['#1C86EE', '#ED9124'],
         'title_tile': true,
         'click_tile': click_tile_callback,
         // 'click_group': click_group_callback
         // 'resize':false,
-        // 'order':'rank',
+        'order':'rank',
+        // sensitivity to overflow of column label: 
+        // a sensitivity of 1 will allow no overflow of label text
+        // a sensitivity of 0 will allow unrestricted overflow of label text
         'col_overflow':0.8,
         // 'transpose':true
       };
