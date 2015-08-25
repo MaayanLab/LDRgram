@@ -325,8 +325,8 @@ def make_ldr_clust(perts):
 	nodes_uf['row'] = ldr['nodes']['as']
 	nodes_uf['col'] = ldr['nodes']['cl']
 
-	# define parameters
-	compare_cutoff = 0.05
+	# define parameters - cutoff of 4 and compare 10 
+	compare_cutoff = 0	
 	min_num_compare = 2
 
 	# filter to remove nodes with no values 
@@ -357,6 +357,10 @@ def make_ldr_clust(perts):
 	# 	print(inst_row)
 
 	# print('\n\n\n')
+
+
+	# cluster based on having or not having perturabations - since this is more imporant than the actual number
+	# of perturbations
 
 	# cluster rows and columns 
 	print('calculating clustering')
