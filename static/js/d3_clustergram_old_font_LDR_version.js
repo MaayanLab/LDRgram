@@ -1696,10 +1696,10 @@ function row_group_function(row_data) {
     }) 
     // switch the color based on up/dn value 
     .style('fill', function(d) { 
-      // // normal rule 
-      // return d.value > 0 ? params.tile_colors[0] : params.tile_colors[1] ;
-      //!! special rule for LDRgram
-      return d.value_dn < 0 ? params.tile_colors[0] : params.tile_colors[1] ;
+      // normal rule 
+      return d.value > 0 ? params.tile_colors[0] : params.tile_colors[1] ;
+      // //!! special rule for LDRgram
+      // return d.value_dn < 0 ? params.tile_colors[0] : params.tile_colors[1] ;
     });
 
   tile  
