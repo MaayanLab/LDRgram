@@ -185,6 +185,10 @@ function initialize_visualization(network_data, params){
 
   // zoom_switch from 1 to 2d zoom 
   params.zoom_switch = (params.clust.dim.width/col_nodes.length)/(params.clust.dim.height/row_nodes.length);
+  // zoom_switch can not be less than 1
+  if (params.zoom_switch < 1){
+    params.zoom_switch = 1;
+  }
 
   // font size controls 
   ////////////////////////////
@@ -2183,7 +2187,7 @@ function two_translate_zoom( pan_dx, pan_dy, fin_zoom){
     // y pan room, the pan room has to be less than half_height since 
     // zooming in on a gene that is near the top of the clustergram also causes 
     // panning out of the visible region  
-    var y_pan_room = ((half_height)/params.zoom_switch);
+    var y_pan_room = half_height/params.zoom_switch;
 
     // prevent visualization from panning down too much 
     // when zooming into genes near the top of the clustergram 
