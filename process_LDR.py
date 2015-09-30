@@ -349,6 +349,9 @@ def make_ldr_clust(perts):
 	net.dat['mat_up'] = ldr['rl']['t']
 	net.dat['mat_dn'] = -ldr['rl']['f']
 
+	# add perts as link info 
+	############################
+
 	# filter the matrix using cutoff and min_num_meet
 	###################################################
 	# filtering matrix 
