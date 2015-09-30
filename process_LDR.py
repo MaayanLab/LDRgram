@@ -2,14 +2,14 @@
 
 def main():
 
-	# load Avi's dictionary of cell lines and assays 
-	assay_cl_dict()
+	# # load Avi's dictionary of cell lines and assays 
+	# assay_cl_dict()
 
-	# extract data and save to flattened matrices 
-	perts = construct_array()
+	# # extract data and save to flattened matrices 
+	# construct_array()
 
 	# LDR make clust 
-	make_ldr_clust(perts)
+	make_ldr_clust()
 
 def assay_cl_dict():
 	import json_scripts
@@ -214,7 +214,7 @@ def construct_array():
 				# keep track of perturbation information in the dictionary 
 				##############################################################
 				# genrate as cl tuple 
-				inst_tuple = (inst_as, inst_cl) 
+				inst_tuple = str((inst_as, inst_cl))
 				# initailize list if necessary 
 				if inst_tuple not in perts:
 					perts[inst_tuple] = []
@@ -245,12 +245,13 @@ def construct_array():
 	ldr_mat['nodes'] = nodes
 	ldr_mat['mat'] = mat
 	ldr_mat['rl'] = rl
-	# ldr_mat['perts'] = perts
+	ldr_mat['perts'] = perts
 
 	json_scripts.save_to_json( ldr_mat, 'ldr_mat.json', 'no-indent' )
 
-	# return perts since tuple dictionaries do not save as json easily
-	return perts 
+	# save tuple as string so its json compatable
+	# # return perts since tuple dictionaries do not save as json easily
+	# return perts 
 
 def extract_nodes():
 	import json_scripts
@@ -297,18 +298,19 @@ def extract_nodes():
 
 	return nodes
 
-def make_ldr_clust(perts):
+def make_ldr_clust():
 
 	import json_scripts
 	import numpy as np
 	import d3_clustergram 
 	from d3_clustergram_class import Network 
+	from ast import literal_eval
 
 	# load LDR data - stored as:
 	# released status (rl)
 	# nodes, and mat 
 	ldr = json_scripts.load_to_dict('ldr_mat.json')
-	print('\nclustering')
+	print('\nload ldr_mat.json with perts')
 	print(ldr.keys())
 
 	ldr['mat'] = np.asarray(ldr['mat'])
@@ -345,12 +347,46 @@ def make_ldr_clust(perts):
 
 	net.dat['nodes']['row'] = nodes_uf['row']
 	net.dat['nodes']['col'] = nodes_uf['col']
-	net.dat['mat'] = ldr['mat']
-	net.dat['mat_up'] = ldr['rl']['t']
-	net.dat['mat_dn'] = -ldr['rl']['f']
 
-	# add perts as link info 
+	# net.dat['mat'] = ldr['mat']
+	# net.dat['mat_up'] = ldr['rl']['t']
+	# net.dat['mat_dn'] = -ldr['rl']['f']
+
+	# only include released data in visualization 
+	net.dat['mat'] = ldr['rl']['t']
+
+	# add perts as mat_info
 	############################
+	print('\nperts')
+
+	net.dat['mat_info'] = {}
+
+	# initialize mat_info 
+	for i in range(len(net.dat['nodes']['row'])):
+		for j in range(len(net.dat['nodes']['col'])):
+			tmp_tuple = str((i,j))
+
+			# initialize info 
+			net.dat['mat_info'][tmp_tuple] = {}
+
+	for inst_pert in ldr['perts']:
+
+		pert_data = ldr['perts'][inst_pert]
+
+		inst_pert = literal_eval(inst_pert)
+		# assay
+		inst_row = inst_pert[0]
+		# cell line 
+		inst_col = inst_pert[1]
+
+		# assay
+		index_row = net.dat['nodes']['row'].index(inst_row)
+		# cell line 
+		index_col = net.dat['nodes']['col'].index(inst_col)
+
+		# save to mat_info 
+		tmp_tuple = str((index_row, index_col))
+		net.dat['mat_info'][str(tmp_tuple)] = pert_data
 
 	# filter the matrix using cutoff and min_num_meet
 	###################################################
@@ -367,7 +403,7 @@ def make_ldr_clust(perts):
 
 	# export data visualization to file 
 	######################################
-	net.write_json_to_file('viz', 'static/networks/class_network.json','indent')
+	net.write_json_to_file('viz', 'static/networks/LDR_as_cl_released_only.json','indent')
 
 	
 # run main
