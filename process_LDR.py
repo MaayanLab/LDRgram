@@ -2,11 +2,11 @@
 
 def main():
 
-	# # load Avi's dictionary of cell lines and assays 
-	# assay_cl_dict()
+	# load Avi's dictionary of cell lines and assays 
+	assay_cl_dict()
 
-	# # extract data and save to flattened matrices 
-	# construct_array()
+	# extract data and save to flattened matrices 
+	construct_array()
 
 	# LDR make clust 
 	make_ldr_clust()

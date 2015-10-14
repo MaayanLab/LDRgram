@@ -755,7 +755,8 @@ class Network(object):
     from scipy.spatial.distance import pdist
     from copy import deepcopy
 
-    print('inside cluster_row_and_col')
+    # print('\nclustering the matrix using dist_type ' + dist_type + ' with a comparison requirement of at least ' + str(cutoff) + ' instances above abs-value of ' + str(min_num_comp) +' in order to compare')
+    # print('calculating distance matrix using ')
 
     # make distance matrices 
     ##########################
@@ -995,6 +996,31 @@ class Network(object):
 
           # append link 
           self.viz['links'].append( inst_dict )
+
+  @staticmethod
+  def load_gmt(filename):
+
+    f = open(filename, 'r')
+    lines = f.readlines()
+    f.close()
+
+    gmt = {}
+
+    # loop through the lines of the gmt 
+    for i in range(len(lines)):
+
+      # get the inst line, strip off the new line character 
+      inst_line = lines[i].rstrip()
+
+      inst_term = inst_line.split('\t')[0]
+
+      # get the elements 
+      inst_elems = inst_line.split('\t')[2:]
+
+      # save the drug-kinase sets 
+      gmt[inst_term] = inst_elems
+
+    return gmt
 
   @staticmethod
   def load_json_to_dict(filename):
